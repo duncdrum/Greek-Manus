@@ -1,0 +1,1435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../stylesheets/tei2html.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="sv">Uppsala University Library, Gr. 14</title>
+                <respStmt>
+                    <resp xml:lang="en">Cataloguer</resp>
+                    <persName>
+                        <forename>Eva</forename>
+                        <surname>Nyström</surname>
+                    </persName>
+                </respStmt>
+                <funder xml:lang="sv">Riksbankens Jubileumsfond</funder>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2014"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="UUB-Gr-14" xml:lang="en">
+                    <msIdentifier>
+                        <country key="sv"/>
+                        <settlement key="Uppsala"/>
+                        <institution key="Uppsala University"/>
+                        <repository key="Uppsala University Library"/>
+                        <collection xml:lang="sv">Grekiska handskrifter</collection>
+                        <idno>Gr. 14</idno>
+                        <altIdentifier type="former_shelfmark">
+                            <idno>Björnståhl 4</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msPart>
+                        <altIdentifier type="codicological_unit">
+                            <idno n="1"/>
+                        </altIdentifier>
+                        <msContents>
+                            <summary>Aristides and Lucian, Rhetorical texts</summary>
+                            <msItem class="encom" defective="false">
+                                <author>
+                                    <persName>
+                                        <forename>Aelius</forename>
+                                        <addName>Aristides</addName>
+                                    </persName>
+                                </author>
+                                <title type="uniform" xml:lang="la">Panathenaica</title>
+                                <msItem class="schol" defective="true">
+                                    <locus from="1r" to="2r">1r–2r</locus>
+                                    <author>Sopater</author>
+                                    <title xml:lang="la">Prolegomena in Aristidem (TLG 2031.003)</title>
+                                    <incipit xml:lang="gr">Παναθηναϊκὸς Ἀριστείδου συμβαίνουσαν</incipit>
+                                    <explicit xml:lang="gr">τῆς λέξεως ἐπεξιόντες παρατηρήσομεν</explicit>
+                                    <listBibl>
+                                        <bibl>
+                                            <author>
+                                                <persName>
+                                                    <forename>Friedrich</forename>
+                                                    <forename>Walter</forename>
+                                                    <surname>Lenz</surname>
+                                                </persName>
+                                            </author>
+                                            <title level="m">The Aristeides Prolegomena</title>
+                                            <title level="s">Mnemosyne Supplementum</title>
+                                            <pubPlace>Leiden</pubPlace>
+                                            <date when="1959">1959</date>
+                                            <biblScope type="volume">5</biblScope>
+                                            <biblScope type="pages" from="121" to="125"/>
+                                        </bibl>
+                                        <bibl>
+                                            <author>
+                                                <persName>
+                                                    <forename>Wilhelm</forename>
+                                                    <surname>Dindorf</surname>
+                                                </persName>
+                                            </author>
+                                            <title level="m">Aristides</title>
+                                            <pubPlace>Leipzig</pubPlace>
+                                            <date when="1829">1829</date>
+                                            <biblScope type="volume">3</biblScope>
+                                            <biblScope type="pages" from="742" to="744"/>
+                                        </bibl>
+                                    </listBibl>
+                                    <note>Where manuscript readings differ from Dindorf's and Lenz' editions, they seem to relate most closely to manuscripts A, M, p, and r in Lenz' apparatus (Vat. 1899; Marc. 423; Vat. Pal. 90; Vat. 1298).</note>
+                                </msItem>
+                                <msItem n="1.2">
+                                    <locus from="2v:1" to="2v:18">2v:1–18</locus>
+                                    <title xml:lang="la">Scholia in Aelium Aristidem, scholia vetera (TLG 5008.001)</title>
+                                    <rubric xml:lang="gr">σχόλιον εἰς τὴν ἀρχὴν τοῦ παναθηναϊκοῦ λόγου</rubric>
+                                    <incipit xml:lang="gr">Τὸ προοίμιον ἀπὸ προσοχῆς εἴληπται</incipit>
+                                    <explicit xml:lang="gr">ἐκ δὲ τοῦ ἐστὶ τὸ ἔτι αὐτὸν κρατεῖν</explicit>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Wilhelm</forename>
+                                                <surname>Dindorf</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">Aristides</title>
+                                        <pubPlace>Leipzig</pubPlace>
+                                        <date when="1829">1829</date>
+                                        <biblScope type="volume">3</biblScope>
+                                        <biblScope type="pages" from="1" to="2"/>
+                                    </bibl>
+                                </msItem>
+                                <msItem n="1.3">
+                                    <locus from="2v:19" to="27v">2v:19–27v</locus>
+                                    <author>Aelius Aristides</author>
+                                    <title type="alt" xml:lang="gr">Παναθηναϊκός (TLG 0284.013)</title>
+                                    <rubric xml:lang="gr">
+                                        <supplied reason="omitted">Ἀ</supplied>ριστείδου τοῦ ῥήτορος παναθηναϊκός</rubric>
+                                    <explicit xml:lang="gr">τοῖς ὅπλοις τῇ δ’ ἐπιεικείᾳ</explicit>
+                                    <listBibl>
+                                        <bibl>
+                                            <author>
+                                                <persName>
+                                                    <forename>Friedrich</forename>
+                                                    <forename>Walter</forename>
+                                                    <surname>Lenz</surname>
+                                                </persName>
+                                            </author>
+                                            <author>
+                                                <persName>
+                                                    <forename>Charles</forename>
+                                                    <forename>Allison</forename>
+                                                    <surname>Behr</surname>
+                                                </persName>
+                                            </author>
+                                            <title level="m">P. Aelii Aristidis opera quae exstant omnia</title>
+                                            <pubPlace>Leiden</pubPlace>
+                                            <date when="1976">1976</date>
+                                            <biblScope type="volume">1</biblScope>
+                                            <biblScope type="pages" from="7" to="57"/>
+                                        </bibl>
+                                        <bibl>
+                                            <author>
+                                                <persName>
+                                                    <forename>Wilhelm</forename>
+                                                    <surname>Dindorf</surname>
+                                                </persName>
+                                            </author>
+                                            <title level="m">Aristides</title>
+                                            <pubPlace>Leipzig</pubPlace>
+                                            <date when="1829">1829</date>
+                                            <biblScope type="volume">1</biblScope>
+                                            <biblScope type="pages" from="150" to="217"/>
+                                        </bibl>
+                                    </listBibl>
+                                    <note>One leaf has gone missing between f. 8 and f. 9, creating a lacuna equalling ed. Lenz 16, 10 – 18, 5. Likewise there is a leaf missing between f. 21 and f. 22 (ed. Lenz 43, 6 – 45, 16).</note>
+                                </msItem>
+                            </msItem>
+                            <msItem n="2">
+                                <locusGrp>
+                                    <locus from="178r:28" to="178v">178r:28–178v</locus>
+                                    <locus from="180r" to="180v">180r–v</locus>
+                                    <locus from="28r:1" to="28r:27">28r:1–27</locus>
+                                </locusGrp>
+                                <author>Aelius Aristides</author>
+                                <title type="uniform" xml:lang="la">Palinodia de Smyrna</title>
+                                <title type="alt" xml:lang="gr">Παλινῳδία ἐπὶ Σμύρνῃ καὶ τῷ ταύτης ἀνοικισμῷ (TLG 0284.021)</title>
+                                <rubric xml:lang="gr">Ἐπιστολὴ Σμύρνης καὶ πρὸς τὸν αὐτοκράτορα Ἀριστείδου παλινωδία ἐπὶ Σμύρνῃ καὶ τῷ ταύτης ἀνοικισμῷ</rubric>
+                                <listBibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Bruno</forename>
+                                                <surname>Keil</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">P. Aelii Aristidis Smyrnaei qvae supersunt omnia</title>
+                                        <pubPlace>Berlin</pubPlace>
+                                        <date when="1898">1898</date>
+                                        <biblScope type="volume">2</biblScope>
+                                        <biblScope type="pages" from="16" to="23"/>
+                                    </bibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Wilhelm</forename>
+                                                <surname>Dindorf</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">Aristides</title>
+                                        <pubPlace>Leipzig</pubPlace>
+                                        <date when="1829">1829</date>
+                                        <biblScope type="volume">1</biblScope>
+                                        <biblScope type="pages" from="429" to="438"/>
+                                    </bibl>
+                                </listBibl>
+                            </msItem>
+                            <msItem n="3">
+                                <locus from="28r:28" to="28v">28r:28–28v</locus>
+                                <author>Aelius Aristides</author>
+                                <title type="uniform" xml:lang="la">Smyrnaea politica</title>
+                                <title type="alt" xml:lang="gr">Σμυρναϊκὸς πολιτικός (TLG 0284.015)</title>
+                                <rubric xml:lang="gr">Παλινῳδία· Σμύρνης ἐγκώμιον ἢ προσφωνητικός</rubric>
+                                <explicit xml:lang="gr">ὀφθέντες ὑπ’ αὐτῶν κατιόντων οὐ</explicit>
+                                <listBibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Bruno</forename>
+                                                <surname>Keil</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">P. Aelii Aristidis Smyrnaei qvae supersunt omnia</title>
+                                        <pubPlace>Berlin</pubPlace>
+                                        <date when="1898">1898</date>
+                                        <biblScope type="volume">2</biblScope>
+                                        <biblScope type="pages" from="1" to="2"/>
+                                    </bibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Wilhelm</forename>
+                                                <surname>Dindorf</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">Aristides</title>
+                                        <pubPlace>Leipzig</pubPlace>
+                                        <date when="1829">1829</date>
+                                        <biblScope type="volume">1</biblScope>
+                                        <biblScope type="pages" from="371" to="373"/>
+                                    </bibl>
+                                </listBibl>
+                            </msItem>
+                            <msItem n="4">
+                                <locus from="29r" to="32r:28">29r–32r:28</locus>
+                                <author>Aelius Aristides</author>
+                                <title type="uniform" xml:lang="la">Cyzicena panegyrica</title>
+                                <title type="alt" xml:lang="gr">Πανηγυρικὸς ἐν Κυζίκῳ περὶ τοῦ ναοῦ (TLG 0284.016)</title>
+                                <incipit xml:lang="gr">ἔφη Πίνδαρος θεοῦ δείξαντος</incipit>
+                                <listBibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Bruno</forename>
+                                                <surname>Keil</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">P. Aelii Aristidis Smyrnaei qvae supersunt omnia</title>
+                                        <pubPlace>Berlin</pubPlace>
+                                        <date when="1898">1898</date>
+                                        <biblScope type="volume">2</biblScope>
+                                        <biblScope type="pages" from="125" to="138"/>
+                                    </bibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Wilhelm</forename>
+                                                <surname>Dindorf</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">Aristides</title>
+                                        <pubPlace>Leipzig</pubPlace>
+                                        <date when="1829">1829</date>
+                                        <biblScope type="volume">1</biblScope>
+                                        <biblScope type="pages" from="382" to="400"/>
+                                    </bibl>
+                                </listBibl>
+                            </msItem>
+                            <msItem n="5">
+                                <author>Aelius Aristides</author>
+                                <title type="uniform" xml:lang="la">In Apellam</title>
+                                <title type="alt" xml:lang="gr">Ἀπελλᾶ γενεθλιακός (TLG 0284.010)</title>
+                                <msItem n="5.1">
+                                    <locus from="32r:29" to="32v:6">32r:29–32v:6</locus>
+                                    <rubric xml:lang="gr">Π<supplied reason="omitted">ρο</supplied>θεω<supplied reason="omitted">ρία</supplied>
+                                    </rubric>
+                                </msItem>
+                                <msItem n="5.2">
+                                    <locus from="32v:7" to="34v:19">f. 32v:7–34v:19</locus>
+                                    <rubric xml:lang="gr">Ἀπελλᾶ γενεθλιακός</rubric>
+                                </msItem>
+                                <msItem n="5.3">
+                                    <locus from="34v:19" to="34v:20">34:19–20</locus>
+                                    <quote xml:lang="gr">Ὁ γενεθλιακὸς οὗτος ὑπεβλήθη πρὸ μιᾶς τοῦ ἀναγνωσθῆναι ἐν τῇ καθέδρᾳ τῇ ἐπὶ γάμῳ (sic)· αὐτοῦ ὄντος ἔτων κθʹ· λύσις δὲ ἀνήδονος εἰ καὶ πάνυ δοχεῖ.</quote>
+                                </msItem>
+                                <listBibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Bruno</forename>
+                                                <surname>Keil</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">P. Aelii Aristidis Smyrnaei qvae supersunt omnia</title>
+                                        <pubPlace>Berlin</pubPlace>
+                                        <date when="1898">1898</date>
+                                        <biblScope type="volume">2</biblScope>
+                                        <biblScope type="pages" from="201" to="211"/>
+                                    </bibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Wilhelm</forename>
+                                                <surname>Dindorf</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">Aristides</title>
+                                        <pubPlace>Leipzig</pubPlace>
+                                        <date when="1829">1829</date>
+                                        <biblScope type="volume">1</biblScope>
+                                        <biblScope type="pages" from="113" to="125"/>
+                                    </bibl>
+                                </listBibl>
+                            </msItem>
+                            <msItem n="6">
+                                <author>Aelius Aristides</author>
+                                <title type="uniform" xml:lang="la">Pro pace Atheniensibus concedenda</title>
+                                <title type="alt" xml:lang="gr">Ὑπὲρ τῆς πρὸς Ἀθηναίους εἰρήνης (TLG 0284.032)</title>
+                                <msItem n="6.1">
+                                    <locus from="34v:20" to="34v:22">34v:20–22</locus>
+                                    <quote xml:lang="gr">Ὑπὲρ τῆς πρὸς Ἀθηναίους εἰρήνης· πλεῖστα ἐν ὀλίγοις ἔχει ὁ λόγος καὶ τὰ πάθη λανθάνοντα καὶ πρέποντα ἀνδρὶ Σπαρτιάτῃ καὶ ὡς ἂν μάλιστ’ ἤνυσεν.</quote>
+                                </msItem>
+                                <msItem n="6.2">
+                                    <locus from="34v:22" to="34v:33">34v:22–33</locus>
+                                    <title type="supplied">Ὑπὲρ τῆς πρὸς Ἀθηναίους εἰρήνης</title>
+                                    <explicit xml:lang="gr">ἠράμεθα, οὔθ’ ὡς λείαν ἡμῶν</explicit>
+                                    <note>Due to the loss of leaves, only the first twelve lines of this text are preserved.</note>
+                                </msItem>
+                                <listBibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Friedrich</forename>
+                                                <forename>Walter</forename>
+                                                <surname>Lenz</surname>
+                                            </persName>
+                                        </author>
+                                        <author>
+                                            <persName>
+                                                <forename>Charles</forename>
+                                                <forename>Allison</forename>
+                                                <surname>Behr</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">P. Aelii Aristidis opera quae exstant omnia</title>
+                                        <pubPlace>Leiden</pubPlace>
+                                        <date when="1976">1976</date>
+                                        <biblScope type="volume">1</biblScope>
+                                        <biblScope type="pages" from="615" to="616"/>
+                                    </bibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Wilhelm</forename>
+                                                <surname>Dindorf</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">Aristides</title>
+                                        <pubPlace>Leipzig</pubPlace>
+                                        <date when="1829">1829</date>
+                                        <biblScope type="volume">1</biblScope>
+                                        <biblScope type="pages" from="601" to="602"/>
+                                    </bibl>
+                                </listBibl>
+                            </msItem>
+                            <msItem n="7">
+                                <locus from="35r" to="38v:18">35r–38v:18</locus>
+                                <author>Aelius Aristides</author>
+                                <title type="uniform" xml:lang="la">De societate ad Thebaios 1</title>
+                                <title type="alt" xml:lang="gr">Πρὸς Θηβαίους περὶ τῆς συμμαχίας λόγος αʹ (TLG 0284.038)</title>
+                                <incipit xml:lang="gr">ἀντιθέντες κρίνετε καὶ ἐρωτᾶτε</incipit>
+                                <note>The beginning of this text is missing, the amount of text probably equalling one leaf.</note>
+                                <listBibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Friedrich</forename>
+                                                <forename>Walter</forename>
+                                                <surname>Lenz</surname>
+                                            </persName>
+                                        </author>
+                                        <author>
+                                            <persName>
+                                                <forename>Charles</forename>
+                                                <forename>Allison</forename>
+                                                <surname>Behr</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">P. Aelii Aristidis opera quae exstant omnia</title>
+                                        <pubPlace>Leiden</pubPlace>
+                                        <date when="1976">1976</date>
+                                        <biblScope type="volume">1</biblScope>
+                                        <biblScope type="pages" from="630" to="647"/>
+                                    </bibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Wilhelm</forename>
+                                                <surname>Dindorf</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">Aristides</title>
+                                        <pubPlace>Leipzig</pubPlace>
+                                        <date when="1829">1829</date>
+                                        <biblScope type="volume">1</biblScope>
+                                        <biblScope type="pages" from="714" to="731"/>
+                                    </bibl>
+                                </listBibl>
+                            </msItem>
+                            <msItem n="8">
+                                <locus from="38v:19" to="38v:30">38v:19–30</locus>
+                                <author>Aelius Aristides</author>
+                                <title type="uniform" xml:lang="la"/>
+                                <title type="alt" xml:lang="gr">Διόνυσος (TLG 0284.004)</title>
+                                <rubric xml:lang="gr">Διόνυσος</rubric>
+                                <explicit xml:lang="gr">θεούς τε καὶ ἀνθρώπους οὔτε</explicit>
+                                <note>Due to the loss of leaves, only the first twelve lines of this text are preserved.</note>
+                                <listBibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Bruno</forename>
+                                                <surname>Keil</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">P. Aelii Aristidis Smyrnaei qvae supersunt omnia</title>
+                                        <pubPlace>Berlin</pubPlace>
+                                        <date when="1898">1898</date>
+                                        <biblScope type="volume">2</biblScope>
+                                        <biblScope type="pages" from="330" to="331"/>
+                                    </bibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Wilhelm</forename>
+                                                <surname>Dindorf</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">Aristides</title>
+                                        <pubPlace>Leipzig</pubPlace>
+                                        <date when="1829">1829</date>
+                                        <biblScope type="volume">1</biblScope>
+                                        <biblScope type="pages" from="47" to="48"/>
+                                    </bibl>
+                                </listBibl>
+                            </msItem>
+                            <msItem n="9">
+                                <locus from="39r:1" to="39r:6">39r:1–6</locus>
+                                <author>Aelius Aristides</author>
+                                <title type="uniform" xml:lang="la">Ad Aesculapii puteum</title>
+                                <title type="alt" xml:lang="gr">Εἰς τὸ φρέαρ τοῦ Ἀσκληπιοῦ (TLG 0284.018)</title>
+                                <incipit xml:lang="gr">καὶ ἀνθρώποις καὶ πίνειν</incipit>
+                                <note>Only the last few lines of this text are preserved.</note>
+                                <listBibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Bruno</forename>
+                                                <surname>Keil</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">P. Aelii Aristidis Smyrnaei qvae supersunt omnia</title>
+                                        <pubPlace>Berlin</pubPlace>
+                                        <date when="1898">1898</date>
+                                        <biblScope type="volume">2</biblScope>
+                                        <biblScope type="pages" from="324" to="324"/>
+                                    </bibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Wilhelm</forename>
+                                                <surname>Dindorf</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">Aristides</title>
+                                        <pubPlace>Leipzig</pubPlace>
+                                        <date when="1829">1829</date>
+                                        <biblScope type="volume">1</biblScope>
+                                        <biblScope type="pages" from="414" to="414"/>
+                                    </bibl>
+                                </listBibl>
+                            </msItem>
+                            <msItem n="10">
+                                <locus from="39r:6" to="42v:26">39r:6–42v:26</locus>
+                                <author>Aelius Aristides</author>
+                                <title type="uniform" xml:lang="la">Ad Achillem</title>
+                                <title type="alt" xml:lang="gr">Πρεσβευτικὸς πρὸς Ἀχιλλέα (TLG 0284.052)</title>
+                                <rubric xml:lang="gr">Πρεσβευτικὴ πρὸς τὸν Ἀχιλλέα</rubric>
+                                <listBibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Friedrich</forename>
+                                                <forename>Walter</forename>
+                                                <surname>Lenz</surname>
+                                            </persName>
+                                        </author>
+                                        <author>
+                                            <persName>
+                                                <forename>Charles</forename>
+                                                <forename>Allison</forename>
+                                                <surname>Behr</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">P. Aelii Aristidis opera quae exstant omnia</title>
+                                        <pubPlace>Leiden</pubPlace>
+                                        <date when="1976">1976</date>
+                                        <biblScope type="volume">1</biblScope>
+                                        <biblScope type="pages" from="799" to="814"/>
+                                    </bibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Wilhelm</forename>
+                                                <surname>Dindorf</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">Aristides</title>
+                                        <pubPlace>Leipzig</pubPlace>
+                                        <date when="1829">1829</date>
+                                        <biblScope type="volume">2</biblScope>
+                                        <biblScope type="pages" from="584" to="608"/>
+                                    </bibl>
+                                </listBibl>
+                            </msItem>
+                            <msItem n="11">
+                                <locus from="42v:26" to="46v">42v:26–46v</locus>
+                                <author>Aelius Aristides</author>
+                                <title type="uniform" xml:lang="la">Ad Capitonem</title>
+                                <title type="alt" xml:lang="gr">Πρὸς Καπίτωνα (TLG 0284.047)</title>
+                                <rubric xml:lang="gr">Ἀριστίδου πρὸς Καπίτωνα</rubric>
+                                <explicit xml:lang="gr">δημιουργὸς, ὃν δὴ μιμητὴν</explicit>
+                                <note>The loss of text at the end equals about two and a half manuscript pages.</note>
+                                <listBibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Friedrich</forename>
+                                                <forename>Walter</forename>
+                                                <surname>Lenz</surname>
+                                            </persName>
+                                        </author>
+                                        <author>
+                                            <persName>
+                                                <forename>Charles</forename>
+                                                <forename>Allison</forename>
+                                                <surname>Behr</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">P. Aelii Aristidis opera quae exstant omnia</title>
+                                        <pubPlace>Leiden</pubPlace>
+                                        <date when="1976">1976</date>
+                                        <biblScope type="volume">1</biblScope>
+                                        <biblScope type="pages" from="527" to="545"/>
+                                    </bibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Wilhelm</forename>
+                                                <surname>Dindorf</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">Aristides</title>
+                                        <pubPlace>Leipzig</pubPlace>
+                                        <date when="1829">1829</date>
+                                        <biblScope type="volume">2</biblScope>
+                                        <biblScope type="pages" from="415" to="431"/>
+                                    </bibl>
+                                </listBibl>
+                            </msItem>
+                            <msItem n="12">
+                                <author>Aelius Aristides</author>
+                                <title type="uniform" xml:lang="la">Pro quattuor viris</title>
+                                <msItem n="12.1">
+                                    <locus from="47r" to="47v:24">47r–47v:24</locus>
+                                    <title type="uniform" xml:lang="gr">Ὑπὲρ τῶν τεττάρων. Ὑπόθεσις Β.</title>
+                                    <incipit xml:lang="gr">ἐν τῷ Περικλεῖ διαβέβληκε</incipit>
+                                    <explicit xml:lang="gr">ἀνέλῃ τῶν δοκούντων ἐγκλημάτων τὴν διαβολήν</explicit>
+                                    <note>Only the second half of this text is preserved.</note>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Wilhelm</forename>
+                                                <surname>Dindorf</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">Aristides</title>
+                                        <pubPlace>Leipzig</pubPlace>
+                                        <date when="1829">1829</date>
+                                        <biblScope type="volume">3</biblScope>
+                                        <biblScope type="pages" from="437" to="439">437–439</biblScope>
+                                    </bibl>
+                                </msItem>
+                                <msItem n="12.2">
+                                    <locus from="47v:25" to="47v:27">47v:25–27</locus>
+                                    <title type="uniform" xml:lang="la">Scholia in Aelium Aristidem, scholia vetera (TLG 5008.001)</title>
+                                    <rubric xml:lang="gr">Ἐπίγραμμα εἰς τὴν στήλην Περικλέους</rubric>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Wilhelm</forename>
+                                                <surname>Dindorf</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">Aristides</title>
+                                        <pubPlace>Leipzig</pubPlace>
+                                        <date when="1829">1829</date>
+                                        <biblScope type="volume">3</biblScope>
+                                        <biblScope type="pages" from="439" to="439">439</biblScope>
+                                    </bibl>
+                                </msItem>
+                                <msItem n="12.3">
+                                    <locus from="47v:27" to="123v">47v:27–123v</locus>
+                                    <title type="alt" xml:lang="gr">Πρὸς Πλάτωνα ὑπὲρ τῶν τεττάρων. (TLG 0284.046)</title>
+                                    <rubric xml:lang="gr">Ἀριστίδης ὑπὲρ τῶν τεσσάρων</rubric>
+                                    <note>The main text is preceded by scholia on f. 47v–48r:21. Scholia are also inserted at other places, sometimes in-between paragraphs, sometimes in a separate column on the page or else in the margins along with the main text.</note>
+                                    <note>One leaf is missing after f. 51 with resulting textual loss.</note>
+                                    <note>One leaf is missing after f. 59 with resulting textual loss.</note>
+                                    <note>After f. 64 several leaves have been lost.</note>
+                                    <note>On f. 83v:26 we find yet another rubric, although this is just part of the main text:</note>
+                                    <rubric xml:lang="gr">Ἀριστείδου κοινὴ ἀπολογία Θεμιστοκλῆς</rubric>
+                                    <note>One leaf is missing after f. 88 with resulting textual loss.</note>
+                                    <listBibl>
+                                        <bibl>
+                                            <author>
+                                                <persName>
+                                                    <forename>Friedrich</forename>
+                                                    <forename>Walter</forename>
+                                                    <surname>Lenz</surname>
+                                                </persName>
+                                            </author>
+                                            <author>
+                                                <persName>
+                                                    <forename>Charles</forename>
+                                                    <forename>Allison</forename>
+                                                    <surname>Behr</surname>
+                                                </persName>
+                                            </author>
+                                            <title level="m">P. Aelii Aristidis opera quae exstant omnia</title>
+                                            <pubPlace>Leiden</pubPlace>
+                                            <date when="1976">1976</date>
+                                            <biblScope type="volume">1</biblScope>
+                                            <biblScope type="pages" from="293" to="524"/>
+                                        </bibl>
+                                        <bibl>
+                                            <author>
+                                                <persName>
+                                                    <forename>Wilhelm</forename>
+                                                    <surname>Dindorf</surname>
+                                                </persName>
+                                            </author>
+                                            <title level="m">Aristides</title>
+                                            <pubPlace>Leipzig</pubPlace>
+                                            <date when="1829">1829</date>
+                                            <biblScope type="volume">2</biblScope>
+                                            <biblScope type="pages" from="156" to="414"/>
+                                        </bibl>
+                                        <bibl>
+                                            <author>
+                                                <persName>
+                                                    <forename>Wilhelm</forename>
+                                                    <surname>Dindorf</surname>
+                                                </persName>
+                                            </author>
+                                            <title level="m">Aristides</title>
+                                            <pubPlace>Leipzig</pubPlace>
+                                            <date when="1829">1829</date>
+                                            <biblScope type="volume">3</biblScope>
+                                            <biblScope type="pages" from="439" to="464"/>
+                                            <biblScope type="pages" from="620" to="621"/>
+                                            <biblScope type="pages" from="635" to="635"/>
+                                            <biblScope type="pages" from="707" to="708"/>
+                                    <!--  OBS, ett scholion häremellan som inte finns med i Dindorfs utg. Hur göra? Och bör jag hellre notera övriga scholia med Jebb-paragrafer eller? Så slipper jag specificera sidorna i Dindorfs utgåva... -->
+                                            <biblScope type="pages" from="728" to="729"/>
+                                        </bibl>
+                                    </listBibl>
+                                </msItem>
+                            </msItem>
+                            <msItem n="13">
+                                <locusGrp>
+                                    <locus from="124r" to="124v">124r–v</locus>
+                                    <locus from="126r" to="128r:8">126r–128r:8</locus>
+                                </locusGrp>
+                                <author>Aelius Aristides</author>
+                                <title type="uniform" xml:lang="la">Contra incriminantes quod non declamaret</title>
+                                <title type="alt" xml:lang="gr">Πρὸς τοὺς αἰτιωμένους ὅτι μὴ μελετῴη (TLG 0284.051)</title>
+                                <rubric xml:lang="gr">Πρὸς τοὺς αἰτιωμένους ὅτι μὴ μελετῴη</rubric>
+                                <listBibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Bruno</forename>
+                                                <surname>Keil</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">P. Aelii Aristidis Smyrnaei qvae supersunt omnia</title>
+                                        <pubPlace>Berlin</pubPlace>
+                                        <date when="1898">1898</date>
+                                        <biblScope type="volume">2</biblScope>
+                                        <biblScope type="pages" from="227" to="236"/>
+                                    </bibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Wilhelm</forename>
+                                                <surname>Dindorf</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">Aristides</title>
+                                        <pubPlace>Leipzig</pubPlace>
+                                        <date when="1829">1829</date>
+                                        <biblScope type="volume">2</biblScope>
+                                        <biblScope type="pages" from="571" to="583"/>
+                                    </bibl>
+                                </listBibl>
+                            </msItem>
+                            <msItem n="14">
+                                <locus from="128r:9" to="131v:2">128r:9–131v:2</locus>
+                                <author>Aelius Aristides</author>
+                                <title type="uniform" xml:lang="la">De non agendis comoediis</title>
+                                <title type="alt" xml:lang="gr">Συμβουλευτικὸς περὶ τοῦ μὴ δεῖν κωμῳδεῖν (TLG 0284.040)</title>
+                                <rubric xml:lang="gr">περὶ τοῦ μὴ δεῖν κωμῳδεῖν</rubric>
+                                <listBibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Bruno</forename>
+                                                <surname>Keil</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">P. Aelii Aristidis Smyrnaei qvae supersunt omnia</title>
+                                        <pubPlace>Berlin</pubPlace>
+                                        <date when="1898">1898</date>
+                                        <biblScope type="volume">2</biblScope>
+                                        <biblScope type="pages" from="191" to="200"/>
+                                    </bibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Wilhelm</forename>
+                                                <surname>Dindorf</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">Aristides</title>
+                                        <pubPlace>Leipzig</pubPlace>
+                                        <date when="1829">1829</date>
+                                        <biblScope type="volume">1</biblScope>
+                                        <biblScope type="pages" from="751" to="761"/>
+                                    </bibl>
+                                </listBibl>
+                            </msItem>
+                            <msItem n="15">
+                                <locusGrp>
+                                    <locus from="131v:3" to="131v:25">131v:3–25</locus>
+                                    <locus from="125r" to="125v">125r–v</locus>
+                                    <locus from="132r" to="136v:14">132r–136v:14</locus>
+                                </locusGrp>
+                                <author>Aelius Aristides</author>
+                                <title type="uniform" xml:lang="la">In proditores mysteriorum</title>
+                                <title type="alt" xml:lang="gr">Κατὰ τῶν ἐξορχουμένων (TLG 0284.050)</title>
+                                <rubric xml:lang="gr">Ἀριστείδου Κατὰ τῶν ἐξορχουμένων</rubric>
+                                <finalRubric>Ἀριστείδου κατὰ τῶν ἐξορχουμένων κοινῶς Ἀσίας ἐν Σμύρνη ἐθαυμάσθη δὲ ὑπεράπαντας</finalRubric>
+                                <note>OBS, ett scholion på f. 125r som kanske bör citeras!</note>
+                                <listBibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Bruno</forename>
+                                                <surname>Keil</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">P. Aelii Aristidis Smyrnaei qvae supersunt omnia</title>
+                                        <pubPlace>Berlin</pubPlace>
+                                        <date when="1898">1898</date>
+                                        <biblScope type="volume">2</biblScope>
+                                        <biblScope type="pages" from="237" to="252"/>
+                                    </bibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Wilhelm</forename>
+                                                <surname>Dindorf</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">Aristides</title>
+                                        <pubPlace>Leipzig</pubPlace>
+                                        <date when="1829">1829</date>
+                                        <biblScope type="volume">2</biblScope>
+                                        <biblScope type="pages" from="543" to="570"/>
+                                    </bibl>
+                                </listBibl>
+                            </msItem>
+                            <msItem n="16">
+                                <locus from="137r" to="140v:15">137r–140v:15</locus>
+                                <author>Lucianus</author>
+                                <title type="uniform" xml:lang="la">Calumniae non temere credendum</title>
+                                <title type="alt" xml:lang="gr">Περὶ τοῦ μὴ ῥᾳδίως πιστεύειν Διαβολῇ (TLG 0062.013)</title>
+                                <rubric xml:lang="gr">Λουκιανοῦ Περὶ διαβολῆς</rubric>
+                        <!--SCHOLIA i marginalen!-->
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Matthew</forename>
+                                            <forename>Donald</forename>
+                                            <surname>MacLeod</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Luciani opera</title>
+                                    <pubPlace>Oxford</pubPlace>
+                                    <date when="1972">1972</date>
+                                    <biblScope type="volume">1</biblScope>
+                                    <biblScope type="pages" from="126" to="138"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="17">
+                                <locus from="140v:15" to="144v">140v:15–144v</locus>
+                                <author>Lucianus</author>
+                                <title type="uniform">Cataplus</title>
+                                <title type="alt" xml:lang="gr">Κατάπλους ἢ Τύραννος (TLG 0062.016)</title>
+                                <rubric xml:lang="gr">Λουκιανοῦ κατάπλους, ἢ Τύραννος. Τὰ πρόσωπα εἰσὶ Χάρων ἢ Κλωθώ.</rubric>
+                                <explicit xml:lang="gr">χρησάμενος τῷ φαρμάκῳ ἀλλ’ ἄπιθι</explicit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Matthew</forename>
+                                            <forename>Donald</forename>
+                                            <surname>MacLeod</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Luciani opera</title>
+                                    <pubPlace>Oxford</pubPlace>
+                                    <date when="1972">1972</date>
+                                    <biblScope type="volume">1</biblScope>
+                                    <biblScope type="pages" from="178" to="198"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="18">
+                                <locusGrp>
+                                    <locus from="191r" to="191v">191r–v</locus>
+                                    <locus from="145r" to="149v">145r–149v</locus>
+                                </locusGrp>
+                                <author>Lucianus</author>
+                                <title type="uniform" xml:lang="la">Gallus</title>
+                                <title type="alt" xml:lang="gr">Ὄνειρος ἢ Ἀλεκτρυών (TLG 0062.019)</title>
+                                <incipit xml:lang="gr">ῥαψῳδῶν οὐχ ὥσπερ ἐγὼ νῦν</incipit>
+                                <explicit xml:lang="gr">τοὺς δακτύλους κατεσκληκότα ὃν</explicit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Matthew</forename>
+                                            <forename>Donald</forename>
+                                            <surname>MacLeod</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Luciani opera</title>
+                                    <pubPlace>Oxford</pubPlace>
+                                    <date when="1972">1972</date>
+                                    <biblScope type="volume">1</biblScope>
+                                    <biblScope type="pages" from="250" to="276"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="19">
+                                <locus from="150r" to="150v:19">150r–150v:19</locus>
+                                <author>Lucianus</author>
+                                <title type="uniform" xml:lang="la">Prometheus</title>
+                                <title type="alt" xml:lang="gr">Προμηθεύς (TLG 0062.020)</title>
+                                <incipit xml:lang="gr">δίδω καὶ ἐλάττω ποιῶ</incipit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Matthew</forename>
+                                            <forename>Donald</forename>
+                                            <surname>MacLeod</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Luciani opera</title>
+                                    <pubPlace>Oxford</pubPlace>
+                                    <date when="1972">1972</date>
+                                    <biblScope type="volume">1</biblScope>
+                                    <biblScope type="pages" from="284" to="288"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="20">
+                                <locus from="150v:20" to="155v">150v:20–155v</locus>
+                                <author>Lucianus</author>
+                                <title type="uniform" xml:lang="la">Icaromenippus</title>
+                                <title type="alt" xml:lang="gr">Ἰκαρομένιππος ἢ Ὑπερνέφελος (TLG 0062.021)</title>
+                                <rubric xml:lang="gr">Ἰκαρομένιππος ἢ Ὑπερνέφελος. Τὰ πρόσωπα Μένιππος καὶ Ἑταῖρος.</rubric>
+                                <explicit xml:lang="gr">ἰταμώτατος καὶ πρὸς τὰς</explicit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Matthew</forename>
+                                            <forename>Donald</forename>
+                                            <surname>MacLeod</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Luciani opera</title>
+                                    <pubPlace>Oxford</pubPlace>
+                                    <date when="1972">1972</date>
+                                    <biblScope type="volume">1</biblScope>
+                                    <biblScope type="pages" from="289" to="308"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="21">
+                                <locus from="156r" to="161r:5">156r–161r:5</locus>
+                                <author>Lucianus</author>
+                                <title type="uniform" xml:lang="la">Timon</title>
+                                <title type="alt" xml:lang="gr">Τίμων ἢ Μισάνθρωπος (TLG 0062.022)</title>
+                                <incipit xml:lang="gr">αὐτὴν ἐσθίουσαν τῶν κριθῶν</incipit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Matthew</forename>
+                                            <forename>Donald</forename>
+                                            <surname>MacLeod</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Luciani opera</title>
+                                    <pubPlace>Oxford</pubPlace>
+                                    <date when="1972">1972</date>
+                                    <biblScope type="volume">1</biblScope>
+                                    <biblScope type="pages" from="315" to="336"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="22">
+                                <locus from="161r:6" to="161v:2">161r:6–161v:2</locus>
+                                <title type="desc">A scribal note</title>
+                                <quote xml:lang="gr">Ἀριστηδης τε καὶ Λουκιανὸς ἅμα μηστὴν ἀποτηλοῦσι τὴν βίβλον ταύτην. πρὸς δὲ τούτοις ἔνεστι καὶ τοῦ σοφοῦ Βοετίου δράματα δ.</quote>
+                            </msItem>
+                            <msItem n="23">
+                                <locus from="161v:3" to="161v:10">161v:3–10</locus>
+                                <title type="desc">An anonymous letter</title>
+                                <incipit xml:lang="gr">Τὴν σὴν ἐπιστολὴν ἀνεγνωκὼς ἐπὶ πᾶσι τεθαύμακα</incipit>
+                                <explicit xml:lang="gr">ἠνιάσα μοι ἐμαυτώ</explicit>
+                            </msItem>
+                            <msItem n="24">
+                                <locus from="162r" to="165v:6">162r–165v:6</locus>
+                                <author>Lucianus</author>
+                                <title type="uniform" xml:lang="la">Adversus indoctum et libros multos ementem</title>
+                                <title type="alt" xml:lang="gr">Πρὸς τὸν ἀπαίδευτον καὶ πολλὰ βιβλία ὠνούμενον (TLG 0062.028)</title>
+                                <incipit xml:lang="gr">καὶ τοῦτο. κατὰ ταὐτὰ δὴ καὶ ὁ κυβερνᾶν</incipit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Matthew</forename>
+                                            <forename>Donald</forename>
+                                            <surname>MacLeod</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Luciani opera</title>
+                                    <pubPlace>Oxford</pubPlace>
+                                    <date when="1974">1974</date>
+                                    <biblScope type="volume">2</biblScope>
+                                    <biblScope type="pages" from="123" to="134"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="25">
+                                <locus from="165v:7" to="167v:31">165v:7–167v:31</locus>
+                                <author>Lucianus</author>
+                                <title type="uniform" xml:lang="la">Phalaris 1</title>
+                                <title type="alt" xml:lang="gr">Φάλαρις Α (TLG 0062.001)</title>
+                                <rubric xml:lang="gr">Φάλαρις πρῶτος</rubric>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Matthew</forename>
+                                            <forename>Donald</forename>
+                                            <surname>MacLeod</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Luciani opera</title>
+                                    <pubPlace>Oxford</pubPlace>
+                                    <date when="1972">1972</date>
+                                    <biblScope type="volume">1</biblScope>
+                                    <biblScope type="pages" from="1" to="7"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="26">
+                                <locus from="167v:31" to="168v">167v:31–168v</locus>
+                                <author>Lucianus</author>
+                                <title type="uniform" xml:lang="la">Bacchus</title>
+                                <title type="alt" xml:lang="gr">Διόνυσος (TLG 0062.003) </title>
+                                <rubric xml:lang="gr">Προλαλιᾷ ὁ Διόνυσος</rubric>
+                                <explicit xml:lang="gr">οἱ ἄνδρες δὲ τῆς Πανικῆς, τῆς δὲ τοῦ</explicit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Matthew</forename>
+                                            <forename>Donald</forename>
+                                            <surname>MacLeod</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Luciani opera</title>
+                                    <pubPlace>Oxford</pubPlace>
+                                    <date when="1972">1972</date>
+                                    <biblScope type="volume">1</biblScope>
+                                    <biblScope type="pages" from="16" to="19"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="27">
+                                <locus from="169r" to="170r:24">169r–170r:24</locus>
+                                <author>Lucianus</author>
+                                <title type="uniform" xml:lang="la">Patriae encomium</title>
+                                <title type="alt" xml:lang="gr">Πατρίδος Ἐγκώμιον (TLG 0062.010)</title>
+                                <rubric xml:lang="gr">Πατρίδος ἐγκώμιον</rubric>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Matthew</forename>
+                                            <forename>Donald</forename>
+                                            <surname>MacLeod</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Luciani opera</title>
+                                    <pubPlace>Oxford</pubPlace>
+                                    <date when="1972">1972</date>
+                                    <biblScope type="volume">1</biblScope>
+                                    <biblScope type="pages" from="69" to="72"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="28">
+                                <locus from="170r:24" to="172v:3">170r:24–172v:3</locus>
+                                <author>Lucianus</author>
+                                <title type="uniform" xml:lang="la">Lis consonantium</title>
+                                <title type="alt" xml:lang="gr">Δίκη Συμφώνων (TLG 0062.014)</title>
+                                <rubric xml:lang="gr">Δίκη φωνηέντων</rubric>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Matthew</forename>
+                                            <forename>Donald</forename>
+                                            <surname>MacLeod</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Luciani opera</title>
+                                    <pubPlace>Oxford</pubPlace>
+                                    <date when="1972">1972</date>
+                                    <biblScope type="volume">1</biblScope>
+                                    <biblScope type="pages" from="139" to="143"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="29">
+                                <locus from="172v:4" to="175r:22">172v:4–175r:22</locus>
+                                <author>Lucianus</author>
+                                <title type="uniform" xml:lang="la">Soloecista</title>
+                                <title type="alt" xml:lang="gr">Ψευδοσοφιστὴς ἢ Σολοικιστής (TLG 0062.070)</title>
+                                <rubric xml:lang="gr">Ψευδοσοφιστὴς ἢ σολοικιστής</rubric>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Matthew</forename>
+                                            <forename>Donald</forename>
+                                            <surname>MacLeod</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Luciani opera</title>
+                                    <pubPlace>Oxford</pubPlace>
+                                    <date when="1972">1972</date>
+                                    <biblScope type="volume">1</biblScope>
+                                    <biblScope type="pages" from="164" to="177"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="30">
+                                <locusGrp>
+                                    <locus from="175r:23" to="176v">175r:23–176v</locus>
+                                    <locus from="179r" to="179v">179r–v</locus>
+                                </locusGrp>
+                                <author>Lucianus</author>
+                                <title type="uniform" xml:lang="la">Somnium sive vita Luciani</title>
+                                <title type="alt" xml:lang="gr">Περὶ τοῦ Ἐνυπνίου ἤτοι Βίος Λουκιανοῦ (TLG 0062.029)</title>
+                                <rubric xml:lang="gr">Περὶ τοῦ ἐνυπνίου ἤτοι βίος Λουκιανοῦ</rubric>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Matthew</forename>
+                                            <forename>Donald</forename>
+                                            <surname>MacLeod</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Luciani opera</title>
+                                    <pubPlace>Oxford</pubPlace>
+                                    <date when="1974">1974</date>
+                                    <biblScope type="volume">2</biblScope>
+                                    <biblScope type="pages" from="135" to="141"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="31">
+                                <author>Aelius Aristides</author>
+                                <title type="uniform" xml:lang="la">Eleusinius</title>
+                                <title type="alt" xml:lang="gr">Ἐλευσίνιος (TLG 0284.019)</title>
+                                <msItem n="31.1">
+                                    <locus from="177r:1" to="177r:2">177r:1–2</locus>
+                                    <incipit xml:lang="gr">πολέμιοι ὦ πάλαι τε δὴ καὶ νῦν</incipit>
+                                </msItem>
+                                <msItem n="31.2">
+                                    <locus from="177r:3" to="177r:4">177r:3–4</locus>
+                                    <finalRubric xml:lang="gr">Ἐλευσίνιος ἐγράφη ὅσον ἐν ὥρᾳ ἐν Σμύρνῃ μηνὶ ιβʹ ἐπὶ ἡγεμόνος Μακρίνου ἔτων ὄντι ΝΓʹ καὶ μηνῶν ἕξ· ἐλέχθη δὲ ἐν τῷ βουλευτηρίῳ.</finalRubric>
+                                </msItem>
+                                <listBibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Bruno</forename>
+                                                <surname>Keil</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">P. Aelii Aristidis Smyrnaei qvae supersunt omnia</title>
+                                        <pubPlace>Berlin</pubPlace>
+                                        <date when="1898">1898</date>
+                                        <biblScope type="volume">2</biblScope>
+                                        <biblScope type="pages" from="31" to="31"/>
+                                    </bibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Wilhelm</forename>
+                                                <surname>Dindorf</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">Aristides</title>
+                                        <pubPlace>Leipzig</pubPlace>
+                                        <date when="1829">1829</date>
+                                        <biblScope type="volume">1</biblScope>
+                                        <biblScope type="pages" from="423" to="423"/>
+                                    </bibl>
+                                </listBibl>
+                                <note>Only a few lines from the end of this speech remain.</note>
+                            </msItem>
+                            <msItem n="32">
+                                <locus from="177r:4" to="178r:28">177r:4–178r:28</locus>
+                                <author>Aelius Aristides</author>
+                                <title type="uniform" xml:lang="la">Epistula de Smyrna</title>
+                                <title type="alt" xml:lang="gr">Ἐπιστολὴ περὶ Σμύρνης (TLG 0284.041)</title>
+                                <rubric xml:lang="gr">Ἀριστείδου ἐπιστολὴ περὶ Σμύρνης πρὸς τοὺς βασιλεῖς τῶν Ῥωμαίων</rubric>
+                                <note>On f. 177r a scribal  note in the margin: τὰ ἔμπροσθεν οὐκ οἶδα πῶς θετω, ἐνηλλαγμένα ἐτύγχανον.</note>
+                                <listBibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Bruno</forename>
+                                                <surname>Keil</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">P. Aelii Aristidis Smyrnaei qvae supersunt omnia</title>
+                                        <pubPlace>Berlin</pubPlace>
+                                        <date when="1898">1898</date>
+                                        <biblScope type="volume">2</biblScope>
+                                        <biblScope type="pages" from="12" to="16"/>
+                                    </bibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Wilhelm</forename>
+                                                <surname>Dindorf</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">Aristides</title>
+                                        <pubPlace>Leipzig</pubPlace>
+                                        <date when="1829">1829</date>
+                                        <biblScope type="volume">1</biblScope>
+                                        <biblScope type="pages" from="762" to="767"/>
+                                    </bibl>
+                                </listBibl>
+                            </msItem>
+                            <msItem n="33">
+                                <locus from="181r" to="187r:9">181r–187r:9</locus>
+                                <author>Lucianus</author>
+                                <title type="uniform" xml:lang="la">Dialogi deorum, N:o 15–25</title>
+                                <title type="alt" xml:lang="gr">Θεῶν Διάλογοι (TLG 0062.068)</title>
+                                <msItem n="33.1">
+                                    <locus from="181r"/>
+                                    <title type="desc">N:o 15</title>
+                                    <rubric xml:lang="gr">Διὸς καὶ Ἀσκληπίου καὶ Ἡρακλέους </rubric>
+                                </msItem>
+                                <msItem n="33.2">
+                                    <locus from="181v:8"/>
+                                    <title type="desc">N:o 16</title>
+                                    <rubric xml:lang="gr">Ἑρμοῦ καὶ Ἀπόλλωνος</rubric>
+                                </msItem>
+                                <msItem n="33.3">
+                                    <locus from="182r:7"/>
+                                    <title type="desc">N:o 17</title>
+                                    <rubric xml:lang="gr">Ἑρμοῦ καὶ Ἀπόλλωνος</rubric>
+                                </msItem>
+                                <msItem n="33.4">
+                                    <locus from="182v:8"/>
+                                    <title type="desc">N:o 21</title>
+                                    <rubric xml:lang="gr">Ἑρμοῦ καὶ Ἀπόλλωνος</rubric>
+                                </msItem>
+                                <msItem n="33.5">
+                                    <locus from="183r:9"/>
+                                    <title type="desc">N:o 25</title>
+                                    <rubric xml:lang="gr">Ἀπόλλων, Ἑρμῆς</rubric>
+                                </msItem>
+                                <msItem n="33.6">
+                                    <locus from="183v:17"/>
+                                    <title type="desc">N:o 24</title>
+                                    <rubric xml:lang="gr">Ζεύς, Ἥλιος</rubric>
+                                </msItem>
+                                <msItem n="33.7">
+                                    <locus from="184v:7"/>
+                                    <title type="desc">N:o 22</title>
+                                    <rubric xml:lang="gr">Ἥρα, Ζεύς</rubric>
+                                </msItem>
+                                <msItem n="33.8">
+                                    <locus from="185r:13"/>
+                                    <title type="desc">N:o 23</title>
+                                    <rubric xml:lang="gr">Ἀφροδίτη, Ἔρως</rubric>
+                                </msItem>
+                                <msItem n="33.9">
+                                    <locus from="185v:16"/>
+                                    <title type="desc">N:o 20</title>
+                                    <rubric xml:lang="gr">Ἀφροδίτη, Ἔρως</rubric>
+                                </msItem>
+                                <msItem n="33.10">
+                                    <locus from="186r:19"/>
+                                    <title type="desc">N:o 19</title>
+                                    <rubric xml:lang="gr">Ἀφροδίτη καὶ Σελήνη</rubric>
+                                </msItem>
+                                <msItem n="33.11">
+                                    <locus from="186v:17" to="187r:9"/>
+                                    <title type="desc">N:o 18</title>
+                                    <rubric xml:lang="gr">Ἥρα, Λητώ</rubric>
+                                    <explicit xml:lang="gr">φεύξεται αὐτὸν ἡ Δάφνη</explicit>
+                                </msItem>
+                                <note>The end of the last dialogue, n:o 18, is lacking.</note>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Matthew</forename>
+                                            <forename>Donald</forename>
+                                            <surname>MacLeod</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Luciani opera</title>
+                                    <pubPlace>Oxford</pubPlace>
+                                    <date when="1987">1987</date>
+                                    <biblScope type="volume">4</biblScope>
+                                    <biblScope type="pages" from="295" to="314"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="34">
+                                <locus from="187r:9" to="190v:20">187r:9–190v:20</locus>
+                                <author>Lucianus</author>
+                                <title type="uniform" xml:lang="la">Dearum judicium</title>
+                                <title type="alt" xml:lang="gr">Θεῶν Κρίσις (TLG 0062.032)</title>
+                                <rubric xml:lang="gr">Θεῶν κρίσις</rubric>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Matthew</forename>
+                                            <forename>Donald</forename>
+                                            <surname>MacLeod</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Luciani opera</title>
+                                    <pubPlace>Oxford</pubPlace>
+                                    <date when="1974">1974</date>
+                                    <biblScope type="volume">2</biblScope>
+                                    <biblScope type="pages" from="201" to="211"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="35">
+                                <author>Lucianus</author>
+                                <title type="uniform" xml:lang="la">Dialogi mortuorum, N:o 1–7, 19, 24–27</title>
+                                <title type="alt" xml:lang="gr">Νεκρικοὶ διάλογοι (TLG 0062.066)</title>
+                                <msItem n="35.1">
+                                    <locus from="190v:21" to="190v:23">190v:21–190v:23</locus>
+                                    <title type="uniform" xml:lang="la">Scholia in Lucianum; 77, prol. (TLG 5029.001)</title>
+                                    <quote xml:lang="gr">Ἐν τούτοις τοῖς διαλόγοις διαπαίξειν βούλεται τὰ παρὰ τῶν ἀθέων Ἑλλήνων περὶ τοῦ Ἅιδου λεγόμενα καὶ διὰ τοῦτο νεκροὺς εἰσάγει ἔνθεν καὶ νεκρικοὺς τοὺς διαλόγους ὠνόμασεν.</quote>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Hugo</forename>
+                                                <surname>Rabe</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">Scholia in Lucianum</title>
+                                        <pubPlace>Leipzig</pubPlace>
+                                        <date when="1906">1906</date>
+                                        <biblScope type="pages" from="250" to="250"/>
+                                    </bibl>
+                                </msItem>
+                                <msItem n="35.2">
+                                    <locus from="192r"/>
+                                    <rubric xml:lang="gr">Νεκρικοὶ διάλογοι. Διογένους καὶ πολυδεύκες</rubric>
+                                </msItem>
+                                <msItem n="35.3">
+                                    <locus from="192v:19"/>
+                                    <rubric xml:lang="gr">Χάρωνος πορθμέως καὶ Μενίππου</rubric>
+                                </msItem>
+                                <msItem n="35.4">
+                                    <locus from="193r:17"/>
+                                    <rubric xml:lang="gr">Νεκρῶν Πλούτωνι κατὰ Μενίππου</rubric>
+                                </msItem>
+                                <msItem n="35.5">
+                                    <locus from="193v:17"/>
+                                    <rubric xml:lang="gr">Μενίππου καὶ Κερβέρου</rubric>
+                                </msItem>
+                                <msItem n="35.6">
+                                    <locus from="194r:9"/>
+                                    <rubric xml:lang="gr">Ἐρώμενοι τοῦ Ἀπόλλωνος εʹ</rubric>
+                                    <incipit xml:lang="gr">Ποῦ δὲ οἱ καλοί εἰσιν</incipit>
+                                    <explicit xml:lang="gr">νεκροὺς ἤδη μετελεύσομαι</explicit>
+                                </msItem>
+                                <msItem n="35.7">
+                                    <locus from="194v:5"/>
+                                    <rubric xml:lang="gr">Μενίππου καὶ Αἰακοῦ λόγος Ϛ ʹ</rubric>
+                                </msItem>
+                                <msItem n="35.8">
+                                    <locus from="195v:14"/>
+                                    <rubric xml:lang="gr">Μενίππου καὶ Ταντάλου</rubric>
+                                </msItem>
+                                <msItem n="35.9">
+                                    <locus from="196r:14"/>
+                                    <rubric xml:lang="gr">Σιμύλου καὶ Πολυστράτου</rubric>
+                                </msItem>
+                                <msItem n="35.10">
+                                    <locus from="197r:10"/>
+                                    <rubric xml:lang="gr">Ἀλεξάνδρου καὶ Ἁννίβου</rubric>
+                                </msItem>
+                                <msItem n="35.11">
+                                    <locus from="199v:17"/>
+                                    <rubric xml:lang="gr">Ὀδυσσέως καὶ Ἀντιλόχου</rubric>
+                                </msItem>
+                                <msItem n="35.12">
+                                    <locus from="200v:1" to="200v:23">200v</locus>
+                                    <rubric xml:lang="gr">Αἰακοῦ, Πρωτεσιλάου, Μενελάου καὶ Πάριδος</rubric>
+                                </msItem>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Matthew</forename>
+                                            <forename>Donald</forename>
+                                            <surname>MacLeod</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Luciani opera</title>
+                                    <pubPlace>Oxford</pubPlace>
+                                    <date when="1987">1987</date>
+                                    <biblScope type="volume">4</biblScope>
+                                    <biblScope type="pages" from="147" to="165"/>
+                                    <biblScope type="pages" from="192" to="195"/>
+                                    <biblScope type="pages" from="213" to="224"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="36">
+                                <locus from="201r" to="209r:17">201r–209r:17</locus>
+                                <author>Lucianus</author>
+                                <title type="uniform" xml:lang="la">Dialogi marini, N:o 1–6, 8–15</title>
+                                <title type="alt" xml:lang="gr">Ἐνάλιοι Διάλογοι (TLG 0062.067)</title>
+                                <rubric xml:lang="gr">Δωρὶς καὶ Γαλάτεια</rubric>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Matthew</forename>
+                                            <forename>Donald</forename>
+                                            <surname>MacLeod</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Luciani opera</title>
+                                    <pubPlace>Oxford</pubPlace>
+                                    <date when="1987">1987</date>
+                                    <biblScope type="volume">4</biblScope>
+                                    <biblScope type="pages" from="230" to="260"/>
+                                </bibl>
+                                <msItem n="36.1">
+                                    <locus from="203v:6" to="203v:13">203v:6–13</locus>
+                                    <title type="uniform" xml:lang="la">Scholia in Lucianum; 78, V–VI (TLG 5029.001)</title>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Hugo</forename>
+                                                <surname>Rabe</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">Scholia in Lucianum</title>
+                                        <pubPlace>Leipzig</pubPlace>
+                                        <date when="1906">1906</date>
+                                        <biblScope type="pages" from="265" to="266"/>
+                                    </bibl>
+                                </msItem>
+                            </msItem>
+                            <msItem n="37">
+                                <locus from="209r:18" to="216v">209r:18–216v</locus>
+                                <author>Lucianus</author>
+                                <title type="uniform" xml:lang="la">Demonax</title>
+                                <title type="alt" xml:lang="gr">Δημώνακτος Βίος (TLG 0062.008)</title>
+                                <rubric xml:lang="gr">Δημώνακτος βίος</rubric>
+                                <explicit xml:lang="gr">ἀπὸ τούτων τοῖς ἀναγινώσκουσι λο[γίζεσθαι</explicit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Matthew</forename>
+                                            <forename>Donald</forename>
+                                            <surname>MacLeod</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Luciani opera</title>
+                                    <pubPlace>Oxford</pubPlace>
+                                    <date when="1972">1972</date>
+                                    <biblScope type="volume">1</biblScope>
+                                    <biblScope type="pages" from="46" to="57"/>
+                                </bibl>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="codex">
+                                <supportDesc material="paper">
+                                    <support>
+                                        <p>Written on <material>Oriental paper</material>.</p>
+                                    </support>
+                                    <extent>ii + 216 + iiʹ<dimensions type="leaf" unit="mm">
+                                            <height quantity="200"/>
+                                            <width quantity="140"/>
+                                        </dimensions>
+                                    </extent>
+                                    <foliation>
+                                        <p>Older foliation with Greek numerals in the upper right corner of every recto page. Modern foliation in Roman numerals in the same place; the Roman numbering differs from the Greek after f. ξδʹ (number ξεʹ was skipped). From f. 10v and f. 11r every tenth leaf is numbered in Greek in the lower margin, but these numbers should not be taken as quire numbering. Original quire numbers remain on f. 88v (ιαʹ), f. 144v (αʹ), and f. 176v (Ϛʹ).</p>
+                                    </foliation>
+                                    <collation>
+                                        <p>Due to severe restauration with trimmed leaves and new glued-on guards, it is not possible to accomplish a collation. It is obvious that ff. 177, 178 and 180 are now in the wrong place and should actually have come before f. 28. Likewise, f. 125 should be placed after f. 131, and f. 191 belongs before f. 145. Furthermore, the overall order of the texts has probably undergone changes at rebinding, since according to the writer's note on f. 161 that leaf was once the last leaf of the book.</p>
+                                        <catchwords>There are no catchwords.</catchwords>
+                                    </collation>
+                                    <condition>
+                                        <p>The manuscript has been restored extensively. Each leaf was given a new guard and sometimes also new margins, but many leaves were lost prior to that radical rescue operation. Indications as to where these lacunae appear are found within the description of contents.</p>
+                                    </condition>
+                                </supportDesc>
+                                <layoutDesc> </layoutDesc>
+                            </objectDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origDate>13th century</origDate>
+                            </origin>
+                        </history>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+</TEI>

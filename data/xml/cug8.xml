@@ -1,0 +1,2156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../stylesheets/tei2html.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="sv">Uppsala University Library, Gr. 21</title>
+                <respStmt>
+                    <resp xml:lang="en">Cataloguer</resp>
+                    <persName>
+                        <forename>Eva</forename>
+                        <surname>Nyström</surname>
+                    </persName>
+                </respStmt>
+                <funder xml:lang="sv">Riksbankens Jubileumsfond</funder>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2014"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="UUB-Gr-08" xml:lang="en">
+                    <msIdentifier>
+                        <country key="sv"/>
+                        <settlement key="Uppsala"/>
+                        <institution key="Uppsala University"/>
+                        <repository key="Uppsala University Library"/>
+                        <collection xml:lang="sv">Grekiska handskrifter</collection>
+                        <idno xml:lang="la">Gr. 8</idno>
+                        <altIdentifier type="former_shelfmark">
+                            <idno>Sparwenfeldt 49</idno>
+                        </altIdentifier>
+                        <altIdentifier type="former_shelfmark">
+                            <idno>Escorialensis Α. VI. 16</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>Composite manuscript with miscellaneous contents</summary>
+                    </msContents>
+                    <msPart>
+                        <altIdentifier type="codicological_unit">
+                            <idno n="1"/>
+                        </altIdentifier>
+                        <msContents>
+                            <msItem n="1">
+                                <locus from="Ir" to="IIr">Ir-IIr</locus>
+                                <title type="supplied" xml:lang="la">Pinax 1</title>
+                                <rubric xml:lang="gr">Τάδε ἔνεστιν ἐν τῇδε τῇ βίβλῳ</rubric>
+                            </msItem>
+                            <msItem n="2">
+                                <locus from="IIv" to="IIIr">IIv-IIIr</locus>
+                                <title type="supplied" xml:lang="la">Pinax 2</title>
+                                <rubric xml:lang="gr">Τὰ <supplied reason="omitted">ὀν</supplied>όματα τῶν γραφόντων</rubric>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    <msPart n="2">
+                        <altIdentifier type="other">
+                            <idno>Unit 2</idno>
+                        </altIdentifier>
+                        <msContents>
+                            <msItem n="3">
+                                <locus from="1r" to="86v">1r-86v</locus>
+                                <title type="uniform" xml:lang="la">Stephanites et Ichnelates</title>
+                                <incipit xml:lang="gr">
+                                    <supplied reason="omitted">Ἀ</supplied>νακεφαλαίωσις τῆς παρούσης πραγματείας</incipit>
+                                <explicit xml:lang="gr">ἐλεημοσύνην τε καὶ εὐεργεσίαν, ἀμήν</explicit>
+                                <listBibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Lars-Olof</forename>
+                                                <surname>Sjöberg</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">Stephanites und Ichnelates: Überlieferungsgeschichte und Text</title>
+                                        <title level="s">Studia Graeca Upsaliensia</title>
+                                        <pubPlace>Stockholm</pubPlace>
+                                        <date when="1962">1962</date>
+                                        <biblScope type="volume">2</biblScope>
+                                    </bibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Vittorio</forename>
+                                                <surname>Puntoni</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">Stephanitēs kai Ichnēlatēs: quattro recensioni della versione greca del Kitāb Kalīla wa-Dimna</title>
+                                        <title level="s">Pubblicazioni della Società asiatica italiana</title>
+                                        <pubPlace>Florence</pubPlace>
+                                        <date when="1889">1889</date>
+                                        <biblScope type="volume">2</biblScope>
+                                    </bibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Pehr Fabian</forename>
+                                                <surname>Aurivillius</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m" xml:lang="la">Prolegomena ad librum: Stefanitēs kai Ichnelatēs e cod. mscr. biblioth. acad. Upsal. edita et latine versa, dissertatione academica, quam, venia ampl. fac. philos. Upsal. præside mag. Johanne Flodero ... publico examini modeste submittit Petrus Fabian. Aurivillius</title>
+                                        <pubPlace>Uppsala</pubPlace>
+                                        <date when="1780">1780</date>
+                                    </bibl>
+                                </listBibl>
+                            </msItem>
+                            <msItem n="4">
+                                <locus from="87r" to="87v">87r-v</locus>
+                                <title type="supplied" xml:lang="en">Later notes</title>
+                                <note>A petition draft concerning a land dispute, dated Sept. 10, 1546. Notes on a bishop’s benediction of land, dated Dec. 9, 1546. A doxology, followed by pen trials at the bottom of the page.</note>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    <msPart n="3">
+                        <altIdentifier type="other">
+                            <idno>Unit 3</idno>
+                        </altIdentifier>
+                        <msContents>
+                            <msItem n="5">
+                                <locus from="88r" to="98r:12">88r-98r:12</locus>
+                                <author>Isocrates</author>
+                                <title type="uniform" xml:lang="la">Ad Demonicum (oratio 1) (TLG 0010.007)</title>
+                                <rubric xml:lang="gr">Λόγος Ἰσοκράτους πρὸς Δημόνικον</rubric>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Basilius G.</forename>
+                                            <surname>Mandilaras</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Isocrates. Opera omnia.</title>
+                                    <pubPlace>Munich</pubPlace>
+                                    <date when="2003">2003</date>
+                                    <biblScope type="volume">2</biblScope>
+                                    <biblScope type="pages" from="7" to="27"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="6">
+                                <locus from="98r:13" to="98r:17">98r:13-17</locus>
+                                <author>Anonymous</author>
+                                <title type="supplied">On the soul and its faculties</title>
+                                <rubric xml:lang="gr">Αἱ πέντε δυνάμεις τῆς ψυχῆς</rubric>
+                                <incipit xml:lang="gr">Νοῦς, διάνοια, δόξα</incipit>
+                                <explicit xml:lang="gr">ἀκοή, γεῦσις καὶ ἁφῆ</explicit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Eva</forename>
+                                            <surname>Nyström</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Containing multitudes: Codex Upsaliensis Graecus 8 in perspective</title>
+                                    <pubPlace>Uppsala</pubPlace>
+                                    <date when="2009">2009</date>
+                                    <biblScope type="pages" from="265" to="265"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="7">
+                                <locus from="98v" to="99r:15">98v-99r:15</locus>
+                                <author>Gregorius Nazianzenus</author>
+                                <title type="supplied" xml:lang="la">Ep. 114 (TLG 2022.001)</title>
+                                <respStmt>
+                                    <resp>here erroneously attributed to</resp>
+                                    <name type="person">Basil the Great</name>
+                                </respStmt>
+                                <rubric xml:lang="gr">Βασιλείου τοῦ μεγάλου πρός τινα Γρηγόριον καὶ οὐ τὸν μέγαν</rubric>
+                                <incipit xml:lang="gr">Ἐπειδή μοι τὴν σιωπὴν ἐγκαλεῖς</incipit>
+                                <explicit xml:lang="gr">ὅταν κολοιοὶ σιωπήσωσιν</explicit>
+                                <listBibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Paul</forename>
+                                                <surname>Gallay</surname>
+                                            </persName>
+                                        </author>
+                                        <title xml:lang="fr">Saint Grégoire de Nazianze. Lettres</title>
+                                        <biblScope type="volume">2</biblScope>
+                                        <pubPlace>Paris</pubPlace>
+                                        <date when="1967">1967</date>
+                                        <biblScope type="pages" from="8" to="9"/>
+                                    </bibl>
+                                    <bibl>
+                                        <title level="m">Patrologiae cursus completus, series Graeca</title>
+                                        <editor role="editor">
+                                            <forename>Jacques</forename>
+                                            <forename>Paul </forename>
+                                            <surname>Migne</surname>
+                                        </editor>
+                                        <pubPlace>Paris </pubPlace>
+                                        <date when="1857">1857</date>
+                                        <biblScope type="volume">37</biblScope>
+                                        <biblScope type="pages" from="209" to="212"/>
+                                    </bibl>
+                                </listBibl>
+                            </msItem>
+                            <msItem n="8">
+                                <locus from="99r:15" to="100r:1-14">99r:15-100r:1-14</locus>
+                                <author>Ps.-Hippocrates</author>
+                                <title type="supplied" xml:lang="en">Three letters (TLG 0627.055)</title>
+                                <msItem n="8.1">
+                                    <locus from="99r:15" to="99v:5">99r:15-99v:5</locus>
+                                    <title type="supplied" xml:lang="la">Ep. 8</title>
+                                    <rubric xml:lang="gr">Ἐπιστολὴ βασιλέως Ἀρταξέρξου πρὸς Κώους</rubric>
+                                </msItem>
+                                <msItem n="8.2">
+                                    <locus from="99v:6" to="99v:17">99v:6-17</locus>
+                                    <title type="supplied" xml:lang="la">Ep. 9</title>
+                                    <rubric xml:lang="gr">Ἀπολογία Κώων πρὸς βασιλέα</rubric>
+                                </msItem>
+                                <msItem n="8.3">
+                                    <locus from="100r:1" to="100r:14">100r:1-14</locus>
+                                    <title type="supplied" xml:lang="la">Ep. 1</title>
+                                    <rubric xml:lang="gr">Ἀρταξέρξου πρὸς Πέτω</rubric>
+                                </msItem>
+                                <listBibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Dimitrios</forename>
+                                                <surname>Sakalis</surname>
+                                            </persName>
+                                        </author>
+                                        <title xml:lang="gr">Ιπποκράτους επιστολαί: Έκδοση κριτική και ερμηνευτική</title>
+                                        <pubPlace>Ioannina</pubPlace>
+                                        <date when="1989">1989</date>
+                                        <biblScope type="pages" from="297" to="302"/>
+                                    </bibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Wesley D.</forename>
+                                                <surname>Smith</surname>
+                                            </persName>
+                                        </author>
+                                        <title xml:lang="en">Hippocrates. Pseudepigraphic Writings: Letters, Embassy, Speech from the Altar, Decree</title>
+                                        <pubPlace>Leiden</pubPlace>
+                                        <date when="1990">1990</date>
+                                        <biblScope type="pages" from="48" to="55"/>
+                                    </bibl>
+                                </listBibl>
+                            </msItem>
+                            <msItem n="9">
+                                <locus from="100r:13" to="103r:12">100r:13-103:12</locus>
+                                <author>Anacharsis</author>
+                                <title type="supplied" xml:lang="en">Letters (TLG 0037.001)</title>
+                                <rubric xml:lang="gr">Ἐπιστολαὶ Ἀναχάρσιδος Σκύθου</rubric>
+                                <msItem n="9.1">
+                                    <locus from="100r:13" to="101r:15">100r:13-101r:15</locus>
+                                    <title type="supplied" xml:lang="la">Ep. 1</title>
+                                    <rubric xml:lang="gr">πρὸς Ἀθηναίους</rubric>
+                                </msItem>
+                                <msItem n="9.2">
+                                    <locus from="101r:15" to="101v">101r:15-101v</locus>
+                                    <title type="supplied" xml:lang="la">Ep. 2</title>
+                                    <rubric xml:lang="gr">Σώλωνι</rubric>
+                                </msItem>
+                                <msItem n="9.3">
+                                    <locus from="102r:1" to="102r:9">102r:1-9</locus>
+                                    <title type="supplied" xml:lang="la">Ep. 3</title>
+                                    <rubric xml:lang="gr">Ἰπάρχω τυράνω</rubric>
+                                </msItem>
+                                <msItem n="9.4">
+                                    <locus from="102r:9" to="102r:16">102r:9-16</locus>
+                                    <title type="supplied" xml:lang="la">Ep. 4</title>
+                                    <rubric xml:lang="gr">Μικόω</rubric>
+                                </msItem>
+                                <msItem n="9.5">
+                                    <locus from="102r:16" to="102v:5">102r:16-102v:5</locus>
+                                    <title type="supplied" xml:lang="la">Ep. 5</title>
+                                    <rubric xml:lang="gr">Ἄνωνι</rubric>
+                                </msItem>
+                                <msItem n="9.6">
+                                    <locus from="102v:5" to="102v:10">102v:5-102v:10</locus>
+                                    <title type="supplied" xml:lang="la">Ep. 6</title>
+                                    <rubric xml:lang="gr">υἱῶ <expan xml:lang="gr">
+                                            <abbr>βασιλέ</abbr>
+                                            <ex>ως</ex>
+                                        </expan>
+                                    </rubric>
+                                </msItem>
+                                <msItem n="9.7">
+                                    <locus from="102v:10" to="103r:5">102v:10-103r:5</locus>
+                                    <title type="supplied" xml:lang="la">Ep. 7</title>
+                                    <rubric xml:lang="gr">Τείρειν</rubric>
+                                </msItem>
+                                <msItem n="9.8">
+                                    <locus from="103r:5" to="103r:12">103r:5-12</locus>
+                                    <title type="supplied" xml:lang="la">Ep. 8</title>
+                                    <rubric xml:lang="gr">Θρασυλόχω</rubric>
+                                </msItem>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Franz</forename>
+                                            <forename>Heinrich</forename>
+                                            <surname>Reuters</surname>
+                                        </persName>
+                                    </author>
+                                    <title xml:lang="la">De Anacharsidis epistulis</title>
+                                    <pubPlace>Bonn</pubPlace>
+                                    <date when="1957">1957</date>
+                                </bibl>
+                            </msItem>
+                            <msItem n="10">
+                                <locus from="103r:13" to="103v">103r:13-103v</locus>
+                                <title type="supplied" xml:lang="en">Sayings and proverbs</title>
+                                <msItem n="10.1">
+                                    <locus from="103r:13" to="103v:14">103r:13-103v:14</locus>
+                                    <author>Ps. Callisthenes</author>
+                                    <title type="supplied" xml:lang="en">Five sayings from the Alexander Romance (TLG 1386.007)</title>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Helmut van</forename>
+                                                <surname>Thiel</surname>
+                                            </persName>
+                                        </author>
+                                        <title xml:lang="ge">Die Rezension λ des Pseudo-Kallisthenes</title>
+                                        <pubPlace>Bonn</pubPlace>
+                                        <date when="1959">1959</date>
+                                        <biblScope type="pages" from="40" to="41"/>
+                                    </bibl>
+                                </msItem>
+                                <msItem n="10.2">
+                                    <locus from="103v:15" to="103v:15">103v:15-15</locus>
+                                    <author>Libanius</author>
+                                    <title type="supplied" xml:lang="en">A proverb</title>
+                                    <incipit xml:lang="gr">Πρέπων γυναικὶ κόσμος</incipit>
+                                    <explicit xml:lang="gr">οὐ τὸ κάλλος, ἀλλ’ ἡ σωφροσύνη</explicit>
+                                    <note xml:lang="en">The citation is from Lib. Declamationes, 6. 2, 35.</note>
+                                </msItem>
+                                <msItem n="10.3">
+                                    <locus from="103v:16" to="103v:17">103v:16-17</locus>
+                                    <title type="supplied" xml:lang="en">A proverb</title>
+                                    <incipit xml:lang="gr">); Ὡσπερ ἐνώτιον χρυσοῦν ἐν ῥινὶ ὑός</incipit>
+                                    <explicit xml:lang="gr">οὕτω κακόφρονι γυναικὶ κάλλος</explicit>
+                                    <note xml:lang="en">The citation is from Prov. 11:22.</note>
+                                </msItem>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    <msPart n="4">
+                        <altIdentifier type="other">
+                            <idno>Unit 4</idno>
+                        </altIdentifier>
+                        <msContents>
+                            <msItem n="11">
+                                <locus from="104r" to="122v:1">104r-122v:1</locus>
+                                <author>Paulus Aegineta</author>
+                                <title type="supplied">Medical Compendium (TLG 0715.001; CMG 9:1)</title>
+                                <title type="uniform" xml:lang="la">Epitomae medicae libri septem</title>
+                                <rubric xml:lang="gr">Παύλου Αἰγινίτου τοῦ περιοδεύτου περὶ τῶν ἐν ταῖς τροφαῖς δυνάμεων</rubric>
+                                <msItem n="11.1">
+                                    <locus from="104r" to="118v:16">104r-118v:16</locus>
+                                    <title type="supplied" xml:lang="en">Book 1, ch. 73–99</title>
+                                </msItem>
+                                <msItem n="11.2">
+                                    <locus from="118v:17" to="122v:1">118v:17-122v:1</locus>
+                                    <title type="supplied" xml:lang="en">Book 1, ch. 100</title>
+                                    <note xml:lang="en">The text is also known as Diocles of Karystos' Prophylactic letter.</note>
+                                </msItem>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Johan</forename>
+                                            <forename>Ludvig</forename>
+                                            <surname>Heiberg</surname>
+                                        </persName>
+                                    </author>
+                                    <title xml:lang="la">Paulus Aegineta edidit I. L. Heiberg</title>
+                                    <pubPlace>Leipzig</pubPlace>
+                                    <date when="1921">1921</date>
+                                    <biblScope type="volume">1</biblScope>
+                                </bibl>
+                            </msItem>
+                            <msItem n="12">
+                                <locus from="122v:2" to="127r:12">122v:2–127r:12</locus>
+                                <author>Anonymous</author>
+                                <title type="supplied" xml:lang="en">A botanical lexicon</title>
+                                <rubric xml:lang="gr">Λεξικὸν τῆς τῶν βοτανῶν ἑρμηνείας κατὰ στοιχεῖον</rubric>
+                                <incipit xml:lang="gr">ἀκτέα· ἡ κουφοξυλέα</incipit>
+                                <explicit xml:lang="gr">ὤκυμον· τὸ βασιλικόν</explicit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Eva</forename>
+                                            <surname>Nyström</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Containing multitudes: Codex Upsaliensis Graecus 8 in perspective</title>
+                                    <pubPlace>Uppsala</pubPlace>
+                                    <date when="2009">2009</date>
+                                    <biblScope type="pages" from="265" to="270"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="13">
+                                <locus from="127r:13" to="127v:6">127r:13-127v:6</locus>
+                                <author>Aetius Amidenus</author>
+                                <title type="supplied" xml:lang="en">Sixteen Books on Medicine, XV, 15, 693-704</title>
+                                <title type="alt" xml:lang="la">Iatricorum liber XV  (TLG 0718.015)</title>
+                                <incipit xml:lang="gr">Τὼ Δαμοκράτου σφόδρα ἀγαθῆ διαφοροῦσα χοιράδας</incipit>
+                                <explicit xml:lang="gr">οὐ ποιοῦν ψυδράκια</explicit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Skevos</forename>
+                                            <surname>Zervos</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="a" xml:lang="gr">Ἀετίου Ἀμιδηνοῦ λόγος δέκατος πέμπτος</title>
+                                    <title level="j">Athena</title>
+                                    <date when="1909">1909</date>
+                                    <biblScope type="volume">21</biblScope>
+                                    <biblScope type="pages" from="99" to="99">99</biblScope>
+                                </bibl>
+                            </msItem>
+                            <msItem n="14">
+                                <locus from="127v:7" to="127v:9">127v:7-9</locus>
+                                <author>Anonymous</author>
+                                <title type="supplied" xml:lang="en">On contraceptives</title>
+                                <incipit xml:lang="gr">Κυκλάμινον βασταζόμενον</incipit>
+                                <explicit xml:lang="gr">ἀτοκίαν καὶ αὐτὸ ποιεῖ</explicit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Eva</forename>
+                                            <surname>Nyström</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Containing multitudes: Codex Upsaliensis Graecus 8 in perspective</title>
+                                    <pubPlace>Uppsala</pubPlace>
+                                    <date when="2009">2009</date>
+                                    <biblScope type="pages" from="270" to="270">270</biblScope>
+                                </bibl>
+                            </msItem>
+                            <msItem n="15">
+                                <locus from="127v:10" to="127v:16">127v:10-16</locus>
+                                <author>Hippocrates</author>
+                                <title type="supplied" xml:lang="en">On the Number Seven, 5</title>
+                                <incipit xml:lang="gr">Ἰστέον ὡς Ἱπποκράτης ἑπτὰ ἡλικίας</incipit>
+                                <explicit xml:lang="gr">τὸ ἐντεῦθεν βουγέρον</explicit>
+                                <note xml:lang="en">Cf. Philo, Op. 105.</note>
+                                <note xml:lang="en">Cf. Scholia vetera in Hesiodi opera et dies, 447a.</note>
+                                <listBibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Wilhelm H.</forename>
+                                                <surname>Roscher</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">Die hippokratische Schrift von der Siebenzahl</title>
+                                        <pubPlace>Paderborn</pubPlace>
+                                        <date when="1913">1913</date>
+                                        <biblScope type="pages" from="9" to="10"/>
+                                    </bibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Agostino</forename>
+                                                <surname>Pertusi</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">Scholia vetera in Hesiodi Opera et dies</title>
+                                        <pubPlace>Milano</pubPlace>
+                                        <date when="1955">1955</date>
+                                        <biblScope type="pages" from="" to=""/>
+                                    </bibl>
+                                </listBibl>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    <msPart n="5">
+                        <altIdentifier type="other">
+                            <idno>Unit 5</idno>
+                        </altIdentifier>
+                        <msContents>
+                            <msItem n="16">
+                                <locus from="128r" to="132r:6">128r-132r:6</locus>
+                                <author>Gregorius Thaumaturgus</author>
+                                <title type="supplied" xml:lang="en">Treatise on the Soul (TLG 2063.008; CPG 1773)</title>
+                                <title type="alt" xml:lang="la">Ad Tatianum de anima per capita disputatio</title>
+                                <title type="alt" xml:lang="la">De anima ad Tatianum</title>
+                                <rubric xml:lang="gr">Τοῦ ἁγίου Γρηγορίου τοῦ Θαυματουργοῦ περὶ ψυχῆς</rubric>
+                                <incipit xml:lang="gr">Λόγος περὶ ψυχῆς ἀκολουθίᾳ τινὶ καὶ τάξει</incipit>
+                                <explicit xml:lang="gr">ἐδείχθη ἄρα λογικὴ ἡ ψυχή</explicit>
+                                <bibl>
+                                    <title level="m">Patrologiae cursus completus, series Graeca</title>
+                                    <editor role="editor">
+                                        <forename>Jacques</forename>
+                                        <forename>Paul </forename>
+                                        <surname>Migne</surname>
+                                    </editor>
+                                    <pubPlace>Paris </pubPlace>
+                                    <date when="1857">1857</date>
+                                    <biblScope type="volume">10</biblScope>
+                                    <biblScope type="pages" from="1137" to="1145"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="17">
+                                <locus from="132r:6" to="134r:9">132r:6-134r:9</locus>
+                                <author>John Philoponos</author>
+                                <title type="supplied" xml:lang="en">Commentary in Aristotle’s De Anima (TLG 4015.008)</title>
+                                <note xml:lang="en">excerpts</note>
+                                <rubric xml:lang="gr">εἰ σῶμά ἐστιν ἢ ἀσώματος</rubric>
+                                <incipit xml:lang="gr">ἔτι ἡ ψυχὴ ἀσώματος; πᾶν σῶμα κατὰ τῇ ἑαυτοῦ φύσει</incipit>
+                                <explicit xml:lang="gr">κατ’ οὐδένα τρόπον ἄρα φθείρεται</explicit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Michael</forename>
+                                            <surname>Hayduck</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">In Aristotelis libros de anima commentaria</title>
+                                    <pubPlace>Berlin</pubPlace>
+                                    <date when="1897">1897</date>
+                                    <biblScope type="pages" from="12" to="16">12-16</biblScope>
+                                    <biblScope type="pages" from="46" to="46">46</biblScope>
+                                </bibl>
+                            </msItem>
+                            <msItem n="18">
+                                <locus from="134r:9" to="137r:3">134r:9-137r:3</locus>
+                                <author>Anonymous</author>
+                                <title type="supplied" xml:lang="en">On the three states in life</title>
+                                <rubric xml:lang="gr">Περὶ τὰς τρεῖς ἀποκαταστάσεις τοῦ βίου</rubric>
+                                <incipit xml:lang="gr">Τρεῖς ἀποκαταστάσεις τοῦ βίου οἶδεν</incipit>
+                                <explicit xml:lang="gr">δυνατὸς τὴν σοφίαν τοῦ Θεοῦ</explicit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Eva</forename>
+                                            <surname>Nyström</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Containing multitudes: Codex Upsaliensis Graecus 8 in perspective</title>
+                                    <pubPlace>Uppsala</pubPlace>
+                                    <date when="2009">2009</date>
+                                    <biblScope type="pages" from="270" to="272"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="19">
+                                <locus from="137r:4" to="138v:6">137r:4-138v:6</locus>
+                                <author>Anonymous</author>
+                                <title type="supplied" xml:lang="en">On the three stages of spiritual life</title>
+                                <incipit xml:lang="gr">Τρεῖς εἰσὶ τάξεις ἐν τοῖς ποιουμένοις τὰς προκοπάς</incipit>
+                                <explicit xml:lang="gr">τῆς σοφίας καὶ τῆς θεολογίας</explicit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Eva</forename>
+                                            <surname>Nyström</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Containing multitudes: Codex Upsaliensis Graecus 8 in perspective</title>
+                                    <pubPlace>Uppsala</pubPlace>
+                                    <date when="2009">2009</date>
+                                    <biblScope type="pages" from="272" to="273"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="20">
+                                <locus from="138v:6" to="147r:7">138v:6-147r:7</locus>
+                                <author>Manuel Christonymos</author>
+                                <title type="supplied" xml:lang="en">Monody on the Capture of Constantinople</title>
+                                <rubric xml:lang="gr">Τοῦ σοφοῦ καὶ λογίου καὶ διδασκάλου κῦρ Μανουὴλ τοῦ Χρηστονύμου μονῳδία ἐπὶ τῇ ἀπροσδοκήτῳ ἁλώσει τῆς Κωνσταντίνου πόλεως</rubric>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Spyridon</forename>
+                                            <surname>Lampros</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="a" xml:lang="gr">Μονῳδίαι καὶ θρῆνοι ἐπὶ τῇ ἁλώσει Κωνσταντινουπόλεως</title>
+                                    <title level="j">Νέος Ἑλληνομνήμων</title>
+                                    <date when="1908">1908</date>
+                                    <biblScope type="volume">5</biblScope>
+                                    <biblScope type="pages" from="190" to="269"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="21">
+                                <locus from="147r:7" to="151v:14">147r:7-151v:14</locus>
+                                <author>Leonardo Bruni</author>
+                                <title type="supplied" xml:lang="en">The Constitution of Florence</title>
+                                <rubric xml:lang="gr">Λεονάρδου Ἀρετείνου πολιτεία Φλορεντίνων</rubric>
+                                <incipit xml:lang="gr">Ἐπειδὴ ἐπιθυμεῖς εἰδέναι</incipit>
+                                <explicit xml:lang="gr">ἡ πολιτεία κατέστην</explicit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Athanasios</forename>
+                                            <surname>Moulakis</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="a" xml:lang="en">Leonardo Bruni’s Constitution of Florence</title>
+                                    <title level="j">Rinascimento</title>
+                                    <date when="1986">1986</date>
+                                    <biblScope type="volume">26</biblScope>
+                                    <biblScope type="pages" from="141" to="190"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="22">
+                                <locus from="151v:15" to="151v:17">151v:15-17</locus>
+                                <title type="supplied" xml:lang="en">The Seven Wonders</title>
+                                <quote xml:lang="gr">
+                                    <supplied reason="omitted">Α</supplied>ἱ πηραμίδαι τοῦ Ἰωσήφ, <supplied reason="omitted">Β</supplied>αβυλώνια τείχη, Ἑκατοντάπυλαι Θυβαι, <supplied reason="omitted">Μ</supplied>αυσώλου Καρικὸς τάφος, Κολωσὸς Ῥώδου, <supplied reason="omitted">Ν</supplied>αὸς Κηζίκου, Θέατρον Ἡρακλέως</quote>
+                                <note>Cf. Kai Brodersen, Reiseführer zu den Sieben Weltwundern, Frankfurt am Main, 1992, 142, no. 28</note>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    <msPart n="6">
+                        <altIdentifier type="other">
+                            <idno>Unit 6</idno>
+                        </altIdentifier>
+                        <msContents>
+                            <msItem n="23">
+                                <locus from="152r" to="162v:8">152r-162v:8</locus>
+                                <author>George Gemistos Plethon</author>
+                                <title type="supplied" xml:lang="en">On Virtues</title>
+                                <rubric xml:lang="gr">Τοῦ σοφωτάτου καὶ λογιωτάτου κυροῦ Γεωργίου τοῦ Γεμιστοῦ λόγος περὶ ἀρετῶν, ὅρος ἀρετῆς</rubric>
+                                <incipit xml:lang="gr">Ἀρετή ἐστιν ἕξις</incipit>
+                                <explicit xml:lang="gr">ζʹ χχρηστότης. Ϛʹ ππραότης. αʹ κκοσμιότης</explicit>
+                                <listBibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Brigitte</forename>
+                                                <surname>Tambrun-Krasker</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m" xml:lang="gr">Γεωργίου Γεμιστοῦ Πλήθωνος Περὶ ἀρετῶν</title>
+                                        <title type="alt" xml:lang="fr">Georges Gémiste Pléthon. Traité des vertus</title>
+                                        <pubPlace>Athens</pubPlace>
+                                        <date when="1987">1987</date>
+                                        <biblScope type="pages" from="1" to="15"/>
+                                    </bibl>
+                                    <bibl>
+                                        <title level="m">Patrologiae cursus completus, series Graeca</title>
+                                        <editor role="editor">
+                                            <forename>Jacques</forename>
+                                            <forename>Paul </forename>
+                                            <surname>Migne</surname>
+                                        </editor>
+                                        <pubPlace>Paris </pubPlace>
+                                        <date when="1857">1857</date>
+                                        <biblScope type="volume">160</biblScope>
+                                        <biblScope type="pages" from="865" to="882"/>
+                                    </bibl>
+                                </listBibl>
+                            </msItem>
+                            <msItem n="24">
+                                <locus from="162v:10" to="163r:9">162v:10-163r:9</locus>
+                                <author>George Gemistos Plethon</author>
+                                <title type="supplied" xml:lang="en">Reply to George Scholarios’ defense of Aristotle</title>
+                                <rubric xml:lang="gr">Γεωργίου τοῦ Γεμιστοῦ πρὸς Γεώργιον τὸν Σχολάριον</rubric>
+                                <incipit xml:lang="gr">Ἐγὼ μὲν οὐκ ὀψέ</incipit>
+                                <explicit xml:lang="gr">ἄλλως ἔσται ψευδόμενος</explicit>
+                                <note>Only the introductory part of the treatise is included.</note>
+                                <listBibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Enrico V.</forename>
+                                                <surname>Maltese</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m" xml:lang="la">Georgii Gemisti Plethonis, Contra Scholarii pro Aristotele Obiectiones</title>
+                                        <pubPlace>Leipzig</pubPlace>
+                                        <date when="1988">1988</date>
+                                        <biblScope type="pages" from="1" to="1">1</biblScope>
+                                    </bibl>
+                                    <bibl>
+                                        <title level="m">Patrologiae cursus completus, series Graeca</title>
+                                        <editor role="editor">
+                                            <forename>Jacques</forename>
+                                            <forename>Paul </forename>
+                                            <surname>Migne</surname>
+                                        </editor>
+                                        <pubPlace>Paris </pubPlace>
+                                        <date when="1857">1857</date>
+                                        <biblScope type="volume">160</biblScope>
+                                        <biblScope type="pages" from="980" to="981"/>
+                                    </bibl>
+                                </listBibl>
+                            </msItem>
+                            <msItem n="25">
+                                <locus from="163r:10" to="167v:9">163r:10-167v:9</locus>
+                                <author>Bessarion</author>
+                                <title type="supplied" xml:lang="la">Three letters</title>
+                                <msItem n="25.1">
+                                    <locus from="163r:10" to="163v:14">163r:10-163v:14</locus>
+                                    <title type="supplied" xml:lang="la">Ep. 22</title>
+                                    <rubric xml:lang="gr">Βησαρίων καρδινάλειος υἱῷ Γεμιστοῦ</rubric>
+                                </msItem>
+                                <msItem n="25.2">
+                                    <locus from="163v:14" to="167r">163v:14-167r</locus>
+                                    <title type="supplied" xml:lang="la">Ep. 49</title>
+                                    <rubric xml:lang="gr">Βησαρίων καρδινάλειος Μιχαήλῳ τῷ Ἀποστόλῃ</rubric>
+                                </msItem>
+                                <msItem n="25.3">
+                                    <locus from="167v:1" to="167v:9">167v:1-9</locus>
+                                    <title type="supplied" xml:lang="la">Ep. 50</title>
+                                    <rubric xml:lang="gr">Βησαρίων καρδινάλειος Ανδρονίκῳ τῷ Καλλίστου</rubric>
+                                </msItem>
+                                <listBibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Ludwig</forename>
+                                                <surname>Mohler</surname>
+                                            </persName>
+                                        </author>
+                                        <title type="main" xml:lang="ge">Kardinal Bessarion als Theologe, Humanist und Staatsman</title>
+                                        <biblScope type="volume">3</biblScope>
+                                        <title type="sub" xml:lang="ge">Aus Bessarions Gelehrtenkreis: Abhandlungen, Reden, Briefe</title>
+                                        <title level="s">Quellen und Forschungen</title>
+                                        <biblScope type="volume">24</biblScope>
+                                        <pubPlace>Paderborn</pubPlace>
+                                        <date when="1942">1942</date>
+                                        <biblScope type="pages" from="468" to="469">468-469</biblScope>
+                                        <biblScope type="pages" from="511" to="513">511-513</biblScope>
+                                    </bibl>
+                                    <bibl>
+                                        <title level="m">Patrologiae cursus completus, series Graeca</title>
+                                        <editor role="editor">
+                                            <forename>Jacques</forename>
+                                            <forename>Paul </forename>
+                                            <surname>Migne</surname>
+                                        </editor>
+                                        <pubPlace>Paris </pubPlace>
+                                        <date when="1857">1857</date>
+                                        <biblScope type="volume">161</biblScope>
+                                        <biblScope type="pages" from="687" to="698">687-698</biblScope>
+                                    </bibl>
+                                </listBibl>
+                            </msItem>
+                            <msItem n="26">
+                                <locus from="167v:9" to="173r:8">167v:9-173r:8</locus>
+                                <author>Nicholas Sagundino</author>
+                                <title type="supplied" xml:lang="en">Letter to Andronikos Kallistos</title>
+                                <rubric xml:lang="gr">Ἐπιστολὴ Νικολάου τοῦ Σεκουνδινοῦ πρὸς Ἀνδρόνικον τὸν Κάλλιστον</rubric>
+                                <incipit xml:lang="gr">Ἀνδρωνίκῳ τῳ Καλλίστου Νικόλαος ὁ Σεκουνδινὸς εὖ πράττειν</incipit>
+                                <explicit xml:lang="gr">καὶ λέγειν καὶ πράττειν τὰ δυνατά· ἔρρωσο</explicit>
+                                <listBibl>
+                                    <bibl>
+                                        <forename>Jean</forename>
+                                        <forename>François</forename>
+                                        <surname>Boissonade</surname>
+                                        <title level="m">Anecdota Graeca e codicibus regiis</title>
+                                        <biblScope type="volume">5</biblScope>
+                                        <pubPlace>Paris</pubPlace>
+                                        <date when="1883">1883</date>
+                                        <biblScope type="pages" from="377" to="387"/>
+                                    </bibl>
+                                    <bibl>
+                                        <title level="m">Patrologiae cursus completus, series Graeca</title>
+                                        <editor role="editor">
+                                            <forename>Jacques</forename>
+                                            <forename>Paul </forename>
+                                            <surname>Migne</surname>
+                                        </editor>
+                                        <pubPlace>Paris </pubPlace>
+                                        <date when="1857">1857</date>
+                                        <biblScope type="volume">161</biblScope>
+                                        <biblScope type="pages" from="691" to="696"/>
+                                    </bibl>
+                                </listBibl>
+                            </msItem>
+                            <msItem n="27">
+                                <locus from="173r:8" to="186v:12">173r:8-186v:12</locus>
+                                <author>Libanios</author>
+                                <title type="supplied" xml:lang="en">Declamation 26 (TLG 2200.005)</title>
+                                <rubric xml:lang="gr">Λειβανίου πρὸς λάλον γυναῖκα</rubric>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Richard</forename>
+                                            <surname>Foerster</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m" xml:lang="la">Libanii opera</title>
+                                    <date when="1911">1911</date>
+                                    <biblScope type="volume">6</biblScope>
+                                    <biblScope type="pages" from="494" to="544"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="28">
+                                <locus from="186v:12" to="189v:13">186v:12-189v:13</locus>
+                                <author>John Chrysostom</author>
+                                <title type="supplied" xml:lang="en">Speech against Herodias (TLG 2062.224; CPG 4001; CPG 4570)</title>
+                                <title type="alt" xml:lang="la">In decollationem sancti Joannis [Sp.]</title>
+                                <rubric xml:lang="gr">Λόγος τοῦ μεγάλου Χρυσοστόμου κατὰ Ἡρωδιάδα καὶ περὶ γυναικῶν πονηρῶν</rubric>
+                                <incipit xml:lang="gr">Οὐδὲν τοίνυν θηρίον</incipit>
+                                <explicit xml:lang="gr">Γυνὴ πονηρὰ ἀνδρὶ ἁμαρτωλῷ δωθήσεται</explicit>
+                                <note>The text does not include the full introduction and breaks off early; cf. PG 59, 486-488a</note>
+                                <bibl>
+                                    <title level="m">Patrologiae cursus completus, series Graeca</title>
+                                    <editor role="editor">
+                                        <forename>Jacques</forename>
+                                        <forename>Paul </forename>
+                                        <surname>Migne</surname>
+                                    </editor>
+                                    <pubPlace>Paris </pubPlace>
+                                    <date when="1857">1857</date>
+                                    <biblScope type="volume">59</biblScope>
+                                    <biblScope type="pages" from="486" to="488"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="29">
+                                <locus from="189v:13" to="190v:16">189v:13-190v:16</locus>
+                                <author>John Chrysostom</author>
+                                <title type="supplied" xml:lang="en">Sermon without a title (CPG 4878)</title>
+                                <rubric xml:lang="gr">τοῦ αὐτοῦ</rubric>
+                                <incipit xml:lang="gr">Διὰ τὴν ἀκρασίαν</incipit>
+                                <explicit xml:lang="gr">οὐχ ἥμαρτον οἱ γονοῖς αὐτοῦ</explicit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Eva</forename>
+                                            <surname>Nyström</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Containing multitudes: Codex Upsaliensis Graecus 8 in perspective</title>
+                                    <pubPlace>Uppsala</pubPlace>
+                                    <date when="2009">2009</date>
+                                    <biblScope type="pages" from="186" to="188"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="30">
+                                <locus from="190v:17" to="192v:7">190v:17-192v:7</locus>
+                                <author>Marc Eugenikos</author>
+                                <title type="supplied" xml:lang="en">Thoughts</title>
+                                <rubric xml:lang="gr">Γνώμαι τοῦ ἁγίου Μάρκου τοῦ Ἐφεσίων περὶ ὅρου ζωῆς καὶ περὶ τῆς αἰωνίου κολάσεως</rubric>
+                                <incipit xml:lang="gr">Περὶ μὲν τοῦ προορισμοῦ</incipit>
+                                <explicit xml:lang="gr">οὕτως ὁ τοῦ δικαίου σώζεται λόγος</explicit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Eva</forename>
+                                            <surname>Nyström</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Containing multitudes: Codex Upsaliensis Graecus 8 in perspective</title>
+                                    <pubPlace>Uppsala</pubPlace>
+                                    <date when="2009">2009</date>
+                                    <biblScope type="pages" from="274" to="275"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="31">
+                                <locus from="192v:8" to="193r:5">192v:8-193r:5</locus>
+                                <author>Marc Eugenikos</author>
+                                <title type="supplied" xml:lang="en">Analogies</title>
+                                <rubric xml:lang="gr">τοῦ αὐτοῦ· Ἀναλογίαι τῶν ἀπειλουμένων κολάσεων πρὸς τὰ ἁμαρτήματα</rubric>
+                                <incipit xml:lang="gr">Σκότος ἐστὶ βαθὺ</incipit>
+                                <explicit xml:lang="gr">ὥσπερ ἡ νόσος τοῦ σώματος</explicit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Eva</forename>
+                                            <surname>Nyström</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Containing multitudes: Codex Upsaliensis Graecus 8 in perspective</title>
+                                    <pubPlace>Uppsala</pubPlace>
+                                    <date when="2009">2009</date>
+                                    <biblScope type="pages" from="275" to="275">275</biblScope>
+                                </bibl>
+                            </msItem>
+                            <msItem n="32">
+                                <locus from="193r:5" to="193v:10">193r:5-193v:10</locus>
+                                <author>Anonymous</author>
+                                <title type="supplied">A problem</title>
+                                <incipit xml:lang="gr">Ἀπορία πῶς ἀνέχεται ὁ θεὸς</incipit>
+                                <explicit xml:lang="gr">ἑκουσίως ἑαυτὴν χωρίσασαν</explicit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Eva</forename>
+                                            <surname>Nyström</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Containing multitudes: Codex Upsaliensis Graecus 8 in perspective</title>
+                                    <pubPlace>Uppsala</pubPlace>
+                                    <date when="2009">2009</date>
+                                    <biblScope type="pages" from="275" to="276"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="33">
+                                <locus from="193v:10" to="194v:10">193v:10-194v:10</locus>
+                                <author>Anonymous</author>
+                                <title type="supplied">Hymn to the Theotokos</title>
+                                <rubric xml:lang="gr">Εὐχὴ εἰς τὴν ὑπεραγίαν δέσποιναν ἡμῶν θεοτόκον</rubric>
+                                <incipit xml:lang="gr">Παντάνασσα, πανύμνητε</incipit>
+                                <explicit xml:lang="gr">εἰς πάντας τοὺς αἰῶνας</explicit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Eva</forename>
+                                            <surname>Nyström</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Containing multitudes: Codex Upsaliensis Graecus 8 in perspective</title>
+                                    <pubPlace>Uppsala</pubPlace>
+                                    <date when="2009">2009</date>
+                                    <biblScope type="pages" from="276" to="276">276</biblScope>
+                                </bibl>
+                            </msItem>
+                            <msItem n="34">
+                                <locus from="194v:10" to="195r:14">194v:10-195r:14</locus>
+                                <author>John of Damascus</author>
+                                <title type="supplied" xml:lang="en">On virtues and vices (TLG 2934.037; CPG 8111)</title>
+                                <note xml:lang="en">excerpt</note>
+                                <rubric xml:lang="gr">Τοῦ ἁγίου Ἰωάννου τοῦ Δαμασκηνοῦ περὶ τῶν ηʹ λογισμῶν δι’ ὧν πᾶσα ἁμαρτία τελεῖται</rubric>
+                                <incipit xml:lang="gr">Ὀκτώ εισι πάντες οἱ περιεκτικοί</incipit>
+                                <explicit xml:lang="gr">πάλη ἡ ἀντίστασις τοῦ λογισμοῦ</explicit>
+                                <bibl>
+                                    <title level="m">Patrologiae cursus completus, series Graeca</title>
+                                    <editor role="editor">
+                                        <forename>Jacques</forename>
+                                        <forename>Paul </forename>
+                                        <surname>Migne</surname>
+                                    </editor>
+                                    <pubPlace>Paris </pubPlace>
+                                    <date when="1857">1857</date>
+                                    <biblScope type="volume">95</biblScope>
+                                    <biblScope type="pages" from="92" to="93"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="35">
+                                <locus from="195v" to="196r:10">195v-196r:10</locus>
+                                <title type="supplied" xml:lang="en">Sayings by Maximos, Demosthenes, et al.</title>
+                                <incipit xml:lang="gr">Τοῦ ἁγίου Μαξίμου περὶ τῶν τριῶν μερῶν τῆς ψυχῆς</incipit>
+                                <explicit xml:lang="gr">ὑποτάσσεσθαι εἰς ἃ δεῖ</explicit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Eva</forename>
+                                            <surname>Nyström</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Containing multitudes: Codex Upsaliensis Graecus 8 in perspective</title>
+                                    <pubPlace>Uppsala</pubPlace>
+                                    <date when="2009">2009</date>
+                                    <biblScope type="pages" from="277" to="277">277</biblScope>
+                                </bibl>
+                            </msItem>
+                            <msItem n="36">
+                                <locus from="196r:10" to="196v:14">196r:10-196v:14</locus>
+                                <author>Isidore of Pelousion</author>
+                                <title type="supplied" xml:lang="en">Two letters</title>
+                                <msItem n="36.1">
+                                    <locus from="196r:10" to="196v:5">196r:10-196v:5</locus>
+                                    <title type="supplied" xml:lang="la">Ep. I, 390</title>
+                                    <rubric xml:lang="gr">Ἰσιδώρου τοῦ Πηλουσιώτου ἐπιστολή</rubric>
+                                    <incipit xml:lang="gr">Ἀκοαί με σκληραί</incipit>
+                                </msItem>
+                                <msItem n="36.2">
+                                    <locus from="196v:5" to="196v:14">196v:5-14</locus>
+                                    <title type="supplied" xml:lang="la">Ep. I, 167</title>
+                                    <rubric xml:lang="gr">τοῦ αὐτοῦ</rubric>
+                                    <incipit xml:lang="gr">Τὸν μάχαις χαίροντα</incipit>
+                                </msItem>
+                                <bibl>
+                                    <title level="m">Patrologiae cursus completus, series Graeca</title>
+                                    <editor role="editor">
+                                        <forename>Jacques</forename>
+                                        <forename>Paul </forename>
+                                        <surname>Migne</surname>
+                                    </editor>
+                                    <pubPlace>Paris </pubPlace>
+                                    <date when="1857">1857</date>
+                                    <biblScope type="volume">78</biblScope>
+                                    <biblScope type="pages" from="401" to="401">401</biblScope>
+                                    <biblScope type="pages" from="292" to="293">292-293</biblScope>
+                                </bibl>
+                            </msItem>
+                            <msItem n="37">
+                                <locus from="196v:15" to="196v:17">196v:15-17</locus>
+                                <title type="supplied" xml:lang="en">Three short sayings</title>
+                                <msItem n="37.1">
+                                    <quote xml:lang="gr">Τύχης γὰρ μὴ παρούσης δυστυχοῦσιν αἱ φρέναι</quote>
+                                </msItem>
+                                <msItem n="37.2">
+                                    <quote xml:lang="gr">Μνήμη θανάτου χρησιμεύει τῷ βίῳ</quote>
+                                </msItem>
+                                <msItem n="37.3">
+                                    <quote xml:lang="gr">Ὅρος φιλοσοφίας· μελέτη θανάτου</quote>
+                                </msItem>
+                            </msItem>
+                            <msItem n="38">
+                                <locus from="197r" to="199v:12">197r-199v:12</locus>
+                                <author>Constantine Manasses</author>
+                                <title type="supplied" xml:lang="en">A gnomology derived from Constantine Manasses’ Synopsis Chronike</title>
+                                <listBibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Eva</forename>
+                                                <surname>Nyström</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">Containing multitudes: Codex Upsaliensis Graecus 8 in perspective</title>
+                                        <pubPlace>Uppsala</pubPlace>
+                                        <date when="2009">2009</date>
+                                        <biblScope type="pages" from="277" to="280"/>
+                                    </bibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Odysseus</forename>
+                                                <surname>Lampsides</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m" xml:lang="la">Constantini Manassis Breviarium chronicum</title>
+                                        <title level="s" xml:lang="la">Corpus fontium historiae Byzantinae</title>
+                                        <biblScope type="volume">36</biblScope>
+                                        <pubPlace>Athens</pubPlace>
+                                        <date when="1996">1996</date>
+                                    </bibl>
+                                </listBibl>
+                            </msItem>
+                            <msItem n="39">
+                                <locus from="199v:13" to="199v:17">199v:13-17</locus>
+                                <title type="supplied" xml:lang="en">Later notes</title>
+                                <note>An owner's note? A name, διμος πετζαλης φρυσαληοτης and the phrase αρχη πιστεος μου η εικ... σταυρος can be seen. Cf. item No. 87, below.</note>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    <msPart n="7">
+                        <altIdentifier type="other">
+                            <idno>Unit 7</idno>
+                        </altIdentifier>
+                        <msContents>
+                            <msItem n="40">
+                                <locus from="200r" to="206v:1"/>
+                                <author>George Gemistos Plethon</author>
+                                <title type="supplied" xml:lang="en">Reply to the Treatise in Support of the Latin Doctrine</title>
+                                <incipit xml:lang="gr">Τὸ ὑπὲρ Λατίνων βιβλίον</incipit>
+                                <explicit xml:lang="gr">τὰ κράτιστα ἡμῖν βουλευσαμένοις ἑλέσθαι</explicit>
+                                <bibl>
+                                    <title level="m">Patrologiae cursus completus, series Graeca</title>
+                                    <editor role="editor">
+                                        <forename>Jacques</forename>
+                                        <forename>Paul </forename>
+                                        <surname>Migne</surname>
+                                    </editor>
+                                    <pubPlace>Paris </pubPlace>
+                                    <date when="1857">1857</date>
+                                    <biblScope type="volume">160</biblScope>
+                                    <biblScope type="pages" from="975" to="980"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="41">
+                                <locus from="206v:2" to="207v">206v:2-207v</locus>
+                                <author>Mark Eugenikos</author>
+                                <title type="supplied" xml:lang="en">On the filioque doctrine</title>
+                                <note xml:lang="en">The heading Μαρκος ὁ φεσηος ἀποφαση του πατριαρχου was added by a later hand.</note>
+                                <incipit xml:lang="gr">Ἐκπορεύεται μὲν γὰρ ἐκ τοῦ θεοῦ</incipit>
+                                <explicit xml:lang="gr">τὸ μὲν γεννητῶς, τὸ δὲ ἐκπορευτῶς</explicit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Eva</forename>
+                                            <surname>Nyström</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Containing multitudes: Codex Upsaliensis Graecus 8 in perspective</title>
+                                    <pubPlace>Uppsala</pubPlace>
+                                    <date when="2009">2009</date>
+                                    <biblScope type="pages" from="280" to="281"/>
+                                </bibl>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    <msPart n="8">
+                        <altIdentifier type="other">
+                            <idno>Unit 8</idno>
+                        </altIdentifier>
+                        <msContents>
+                            <msItem n="42">
+                                <locus from="208r" to="223v">208r-223v</locus>
+                                <author>John Tzetzes</author>
+                                <title type="supplied" xml:lang="en">Book of Histories (TLG 9022.001)</title>
+                                <title type="alt" xml:lang="la">Chiliades</title>
+                                <note xml:lang="en">excerpts</note>
+                                <note xml:lang="en">The excerpts correspond to the following passages in Leone's edition: Chil. Ι, hist. 3, 140-159; Chil. Χ, hist. 316, 167-177; Chil. Χ, hist. 361, 962-987; Chil. ΧΙ, hist. 368, 90-101; Chil. ΙΙ, hist. 34, 65 and 68-105; Chil. I, hist. 27, 703-808; Chil. I, hist. 32, 851-II, 18; Chil. I, hist. 28, 809-814; Chil. IV, 471-779 (letter to John Lachanas).</note>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Pietro L. M.</forename>
+                                            <surname>Leone</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Ioannis Tzetzae historiae</title>
+                                    <pubPlace>Naples</pubPlace>
+                                    <date when="1968">1968</date>
+                                </bibl>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    <msPart n="9">
+                        <altIdentifier type="other">
+                            <idno>Unit 9</idno>
+                        </altIdentifier>
+                        <msContents>
+                            <msItem n="43">
+                                <locus from="224r" to="231v">224r-231v</locus>
+                                <author>Theophylact Simokates</author>
+                                <title type="supplied" xml:lang="en">Letters (TLG 3130.001)</title>
+                                <title type="alt" xml:lang="la">Epistulae</title>
+                                <note xml:lang="en">Letters included: Epp. 1, 3-4, 9-10, 13-19, 26, 29, 34, 37, 46, 60-61, 66.</note>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Giuseppe</forename>
+                                            <surname>Zanetto</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Theophylacti Simocatae epistulae</title>
+                                    <pubPlace>Leipzig</pubPlace>
+                                    <date when="1985">1985</date>
+                                </bibl>
+                            </msItem>
+                            <msItem n="44">
+                                <locus from="232r:1" to="232r:12">232r:1-12</locus>
+                                <title type="supplied" xml:lang="en">The Decalogue</title>
+                                <note xml:lang="en">Cf. LXX, Deut. 6:5; Exod. 20.</note>
+                            </msItem>
+                            <msItem n="45">
+                                <locus from="232r:14" to="233v:12">232r:14-233v:12</locus>
+                                <title type="supplied" xml:lang="en">: Lists of kings</title>
+                                <note xml:lang="en">The list includes Jewish patriarchs and kings; Chaldean, Persian, and Assyrian kings; Egyptian kings; Roman emperors.</note>
+                                <incipit xml:lang="gr">
+                                    <supplied reason="omitted">Π</supplied>ρῶτος Ἀβραάμ Ἰσαὰκ Ἰακώβ</incipit>
+                                <explicit xml:lang="gr">Κώνστας ὁ τοῦ μεγάλου Κωνσταντίνου πατήρ. Ἐντεῦθεν οἱ τῶν Χριστιανῶν βασιλεῖς.</explicit>
+                            </msItem>
+                            <msItem n="46">
+                                <locus from="234r" to="237v:15">234r-237v:15</locus>
+                                <author>Anonymous</author>
+                                <title type="uniform" xml:lang="la">Carmen Paraeneticum</title>
+                                <note xml:lang="en">Stanzas included: 1-20, 6.</note>
+                                <incipit xml:lang="gr">Ὁ βασιλεῦς ὁ Σολομὼν εἴρηκεν πάλαι λόγον</incipit>
+                                <explicit xml:lang="gr">ὅταν ποικίλοις πειρασμοῖς ἐμπέσει παρ’ ἐλπίδα</explicit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Vilhelm</forename>
+                                            <surname>Lundström</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="a">Anecdota byzantina e codicibus Upsaliensibus</title>
+                                    <title level="j">Collectio scriptorum veterum Upsaliensis</title>
+                                    <biblScope type="volume">1</biblScope>
+                                    <pubPlace>Uppsala</pubPlace>
+                                    <date when="1902">1902</date>
+                                </bibl>
+                            </msItem>
+                            <msItem n="47">
+                                <locus from="237v:16" to="237v:18">237v:16-18</locus>
+                                <title type="supplied">A short epigram</title>
+                                <quote xml:lang="gr">Δόξαν προσλαβὼν τίμα τοὺς ὑπὸ χεῖρα | φόβον ἐμποιῶν μέχρι καὶ λόγου μόνου· | αὕτη γὰρ παρέρχεται ταχὺ πηδῶσα, | μόνη δὲ ἡ μνήμη σου συμπαραμένει.</quote>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    <msPart n="10">
+                        <altIdentifier type="other">
+                            <idno>Unit 10</idno>
+                        </altIdentifier>
+                        <msContents>
+                            <msItem n="48">
+                                <locus from="238r" to="247r:15">238r-247r:15</locus>
+                                <title type="supplied" xml:lang="en">A florilegium</title>
+                                <incipit xml:lang="gr">Ἀλέξανδρος ἐρωτηθείς, πῶς τοσούτων ἐθνῶν</incipit>
+                                <explicit xml:lang="gr">τοῖς ἀδικουμένοις οἱ νόμοι</explicit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Eva</forename>
+                                            <surname>Nyström</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Containing multitudes: Codex Upsaliensis Graecus 8 in perspective</title>
+                                    <pubPlace>Uppsala</pubPlace>
+                                    <date when="2009">2009</date>
+                                    <biblScope type="pages" from="282" to="290"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="49">
+                                <locus from="247r:16" to="247r:18">247r:16-18</locus>
+                                <quote xml:lang="gr">Τῶν Τρωϊκῶν ὕστερον γεγέννηται Ὅμηρος ἔτεσιν ἑξήκοντα καὶ ὀκτώ· ἀφ’ οὗ δὲ Ὅμηρος ἐγένετο ἔτη εἰσὶν χκβʹ μέχρι τῆς Ξέρξου διαβάσεως.</quote>
+                            </msItem>
+                            <msItem n="50">
+                                <locus from="247v" to="253r:7">247v–253r:7</locus>
+                                <title type="supplied">A lexicon of synonyms</title>
+                                <incipit xml:lang="gr">Ἀλαλάξατε· ὑψώσατε τὴν φωνήν</incipit>
+                                <explicit xml:lang="gr">ὥρα ἡ εὐμορφία</explicit>
+                            </msItem>
+                            <msItem n="51">
+                                <locus from="253r:7" to="253v:12">253r:7-253v:12</locus>
+                                <author>Michael Choniates</author>
+                                <title type="supplied" xml:lang="en">Elegy on Athens</title>
+                                <rubric xml:lang="gr">Στίχοι τοῦ σοφωτάτου μητροπολίτου Ἀθηνῶν κῦρ Μιχαὴλ τοῦ Χωνιάτου ἐπὶ τῇ ἀρχετύπῳ ἀνιστορήσει πόλεως Ἀθηνῶν</rubric>
+                                <listBibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Giovanni</forename>
+                                                <surname>Mercati</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="a" xml:lang="it">Intorno alla elegia di Michele Acominato sulla decadenza della citta di Atene</title>
+                                        <title level="m" xml:lang="gr">Εἰς μνήμην Σπυρίδωνος Λαμπροῦ</title>
+                                        <pubPlace>Athens</pubPlace>
+                                        <date when="1935">1935</date>
+                                        <biblScope type="pages" from="423" to="427"/>
+                                    </bibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Spyridon</forename>
+                                                <surname>Lampros</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m" xml:lang="gr">Μιχαὴλ Ἀκομινάτου τοῦ Χωνιάτου τὰ σωζόμενα</title>
+                                        <biblScope type="volume">2</biblScope>
+                                        <pubPlace>Athens</pubPlace>
+                                        <date when="1880">1880</date>
+                                        <biblScope type="pages" from="397" to="398"/>
+                                    </bibl>
+                                </listBibl>
+                            </msItem>
+                            <msItem n="52">
+                                <locus from="253v:13" to="253v:19">253v:13-19</locus>
+                                <author>Anonymous</author>
+                                <title type="uniform" xml:lang="la">Carmen Paraeneticum</title>
+                                <note xml:lang="en">Stanza 17; cf. item No. 46, above.</note>
+                                <incipit xml:lang="gr">οἵδασιν οἱ φιλόσοφοι</incipit>
+                                <explicit xml:lang="gr">τοῦ λόγου κινηθέντος</explicit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Vilhelm</forename>
+                                            <surname>Lundström</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="a">Anecdota byzantina e codicibus Upsaliensibus</title>
+                                    <title level="j">Collectio scriptorum veterum Upsaliensis</title>
+                                    <biblScope type="volume">1</biblScope>
+                                    <pubPlace>Uppsala</pubPlace>
+                                    <date when="1902">1902</date>
+                                </bibl>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    <msPart n="11">
+                        <altIdentifier type="other">
+                            <idno>Unit 11</idno>
+                        </altIdentifier>
+                        <msContents>
+                            <msItem n="53">
+                                <locus from="254r" to="256v:15">254r-256v:15</locus>
+                                <author>Anonymous</author>
+                                <title type="supplied" xml:lang="en">Views on the soul</title>
+                                <incipit xml:lang="gr">Ἃς μὲν ἔχομεν δόξας περὶ ψυχῆς</incipit>
+                                <explicit xml:lang="gr">εἰ δὲ μὴ κρούσῃς οὐκ ἀνοιγήσεται</explicit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Eva</forename>
+                                            <surname>Nyström</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Containing multitudes: Codex Upsaliensis Graecus 8 in perspective</title>
+                                    <pubPlace>Uppsala</pubPlace>
+                                    <date when="2009">2009</date>
+                                    <biblScope type="pages" from="290" to="293"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="54">
+                                <locus from="256v:16" to="256v:17">256v:16-17</locus>
+                                <title type="supplied">Two short sayings</title>
+                                <quote xml:lang="gr">Μνήμη θανάτου χρησιμεύει τῷ βίῳ. Ὅρος φιλοσοφίας· ἡ τοῦ θανάτου μελέτη.</quote>
+                                <note xml:lang="en">Cf. item No. 37, above.</note>
+                            </msItem>
+                            <msItem n="55">
+                                <locus from="257r" to="261v">257r-261v</locus>
+                                <author>Anonymous</author>
+                                <title type="supplied" xml:lang="en">A prose paraphrase of Gregory of Nazianzos’ poem On Virtue (Carm. mor. I. 2, 9)</title>
+                                <incipit xml:lang="gr">Πόθος μὲν ἐμοὶ τῆς ἀρετῆς</incipit>
+                                <explicit xml:lang="gr">ἡμέρας ἐκείνης φωτὶ διαλυθήσεται</explicit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Denis M.</forename>
+                                            <surname>Searby</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="a">A Paraphrase of Gregory of Nazianz’ Carmen De Virtute 2.9 in an Uppsala MS</title>
+                                    <title level="j">Orientalia Christiana Periodica</title>
+                                    <biblScope type="volume">69</biblScope>
+                                    <date when="2003">2003</date>
+                                    <biblScope type="pages" from="341" to="353"/>
+                                </bibl>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    <msPart n="12">
+                        <altIdentifier type="other">
+                            <idno>Unit 12</idno>
+                        </altIdentifier>
+                        <msContents>
+                            <msItem n="56">
+                                <locus from="262r" to="278r:8">262r-278r:8</locus>
+                                <author>Theodoret of Kyrros</author>
+                                <title type="supplied" xml:lang="en">Cure of the Pagan Maladies (TLG 4089.001)</title>
+                                <title type="alt" xml:lang="la">Graecarum affectionum curatio</title>
+                                <note xml:lang="en">Four longer excerpts: Thdt, Affect 4.5-16; 4.32-42; 5.8-52; and 6.11-26.</note>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Pierre</forename>
+                                            <surname>Canivet</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m" xml:lang="fr">Théodoret de Cyr. Thérapeutique des maladies helléniques</title>
+                                    <pubPlace>Paris</pubPlace>
+                                    <date when="1958">1958</date>
+                                </bibl>
+                            </msItem>
+                            <msItem n="57">
+                                <locus from="278r:9" to="278v:11">278r:9-278v:11</locus>
+                                <author>Anonymous</author>
+                                <title type="supplied" xml:lang="en">On entelechy </title>
+                                <incipit xml:lang="gr">Ἐντελέχεια μὲν προηγουμένως</incipit>
+                                <explicit xml:lang="gr">ἤγουν ἁπλῶς ἐνέργεια</explicit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Eva</forename>
+                                            <surname>Nyström</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Containing multitudes: Codex Upsaliensis Graecus 8 in perspective</title>
+                                    <pubPlace>Uppsala</pubPlace>
+                                    <date when="2009">2009</date>
+                                    <biblScope type="pages" from="293" to="293">293</biblScope>
+                                </bibl>
+                            </msItem>
+                            <msItem n="58">
+                                <locus from="278v:12" to="279r:10">278v:12-279r:10</locus>
+                                <title type="supplied" xml:lang="en">Two epigrams, AP IX 359-360 (TLG 7000.001)</title>
+                                <msItem n="58.1">
+                                    <author>Posidippus</author>
+                                    <incipit xml:lang="gr">
+                                        <supplied reason="omitted">ε</supplied>ἰν ἀγορὰ μὲν νείκεα</incipit>
+                                </msItem>
+                                <msItem n="58.2">
+                                    <author>Metrodorus</author>
+                                    <rubric xml:lang="gr">τοῦ αὐτοῦ</rubric>
+                                    <incipit xml:lang="gr">Παντοίην βιότοιο τάμβις</incipit>
+                                </msItem>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Hermann</forename>
+                                            <surname>Beckby</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Anthologia Graeca</title>
+                                    <pubPlace>Munich</pubPlace>
+                                    <date when="1965">1965</date>
+                                </bibl>
+                            </msItem>
+                            <msItem n="59">
+                                <locus from="279r:11" to="279r:15">279r:11-15</locus>
+                                <title type="supplied" xml:lang="en">Sayings of the Seven Sages</title>
+                                <rubric xml:lang="gr">η λογη τον σοφον αντρον</rubric>
+                                <incipit xml:lang="gr">
+                                    <supplied reason="omitted">Β</supplied>ίας ὁ Πριηνεύς· οἱ πλείονες κακοί</incipit>
+                                <explicit xml:lang="gr">
+                                    <supplied reason="omitted">ὁ</supplied>ρᾷν τέρμα βιώτιον</explicit>
+                                <note xml:lang="en">Cf. <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Maria</forename>
+                                                <surname>Tziatzi-Papagianni</surname>
+                                            </persName>
+                                        </author>, <title level="m">Die Sprüche der sieben Weisen: zwei byzantinische
+                            Sammlungen</title>, <title level="s">Beiträge zur Altertumskunde</title>
+                                        <biblScope type="volume">51</biblScope>. <pubPlace>Stuttgart</pubPlace>, <date when="1994">1994</date>
+                                        <biblScope type="pages" from="444" to="444">444</biblScope>
+                                    </bibl>.</note>
+                            </msItem>
+                            <msItem n="60">
+                                <locus from="279r:15" to="279v:11">279r:15-279v:11</locus>
+                                <author>Anonymous</author>
+                                <title type="supplied" xml:lang="en">Pythagorean categories </title>
+                                <incipit xml:lang="gr">
+                                    <supplied reason="omitted">Ἔ</supplied>τι συστοιχίας τινὰς ἐξεῦρον</incipit>
+                                <explicit xml:lang="gr">ῥόμβος, τραπέζιον, <supplied reason="omitted">κ</supplied>ύκλος</explicit>
+                                <note xml:lang="en">Similar enumerations of opposites are found in many works and commentaries in the Aristotelian tradition. Cf. also Arist. Metaph. 986a, 23-26; Hero, Geom. 3, 18-22.</note>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Eva</forename>
+                                            <surname>Nyström</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Containing multitudes: Codex Upsaliensis Graecus 8 in perspective</title>
+                                    <pubPlace>Uppsala</pubPlace>
+                                    <date when="2009">2009</date>
+                                    <biblScope type="pages" from="293" to="294"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="61">
+                                <locus from="279v:12" to="280v">279v:12-280v</locus>
+                                <title type="supplied" xml:lang="en">A dialectal lexicon</title>
+                                <rubric xml:lang="gr">
+                                    <supplied reason="omitted">Τ</supplied>οῖαι γλῶσσαι καταπόλεις, αὗται καλοῦνται γλωσσήματα</rubric>
+                                <incipit xml:lang="gr">
+                                    <supplied reason="omitted">Ἀ</supplied>θηναῖων· ἄγαν· λίαν</incipit>
+                                <explicit xml:lang="gr">σπορτατεύεται· ἤγουν ἐξορίζεται</explicit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Eva</forename>
+                                            <surname>Nyström</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Containing multitudes: Codex Upsaliensis Graecus 8 in perspective</title>
+                                    <pubPlace>Uppsala</pubPlace>
+                                    <date when="2009">2009</date>
+                                    <biblScope type="pages" from="294" to="295"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="62">
+                                <locus from="281r" to="282v">281r-282v</locus>
+                                <title type="supplied" xml:lang="en">Lists of patriarchates, sees etc.</title>
+                                <rubric xml:lang="gr">τα πατριαρχεια ολη καὶ η μητροπόλεις καὶ η αρχιεπησκοπες</rubric>
+                                <incipit xml:lang="gr">Παλαιὰ Ῥώμη, Νέα Ῥώμη</incipit>
+                                <explicit xml:lang="gr">καὶ Σελευκία Ἰσαυρίας</explicit>
+                                <note xml:lang="en">For similar lists, see <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Jean</forename>
+                                                <surname>Darrouzès</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">Notitiae episcopatuum ecclesiae Constantinopolitanae</title>
+                                        <pubPlace>Paris</pubPlace>
+                                        <date when="1981">1981</date>
+                                    </bibl>
+                                </note>
+                            </msItem>
+                            <msItem n="63">
+                                <locus from="283r:1" to="283r:12">283r:1-12</locus>
+                                <title type="supplied" xml:lang="en">List of inventors </title>
+                                <rubric xml:lang="gr">η τέχνες τον σοφον αντρον</rubric>
+                                <incipit xml:lang="gr">Ζεῦς ἐξεῦρε πλευτικήν</incipit>
+                                <explicit xml:lang="gr">Τυρσινοὶ τυχείζει πόλις</explicit>
+                            </msItem>
+                            <msItem n="64">
+                                <locus from="283r:13" to="283v:3">283r:13-283v:3</locus>
+                                <title type="supplied" xml:lang="en">A short chronicle from Adam to Justinian</title>
+                                <incipit xml:lang="gr">Ἔστιν απὸ Ἀδᾶμ ἕως τοῦ κατακλυσμοῦ</incipit>
+                                <explicit xml:lang="gr">τοῦ μεγάλου Ἰουστινιανοῦ ἔτη σκδʹ</explicit>
+                            </msItem>
+                            <msItem n="65">
+                                <msItem n="65.1">
+                                    <locus from="283v:4" to="283v:13">283v:4-13</locus>
+                                    <title type="supplied" xml:lang="en">Lists of Palaiologan emperors and sultans</title>
+                                    <incipit xml:lang="gr">Πρῶτος Παλαιολόγος Μιχαήλ</incipit>
+                                    <explicit xml:lang="gr">ὃς ἐφονεύθη ὑπὸ τῶν Ἀγαρινῶν</explicit>
+                                </msItem>
+                                <msItem n="65.2">
+                                    <locus from="283v" to="283v">283v</locus>
+                                    <title type="supplied" xml:lang="en">A short chronicle </title>
+                                    <note xml:lang="en">(marginal note in a later hand)</note>
+                                    <incipit xml:lang="gr">ὁ ἔννατος ὁ σουλτα Παγιάζητη</incipit>
+                                    <explicit xml:lang="gr">το αφκϞ ετος ἀπο χῦ ἀγουστου κθ ...  ὁ πολεμος</explicit>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Eva</forename>
+                                                <surname>Nyström</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">Containing multitudes: Codex Upsaliensis Graecus 8 in perspective</title>
+                                        <pubPlace>Uppsala</pubPlace>
+                                        <date when="2009">2009</date>
+                                        <biblScope type="pages" from="296" to="296">296</biblScope>
+                                    </bibl>
+                                </msItem>
+                            </msItem>
+                            <msItem n="66">
+                                <locus from="283v:14" to="285v">283v:14-285v</locus>
+                                <author>Anonymous</author>
+                                <title type="supplied" xml:lang="en">A geomantic treatise: The method of ramplion</title>
+                                <incipit xml:lang="gr">Τοῦ ῥαμπλίου ἡ μέθοδος</incipit>
+                                <explicit xml:lang="gr">ταὐτὸν δὲ καὶ περὶ γυναικῶν</explicit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Eva</forename>
+                                            <surname>Nyström</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Containing multitudes: Codex Upsaliensis Graecus 8 in perspective</title>
+                                    <pubPlace>Uppsala</pubPlace>
+                                    <date when="2009">2009</date>
+                                    <biblScope type="pages" from="218" to="223"/>
+                                </bibl>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    <msPart n="13">
+                        <altIdentifier type="other">
+                            <idno>Unit 13</idno>
+                        </altIdentifier>
+                        <msContents>
+                            <msItem n="67">
+                                <locus from="286r" to="290v:14">286r-290v:14</locus>
+                                <author>Basil the Great</author>
+                                <title type="supplied" xml:lang="la">Ep. 2 (TLG 2040.004; CPG 2900)</title>
+                                <rubric xml:lang="gr">Τοῦ ἐν ἁγίοις πατρὸς ἡμῶν Βασιλείου ἁρχιεπισκόπου Καισαρείας Καππαδοκίας τοῦ μεγάλου ὁμιλία πρὸς Γρηγόριον τὸν Θεόλογον· Περὶ βίου καταστάσεως</rubric>
+                                <incipit xml:lang="gr">Ἐπέγνων σου τὴν ἐπιστολήν</incipit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Yves</forename>
+                                            <surname>Courtonne</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Saint Basile. Lettres</title>
+                                    <biblScope type="volume">1</biblScope>
+                                    <pubPlace>Paris</pubPlace>
+                                    <date when="1957">1957</date>
+                                    <biblScope type="pages" from="5" to="13"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="68">
+                                <locus from="290v:15" to="297r:18">290v:15-297r:18</locus>
+                                <author>Libanios</author>
+                                <note xml:lang="en">and</note>
+                                <author>Basil the Great</author>
+                                <title type="supplied" xml:lang="en">Correspondence (TLG 2200.003; CPG 2900)</title>
+                                <title type="alt" xml:lang="la">Epistularum Basilii et Libanii quod fertur commercium</title>
+                                <rubric xml:lang="gr">Ἐπιστολαὶ ἀμοιβαῖαι τοῦ Λιβανίου πρὸς τὸν μέγαν Βασίλειον</rubric>
+                                <note xml:lang="en">The correspondence includes Epp. Lib.-Bas. 7; 1; 15–22; 2–6; 8–9; 13–14; 10–12 (numbering according to Foerster’s edition).</note>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Richard</forename>
+                                            <surname>Foerster</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Libanii opera</title>
+                                    <biblScope type="volume">11</biblScope>
+                                    <pubPlace>Leipzig</pubPlace>
+                                    <date when="1922">1922</date>
+                                    <biblScope type="pages" from="572" to="597"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="69">
+                                <locus from="297r:18" to="297r:20">297r:18-20</locus>
+                                <author>Gregory of Nazianzos</author>
+                                <title type="supplied" xml:lang="la">Ep. 236</title>
+                                <title type="alt" xml:lang="la">Epistulae (TLG 2022.001; CPG 3032)</title>
+                                <rubric xml:lang="gr">Λιβανίῳ Γρηγόριος</rubric>
+                                <incipit xml:lang="gr">Πατὴρ πατρὶ πέπομφα παῖδας</incipit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Paul</forename>
+                                            <surname>Gallay</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Saint Grégoire de Nazianze. Lettres</title>
+                                    <biblScope type="volume">2</biblScope>
+                                    <pubPlace>Paris</pubPlace>
+                                    <date when="1967">1967</date>
+                                    <biblScope type="pages" from="127" to="127">127</biblScope>
+                                </bibl>
+                            </msItem>
+                            <msItem n="70">
+                                <locus from="297r:20" to="297v:17">297r:20-297v:17</locus>
+                                <author>Basil the Great</author>
+                                <title type="supplied" xml:lang="la">Epp. 330, 332, 186, 187</title>
+                                <title type="alt" xml:lang="la">Epistulae (TLG 2040.004; CPG 2900)</title>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Yves</forename>
+                                            <surname>Courtonne</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Saint Basile. Lettres</title>
+                                    <biblScope type="volume">2</biblScope>
+                                    <pubPlace>Paris</pubPlace>
+                                    <date when="1961">1961</date>
+                                    <biblScope type="pages" from="119" to="120"/>
+                                    <biblScope type="volume">3</biblScope>
+                                    <date when="1966">1966</date>
+                                    <biblScope type="pages" from="200" to="200">200</biblScope>
+                                </bibl>
+                            </msItem>
+                            <msItem n="71">
+                                <locus from="297v:18" to="299v:25">297v:18-299v:25</locus>
+                                <author>Josephus</author>
+                                <title type="supplied" xml:lang="en">The Jewish War</title>
+                                <title type="alt" xml:lang="la">De bello Judaico (TLG 0526.004)</title>
+                                <note xml:lang="en">excerpts</note>
+                                <msItem n="71.1">
+                                    <title type="supplied">BJ 3, 472-484</title>
+                                    <rubric xml:lang="gr">Δημηγορία Τίτου υἱοῦ Οὐεσπασιανοῦ</rubric>
+                                    <incipit xml:lang="gr">ἐν ἐπηκόῳ στὰς ἔλεξεν</incipit>
+                                    <explicit xml:lang="gr">πλέον τι κατορθώσομεν</explicit>
+                                </msItem>
+                                <msItem n="71.2">
+                                    <title type="supplied">BJ 3, 361–382</title>
+                                    <rubric xml:lang="gr">Δημηγορία Τίτου υἱοῦ Οὐεσπασιανοῦ</rubric>
+                                    <incipit xml:lang="gr">
+                                        <supplied reason="omitted">Δ</supplied>είσας δὲ τὴν ἔφοδον</incipit>
+                                    <explicit xml:lang="gr">μείζων ἀποφέρων παραμυθίαν</explicit>
+                                </msItem>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>André</forename>
+                                            <surname>Pelletier</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Flavius Josèphe. Guerre des juifs</title>
+                                    <pubPlace>Paris</pubPlace>
+                                    <date when="1980">1980</date>
+                                </bibl>
+                            </msItem>
+                            <msItem n="72">
+                                <locus from="299v:26" to="301v">299v:26-301v</locus>
+                                <author>Nikephoros Gregoras</author>
+                                <title type="supplied" xml:lang="en">A letter to Metochites</title>
+                                <title type="alt" xml:lang="la">Historia Romana (TLG 4145.001)</title>
+                                <rubric xml:lang="gr">Ἐπιστολὴ Γρηγορᾶ πρὸς τὸν σοφώτατον λογοθέτην παρακλητικὴ περὶ τῆς ἀστρονομίας</rubric>
+                                <incipit xml:lang="gr">
+                                    <supplied reason="omitted">ε</supplied>ἰ μὲν ἐπίσης ἅπαντα</incipit>
+                                <explicit xml:lang="gr">ἥκουσιν ἡμῶν αἱ παρακλήσεις</explicit>
+                                <note xml:lang="en">Cf. Nik. Greg. Hist. I. 322, 19 - 327, 5.</note>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Immanuel</forename>
+                                            <surname>Bekker</surname>
+                                        </persName>
+                                    </author>
+                                    <author>
+                                        <persName>
+                                            <forename>Ludwig</forename>
+                                            <surname>Schopen</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Nicephori Gregorae historiae Byzantinae</title>
+                                    <title level="s">Corpus scriptorum historiae Byzantinae</title>
+                                    <pubPlace>Bonn</pubPlace>
+                                    <date when="1855">1855</date>
+                                </bibl>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    <msPart n="14">
+                        <altIdentifier type="other">
+                            <idno>Unit 14</idno>
+                        </altIdentifier>
+                        <msContents>
+                            <msItem n="73">
+                                <locus from="302r" to="303v:16">302r-303v:16</locus>
+                                <author>Leo VI</author>
+                                <title type="uniform" xml:lang="la">Canticum compunctionis</title>
+                                <incipit xml:lang="gr">Ἆρα τίς γῆθεν ἀείρας</incipit>
+                                <explicit xml:lang="gr">ὡς ἄχυρον ἀπειλεῖ με</explicit>
+                                <listBibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Federica</forename>
+                                                <surname>Ciccolella</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="a">Il carme anacreontico di Leone VI</title>
+                                        <title level="j">Bollettino dei classici</title>
+                                        <biblScope type="volume">10</biblScope>
+                                        <date when="1989">1989</date>
+                                        <biblScope type="pages" from="17" to="37"/>
+                                    </bibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Pietro</forename>
+                                                <surname>Matranga</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">Anecdota Graeca e MSS. Bibliothecis Vaticana, Angelica,
+                                    Barberiniana, Vallicelliana, Medicea, Vindobonensi deprompta</title>
+                                        <biblScope type="volume">2</biblScope>
+                                        <date when="1850">1850</date>
+                                        <biblScope type="pages" from="683" to="688"/>
+                                    </bibl>
+                                </listBibl>
+                            </msItem>
+                            <msItem n="74">
+                                <locus from="303v:18" to="305r">303v:18-305r</locus>
+                                <author>Constantine Sikeliotes</author>
+                                <title type="supplied" xml:lang="en">An anacreontic poem</title>
+                                <incipit xml:lang="gr">Ἀπὸ μουσικῶν μελάθρων</incipit>
+                                <explicit xml:lang="gr">ὡς Δημοφόων νόστον ἀλύξω</explicit>
+                                <listBibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Giusto</forename>
+                                                <surname>Monaco</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="a">Constantini Siculi anacreonticum carmen Ἀπὸ μουσικῶν μελάθρων</title>
+                                        <title level="j">La parola del passato</title>
+                                        <biblScope type="volume">6</biblScope>
+                                        <date when="1850">1850</date>
+                                        <biblScope type="pages" from="457" to="463"/>
+                                    </bibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Pietro</forename>
+                                                <surname>Matranga</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">Anecdota Graeca e MSS. Bibliothecis Vaticana, Angelica,
+                                    Barberiniana, Vallicelliana, Medicea, Vindobonensi deprompta</title>
+                                        <biblScope type="volume">2</biblScope>
+                                        <date when="1850">1850</date>
+                                        <biblScope type="pages" from="689" to="692"/>
+                                    </bibl>
+                                </listBibl>
+                            </msItem>
+                            <msItem n="75">
+                                <locus from="305v" to="307v">305v-307v</locus>
+                                <title type="supplied">Pen trials and an owner’s note</title>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Eva</forename>
+                                            <surname>Nyström</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Containing multitudes: Codex Upsaliensis Graecus 8 in perspective</title>
+                                    <pubPlace>Uppsala</pubPlace>
+                                    <date when="2009">2009</date>
+                                    <biblScope type="pages" from="101" to="102"/>
+                                </bibl>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    <msPart n="15">
+                        <altIdentifier type="other">
+                            <idno>Unit 15</idno>
+                        </altIdentifier>
+                        <msContents>
+                            <msItem n="76">
+                                <locus from="308r" to="314v">308r-314v</locus>
+                                <title type="supplied" xml:lang="en">Three Psalms, in Latin and supralinear Greek</title>
+                                <msItem n="76.1">
+                                    <title xml:lang="la">Ps. 32 (LXX, Ps. 31)</title>
+                                    <incipit xml:lang="la">Beati quorum remissae sunt (Μακάριοι ὧν ἀφέθησαν αἱ ἀνομίαι)</incipit>
+                                </msItem>
+                                <msItem n="76.2">
+                                    <title xml:lang="la">Ps. 38 (=LXX, Ps. 37)</title>
+                                    <incipit xml:lang="la">Domine ne in furore tuo (Κύριε, μὴ τῷ θυμῷ σου)</incipit>
+                                </msItem>
+                                <msItem n="76.3">
+                                    <title xml:lang="la">Ps. 51 (LXX, Ps. 50)</title>
+                                    <incipit xml:lang="la">Miserere mei Deus (Ἐλέησόν με, ὁ Θεός)</incipit>
+                                </msItem>
+                            </msItem>
+                            <msItem n="77">
+                                <locus from="315r" to="315v:9">315r-315v:9</locus>
+                                <author>Ausonius</author>
+                                <title type="uniform" xml:lang="la">De institutione viri boni</title>
+                                <title type="alt">De viro bono. Πυθαγορικὴ ἀκρόασις</title>
+                                <incipit xml:lang="la">Vir bonus et sapiens</incipit>
+                                <explicit xml:lang="la">palmam et praemia <sic>victis</sic>
+                                </explicit>
+                                <listBibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Wendell</forename>
+                                                <forename>Vernon</forename>
+                                                <surname>Clausen</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">Appendix Vergiliana</title>
+                                        <pubPlace>Oxford</pubPlace>
+                                        <date when="1966">1966</date>
+                                        <biblScope type="pages" from="165" to="168"/>
+                                    </bibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Sesto</forename>
+                                                <surname>Prete</surname>
+                                            </persName>
+                                        </author>
+                                        <author>et al.</author>
+                                        <title level="m">Decimi Magni Ausonii Burdigalensis Opuscula</title>
+                                        <pubPlace>Leipzig</pubPlace>
+                                        <date when="1978">1978</date>
+                                        <biblScope type="pages" from="95" to="97"/>
+                                    </bibl>
+                                </listBibl>
+                            </msItem>
+                            <msItem n="78">
+                                <locus from="315v:10" to="315v:15">315v:10-15</locus>
+                                <title type="supplied">Later note</title>
+                                <incipit xml:lang="gr">ἡδὼρ μὲν γὲν καὶ τρεφην</incipit>
+                            </msItem>
+                            <msItem n="79">
+                                <locus from="316r" to="318r">316r-318r</locus>
+                                <title type="supplied" xml:lang="en">Liturgical texts, in Latin and supralinear Greek</title>
+                                <msItem n="79.1">
+                                    <title type="supplied">Ave Maria (Χαῖρε Μαρία)</title>
+                                </msItem>
+                                <msItem n="79.2">
+                                    <title type="supplied">Pater Noster (Πατὴρ ἡμῶν)</title>
+                                </msItem>
+                                <msItem n="79.3">
+                                    <title type="supplied">Credo in unum Deum (Πιστεύω εἰς ἕνα θεόν)</title>
+                                </msItem>
+                            </msItem>
+                            <msItem n="80">
+                                <locus from="318v" to="319v">318v-319v</locus>
+                                <title type="supplied">Ps. 6, in Latin and supralinear Greek</title>
+                                <incipit>Domine ne in furore tuo (Κύριε, μὴ τῷ θυμῷ)</incipit>
+                            </msItem>
+                            <msItem n="81">
+                                <locus from="320r" to="323r:6">320r-323r:6</locus>
+                                <title type="supplied" xml:lang="en">A formulary, in Latin and supralinear Greek</title>
+                                <incipit>Papae (τῷ πάπᾳ)</incipit>
+                                <explicit>honorato viro domino (ἐντίμῳ ἀνδρὶ κυρίῳ)</explicit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Eva</forename>
+                                            <surname>Nyström</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">Containing multitudes: Codex Upsaliensis Graecus 8 in perspective</title>
+                                    <pubPlace>Uppsala</pubPlace>
+                                    <date when="2009">2009</date>
+                                    <biblScope type="pages" from="242" to="245"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="82">
+                                <locus from="323r:7" to="323v:8">323r:7-323v:8</locus>
+                                <title type="supplied" xml:lang="en">Later notes (alphabets)</title>
+                            </msItem>
+                            <msItem n="83">
+                                <locus from="323v:9" to="323v:13">323v:9-13</locus>
+                                <title type="supplied" xml:lang="en">An arithmetic problem</title>
+                                <note xml:lang="en">(incomplete; added by a later hand)</note>
+                                <incipit xml:lang="gr">εἰσὶν μήλοι τρεῖς</incipit>
+                                <explicit xml:lang="gr">ἔχω μόδια ιγʹ. εἰπέ μοι</explicit>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    <msPart n="16">
+                        <altIdentifier type="other">
+                            <idno>Unit 16</idno>
+                        </altIdentifier>
+                        <msContents>
+                            <msItem n="84">
+                                <locus from="324r" to="328r:1">324r-328r:1</locus>
+                                <title type="supplied" xml:lang="en">Mathematical problems, part one</title>
+                                <incipit xml:lang="gr">εἶτα πολλαπλασίασον τὰ 9 μετὰ τῶν 10</incipit>
+                                <explicit xml:lang="gr">εὕρεις ἀσφαλῶς τὴν ζημίαν ἑνὸς ἑκάστου</explicit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Denis M.</forename>
+                                            <surname>Searby</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="a">A Collection of Mathematical Problems in Cod. Ups. Gr. 8</title>
+                                    <title level="s">Byzantinische Zeitschrift</title>
+                                    <biblScope type="volume">96</biblScope>
+                                    <date when="2003">2003</date>
+                                    <biblScope type="pages" from="689" to="702"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="85">
+                                <locus from="328r:2" to="329r">328r:2-329r</locus>
+                                <title type="supplied" xml:lang="en">Later notes</title>
+                                <note xml:lang="en">Pen trials; an indecent(?) microtext; a proverb on friendship.</note>
+                            </msItem>
+                            <msItem n="86">
+                                <locus from="329v" to="331r">324r-328r:1</locus>
+                                <title type="supplied" xml:lang="en">Mathematical problems, part two</title>
+                                <incipit xml:lang="gr">εἰ θέλεις μαθεῖν να ὁμαδιάσεις</incipit>
+                                <explicit xml:lang="gr">εἰ μὲν ἐξηβεῖ ἑπτὰ ἀκέραια ἔνι ἀληθές</explicit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Denis M.</forename>
+                                            <surname>Searby</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="a">A Collection of Mathematical Problems in Cod. Ups. Gr. 8</title>
+                                    <title level="s">Byzantinische Zeitschrift</title>
+                                    <biblScope type="volume">96</biblScope>
+                                    <date when="2003">2003</date>
+                                    <biblScope type="pages" from="689" to="702"/>
+                                </bibl>
+                            </msItem>
+                            <msItem n="87">
+                                <locus from="331v" to="331v">331v</locus>
+                                <title type="supplied" xml:lang="en">A note</title>
+                                <quote xml:lang="gr">Αρχη πιστεος μου η εικος σταυρος</quote>
+                                <note xml:lang="en">Cf. item No. 39, above.</note>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    <msPart n="17">
+                        <altIdentifier type="other">
+                            <idno>Unit 17</idno>
+                        </altIdentifier>
+                        <msContents>
+                            <msItem n="88">
+                                <locus from="332r" to="336v">332r-336v</locus>
+                                <title type="supplied" xml:lang="en">Life of Aesop and Aesopian Fables</title>
+                                <msItem n="88.1">
+                                    <title type="supplied" xml:lang="la">Vita III</title>
+                                    <title type="alt" xml:lang="la">Vita Aesopi</title>
+                                    <listBibl>
+                                        <bibl>
+                                            <author>
+                                                <persName>
+                                                    <forename>Alfred</forename>
+                                                    <surname>Eberhard</surname>
+                                                </persName>
+                                            </author>
+                                            <title level="m">Fabulae romanenses Graece conscriptae</title>
+                                            <biblScope type="volume">1</biblScope>
+                                            <pubPlace>Leipzig</pubPlace>
+                                            <date when="1872">1872</date>
+                                            <biblScope type="pages" from="309" to="310"/>
+                                        </bibl>
+                                        <bibl>
+                                            <author>
+                                                <persName>
+                                                    <forename>Ben Edwin</forename>
+                                                    <surname>Perry</surname>
+                                                </persName>
+                                            </author>
+                                            <title level="m">Aesopica: A Series of Texts Relating to Aesop or Ascribed to Him</title>
+                                            <biblScope type="volume">1</biblScope>
+                                            <pubPlace>Urbana</pubPlace>
+                                            <date when="1952">1952</date>
+                                            <biblScope type="pages" from="212" to="213">212–213, Testimonium 1a</biblScope>
+                                        </bibl>
+                                    </listBibl>
+                                </msItem>
+                                <msItem n="88.2">
+                                    <author>Aesop</author>
+                                    <title type="supplied" xml:lang="en">59 fables</title>
+                                    <title type="uniform">Fabulae (TLG 0096.002)</title>
+                                    <incipit xml:lang="gr">Ἀετὸς καὶ ἀλώπηξ</incipit>
+                                    <explicit xml:lang="gr">ἐπισκέψεως χάριν συλλαμ<supplied reason="omitted">βάνων</supplied>
+                                    </explicit>
+                                    <note>The following fables are included: Fab. 1 (first half), inc. Ἀετὸς καὶ ἀλώπηξ, expl. θυόντων δὲ τινῶν. Vita W, 93–100, inc. ὅμως συνεῖδον, expl. ἀναγινωσκομένους κατελείπετο. Fab. 1 (second half), inc. ἀετὸς καταπτάς, expl. τιμωρίαν οὐ διαφεύξονται. Fab. (Hausrath and Hunger) 2–4; 9–10; 16–20; 22–23; 27; 284; 283; (Perry) 275; (Hausrath and Hunger) 42; 29; 24; 11; 21; 28; 12–13; 44; 43; 45; 47; 49–50; 60; 57; 52–53; 58; 64; 66–67; 69; 239; 270; 184; 81; 76; 208; 100; 103; 289; 285; 115; A1; 116–117; 120; 126; 288; 146–147. The last fable (inc. λέων γηράσας) is truncated.                               
+                             </note>
+                                    <listBibl>
+                                        <bibl>
+                                            <author>
+                                                <persName>
+                                                    <forename>August</forename>
+                                                    <surname>Hausrath</surname>
+                                                </persName>
+                                            </author>
+                                            <author>
+                                                <persName>
+                                                    <forename>Herbert</forename>
+                                                    <surname>Hunger</surname>
+                                                </persName>
+                                            </author>
+                                            <title level="m">Aesopus. Corpus fabularum Aesopicarum</title>
+                                            <pubPlace>Leipzig</pubPlace>
+                                            <date when="1956">1956</date>
+                                            <date when="1970">1970</date>
+                                        </bibl>
+                                        <bibl>
+                                            <author>
+                                                <persName>
+                                                    <forename>Ben Edwin</forename>
+                                                    <surname>Perry</surname>
+                                                </persName>
+                                            </author>
+                                            <title level="m">Aesopica: A Series of Texts Relating to Aesop or Ascribed to Him</title>
+                                            <biblScope type="volume">1</biblScope>
+                                            <pubPlace>Urbana</pubPlace>
+                                            <date when="1952">1952</date>
+                                        </bibl>
+                                    </listBibl>
+                                </msItem>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper">
+                                <support>
+                                    <p>Written on <material>Western paper</material>. Watermark <watermark>oxhead with crown</watermark>, identical to <ref>Harlfinger Boeuf 51, left and right</ref> (1481, scribe Antonios Damilas), is present in several units (U2, U8–12 and U14–15); <watermark>scissors</watermark> similar to <ref>Harlfinger Ciseaux 68</ref>(1473–1474) appears in units U3–6. Occasional instances of <watermark>balance</watermark> similar to Harlfinger Balance 41 (1488, scribe Theodoros) and <watermark>anchor</watermark> remotely similar to <ref>Briquet Ancre 460</ref> (1475–1490); partially preserved watermarks include a <watermark>hat</watermark> (only the cord and tassel remains), the spikes of a crown, and thongs of a star.</p>
+                                </support>
+                                <extent>iii + 342 + iiiʹ<dimensions type="leaf" unit="mm">
+                                        <height quantity="135">135</height>
+                                        <width quantity="90">90</width>
+                                    </dimensions>
+                                </extent>
+                                <foliation>
+                                    <p>Foliation in Roman numerals in pencil, <locus from="Ir" to="IIIr">I-III</locus>(pinakes), foliation in ink in the top right corner of every recto page, by the hand of <persName>Nicholas de la Torre</persName>, <locus from="1r" to="336r">1-336</locus>. Inconsistencies: f. 12 is followed by ff. 12a and 12b; f. 34 is followed by f. 34a, thus bringing the total number of leaves up to 342 folios.</p>
+                                </foliation>
+                                <collation>
+                                    <p>
+                                        <formula>(II - 1)<hi rend="sup">III</hi> (first leaf cut out) ; III<hi rend="sup">6</hi> + (V - 2)<hi rend="sup">12b</hi> (the last two leaves were lost [text lacuna] and the first two leaves of the quinion have then, by mistake, been put at the end of the quire) + 8IV<hi rend="sup">75</hi> (folio 34 numbered twice) + IV<hi rend="sup">83</hi> + II<hi rend="sup">87</hi> ; 2IV<hi rend="sup">103</hi> ; 3IV<hi rend="sup">127</hi> ; 3IV<hi rend="sup">151</hi> ; 6IV<hi rend="sup">199</hi> ; IV<hi rend="sup">207</hi> ; 2IV<hi rend="sup">223</hi> ; III<hi rend="sup">229</hi> + IV<hi rend="sup">237</hi> ; 2IV<hi rend="sup">253</hi> ; IV<hi rend="sup">261</hi> ; 3IV<hi rend="sup">285</hi> ; 2IV<hi rend="sup">301</hi> ; (IV - 2)<hi rend="sup">307</hi> (the sixth and seventh leaves cut out) ; 2IV<hi rend="sup">323</hi> ; IV<hi rend="sup">331</hi> ; (III - 1)<hi rend="sup">336</hi> (last leaf cut out).</formula>
+                                    </p>
+                                    <catchwords>There are no catchwords.</catchwords>
+                                </collation>
+                                <condition>
+                                    <p>
+                                Moderate damage due to moisture and wear. Traces of singeing seen at the edges of some units. The last quire shows severe damage due to burn and water. 
+                            </p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="17 20">
+                                    <p>Written surface <dimensions type="written" unit="mm">
+                                            <height min="103" max="108"/>
+                                            <width min="60" max="75"/>103/108 x 60/75</dimensions> on <locusGrp>
+                                            <locus from="1" to="87"/>
+                                            <locus from="200" to="323"/>
+                                            <locus from="332" to="336"/>
+                                        </locusGrp>ff. 1–87, 200–323, 332–336 (U2, U7–15, U17); written surface <dimensions type="written" unit="mm">
+                                            <height from="95" to="96"/>
+                                            <width min="60" max="65"/>95 x 60/65</dimensions> on <locusGrp>
+                                            <locus from="88" to="199"/> and <locus from="324" to="331"/>
+                                        </locusGrp>ff. 88–199 and 324–331 (U3–6, U16).
+                                    Written in one column throughout; mainly between 17 and 20 lines per page. On <locus from="332r" to="336v">ff. 332r–336v</locus> there are between 42 and 49 lines per page. 
+                                </p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote scope="major" scribe="Theodoros">
+                                <p>One main scribe, Theodoros. His hand is known from two other MSS: Codex Parisinus 3045, where his name is attested in a colophon, and Codex Sinaiticus 1677.</p>
+                            </handNote>
+                            <handNote scope="minor" scribe="Nicholas de la Torre">
+                                <p>The first unit (U1), <locus from="I" to="III">ff. I–III</locus> is written by a later hand: Nicholas de la Torre added the <note xml:lang="la">pinakes</note> and also the folio numbering and a couple of headings.</p>
+                            </handNote>
+                            <handNote scope="minor">Two more scribes seem to have been active on just a few pages, one of them in Greek on ff. 104r, 107r, 109r, and 112r (U4), and the other in Latin on <locus from="308" to="323">ff. 308–323</locus> (U15).</handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote type="unspecified">Rubricat 
+                            
+                        </decoNote>
+                        </decoDesc>
+                        <bindingDesc>
+                            <binding>
+                                <p>[One or more paragraphs describing the binding] </p>
+                                <condition>[Condition of the binding.]</condition>
+                                <decoNote>[Description of decoration on the binding]</decoNote>
+                            </binding>
+                        <!-- More than one binding element can be provided if 
+                            both present and former bindings are discussed -->
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate>late 15th century</origDate>
+                        </origin>
+                        <provenance/>
+                        <acquisition/>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source/>
+                            </recordHist>
+                            <availability status="restricted">
+                                <p/>
+                            </availability>
+                            <custodialHist>
+                                <custEvent type="other"/>
+                            </custodialHist>
+                            <note/>
+                        </adminInfo>
+                        <surrogates> </surrogates>
+                        <listBibl>
+                            <bibl>
+                                <title level="m">Catalogus centuriae librorum rarissimorum manuscript. &amp; partim impressorum, arabicorum, persicorum, turcicorum, graecorum, latinorum, &amp;c. qua anno MDCCV Bibliothecam Publicam Academiae Upsalensis auxit &amp; exornavit vir illustris &amp; generosissimus Ioan. Gabr. Sparvenfeldius.</title>
+                                <editor>
+                                    <forename>Erik</forename>
+                                    <surname>Benzelius</surname>
+                                </editor>
+                                <pubPlace>Uppsala</pubPlace>
+                                <date when="1706">1706</date>
+                                <biblScope type="pages" from="" to=""/>
+                            </bibl>
+                            <bibl>
+                                <author>
+                                    <forename>Charles</forename>
+                                    <surname>Graux</surname>
+                                </author>
+                                <author>
+                                    <forename>Albert</forename>
+                                    <surname>Martin</surname>
+                                </author>
+                                <title type="m">Notices Sommaires des Manuscrits grecs de Suède</title>
+                                <pubPlace>Paris</pubPlace>
+                                <date from="1889" to="1889">1889</date>
+                            </bibl>
+                            <bibl>
+                                <author>
+                                    <forename>Sofía</forename>
+                                    <surname>Torallas Tovar</surname>
+                                </author>
+                                <title type="a">De codicibus graecis Upsaliensibus olim Escurialensibus</title>
+                                <title type="j">Erytheia</title>
+                                <biblScope type="volume">15</biblScope>
+                                <date when="1994"/>
+                                <biblScope type="pages" from="191" to="258">191–258</biblScope>
+                            </bibl>
+                            <bibl>
+                                <author>
+                                    <persName>
+                                        <forename>Eva</forename>
+                                        <surname>Nyström</surname>
+                                    </persName>
+                                </author>
+                                <title level="m">Containing multitudes: Codex Upsaliensis Graecus 8 in perspective</title>
+                                <pubPlace>Uppsala</pubPlace>
+                                <date when="2009">2009</date>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+</TEI>

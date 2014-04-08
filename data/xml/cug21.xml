@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../stylesheets/tei2html.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="sv">Uppsala University Library, Gr. 21</title>
+                <respStmt>
+                    <resp xml:lang="en">Cataloguer</resp>
+                    <persName>
+                        <forename>Eva</forename>
+                        <surname>Nyström</surname>
+                    </persName>
+                </respStmt>
+                <funder xml:lang="sv">Riksbankens Jubileumsfond</funder>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2014"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="UUB-Gr-21" xml:lang="en">
+                    <msIdentifier>
+                        <country key="sv"/>
+                        <settlement key="Uppsala"/>
+                        <institution key="Uppsala University"/>
+                        <repository key="Uppsala University Library"/>
+                        <collection xml:lang="sv">Grekiska handskrifter</collection>
+                        <idno xml:lang="la">Gr. 21</idno>
+                        <altIdentifier type="former_shelfmark">
+                            <idno xml:lang="sv">Björnståhl 11</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="endleaf">
+                            <locus from="L1r" to="L1v" scheme="folios"/>
+                            <note>Blank endleaf</note>
+                        </msItem>
+                        <msItem class="endleaf">
+                            <locus from="R1r" to="R1v" scheme="folios"/>
+                            <note>Blank endleaf</note>
+                        </msItem>
+                    </msContents>
+                    <msPart>
+                        <altIdentifier type="codicological_unit">
+                            <idno n="1"/>
+                        </altIdentifier>
+                        <msContents>
+                            <summary>Poetry miscellany, probably for educational use</summary>
+                            <msItem class="epic" defective="false">
+                                <locus from="1r" to="25v" scheme="folios"/>
+                                <textLang mainLang="grc"/>
+                                <author key="VIAF_122220717" xml:lang="la">
+                                    <persName>
+                                        <forename>Hesiodus</forename>
+                                    </persName>
+                                </author>
+                                <title ref="http://pinakes.irht.cnrs.fr/rech_oeuvre/resultOeuvre/filter_auteur/4107/filter_oeuvre/5222" type="uniform" xml:lang="la">Opera et dies</title>
+                                <rubric xml:lang="grc">Ἡσιόδου Ἔργα</rubric>
+                                <finalRubric xml:lang="grc">Τέλος τῶν ἔργων καὶ ἡμερῶν Ἡσιόδου· ἀμήν. Δέχου τὸ ῥαψώδημα τοῦ συγγόνου ἥδυσμα καὶ παίδευμα Πέρση σῶν τρόπων.</finalRubric>
+                                <note>With interlinear glosses and a few longer scholia. Following the main text, there are on <locus from="24v" to="25v" scheme="folios"/> also sketches and diagrams relating to it (illustrating e.g. the four elements, agricultural implements, celestial bodies, the zodiac). The sketches may be compared to the illustrations in the Venice print edition from 1537: <bibl>
+                                        <editor>
+                                            <persName>
+                                                <forename>Giovanni</forename>
+                                                <forename>Francesco</forename>
+                                                <surname>Trincavelli</surname>
+                                            </persName>
+                                        </editor>
+                                        <editor>
+                                            <persName>
+                                                <forename>Bartolomeo</forename>
+                                                <surname>Zanetti</surname>
+                                            </persName>
+                                        </editor>
+                                        <title level="m" xml:lang="grc">Ἡσιόδου τοῦ Ἀσκραίου Ἔργα καὶ Ἡμέραι. Θεογονία. Ἀσπὶς Ἡρακλέους.</title>
+                                        <pubPlace>Venice</pubPlace>
+                                        <date when="1537"/>
+                                        <citedRange unit="folio" from="CXIIv" to="CXIIv"/>
+                                    </bibl>
+                                </note>
+                                <listBibl>
+                                    <bibl>
+                                        <author xml:lang="la">
+                                            <persName>
+                                                <forename>Hesiodus</forename>
+                                            </persName>
+                                        </author>
+                                        <editor>
+                                            <persName>
+                                                <forename>Friedrich</forename>
+                                                <surname>Solmsen</surname>
+                                            </persName>
+                                        </editor>
+                                        <title level="m" xml:lang="la">Hesiodi Theogonia, Opera et Dies, Scutum</title>
+                                        <pubPlace>Oxford</pubPlace>
+                                        <date when="1990"/>
+                                        <citedRange from="49" to="85" unit="page"/>
+                                    </bibl>
+                                    <bibl>
+                                        <editor>
+                                            <persName>
+                                                <forename>Thomas</forename>
+                                                <surname>Gaisford</surname>
+                                            </persName>
+                                        </editor>
+                                        <title level="m" xml:lang="la">Poetae minores Graeci</title>
+                                        <pubPlace>Leipzig</pubPlace>
+                                        <date when="1823"/>
+                                        <biblScope unit="volume" from="2" to="2"/>
+                                        <citedRange unit="page" from="3" to="447"/>
+                                    </bibl>
+                                </listBibl>
+                            </msItem>
+                            <msItem class="phil">
+                                <locus from="26r" to="26r" scheme="folios"/>
+                                <title type="desc" xml:lang="en">A diagram on logical categories</title>
+                                <incipit xml:lang="grc" defective="false">Πᾶν πρᾶγμα ἢ διαιρετὸν ἢ ἀδιαίρετον</incipit>
+                                <explicit xml:lang="grc" defective="false">ὡς τῶν μελαίνων, τὰ μὲν ψυχρά, τὰ δὲ τερμά</explicit>
+                            </msItem>
+                            <msItem class="schol">
+                                <locus from="26v" to="27r" scheme="folios"/>
+                                <author key="VIAF_97934141" xml:lang="la">
+                                    <persName>
+                                        <forename>Johannes</forename>
+                                        <addName>Pediasimus</addName>
+                                    </persName>
+                                </author>
+                                <title ref="http://pinakes.irht.cnrs.fr/rech_oeuvre/resultOeuvre/filter_auteur/4948/filter_oeuvre/9443" type="uniform" xml:lang="la">Commentarius ad Theocriti Syringem</title>
+                                <rubric xml:lang="grc">Τοῦ σοφωτάτου χαρτοφύλακος τῆς ἁγίας Ἰουστι<supplied reason="omitted" xml:lang="grc">νι</supplied>ανῆς, καὶ πάσης Βουλγαρίας κυρίου Ἰωάννου τοῦ Πεδιασίμου, ἐξήγησις εἰς τὴν τοῦ Θεοκρίτου Σύριγγα</rubric>
+                                <bibl>
+                                    <editor>
+                                        <persName>
+                                            <forename>Jean-Frédéric</forename>
+                                            <surname>Dübner</surname>
+                                        </persName>
+                                    </editor>
+                                    <editor>
+                                        <persName>
+                                            <forename>Ulco</forename>
+                                            <forename>Cats</forename>
+                                            <surname>Bussemaker</surname>
+                                        </persName>
+                                    </editor>
+                                    <title level="m" xml:lang="la">Scholia in Theocritum</title>
+                                    <pubPlace>Paris</pubPlace>
+                                    <date when="1849"/>
+                                    <citedRange unit="page" from="110" to="111"/>
+                                </bibl>
+                            </msItem>
+                            <msItem class="schol">
+                                <locus from="27v:1" to="27v:11" scheme="folios"/>
+                                <author key="VIAF_76395022 " xml:lang="la">
+                                    <supplied reason="omitted">
+                                        <persName>
+                                            <forename>Manuel</forename>
+                                            <addName>Holobolus</addName>
+                                        </persName>
+                                    </supplied>
+                                </author>
+                                <title ref="http://pinakes.irht.cnrs.fr/rech_oeuvre/resultOeuvre/filter_auteur/4147/filter_oeuvre/5454" type="uniform" xml:lang="la">
+                                    <supplied reason="omitted">In Theocriti Syringem</supplied>
+                                </title>
+                                <title type="alt" xml:lang="grc">Τοῦ σοφωτάτου ῥήτορος τῶν ῥητόρων κύρου Μαξίμου τοῦ Ὁλοβόλου εἰς τὴν Θεοκρίτου Σύριγγα σύνοψις τῶν μέτρων</title>
+                                <rubric>None</rubric>
+                                <incipit xml:lang="grc" defective="false">
+                                    <supplied reason="omitted" xml:lang="grc">Τ</supplied>ὸ ἐπιγραμμάτιον ἡ Σύριγξ ἔστι μὲν ἐννεάφωνος</incipit>
+                                <explicit xml:lang="grc" defective="true">ὥστε γενέσθαι τέλειον δίμετρον</explicit>
+                                <filiation type="siglum">S 43 (<ref target="#Strodel2002">Strodel (2002) 40; 126. The manuscript is used for the critical edition on pp. 139–141.</ref>
+                                </filiation>
+                                <listBibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Silvia</forename>
+                                                <surname>Strodel</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m" xml:lang="de">Zur Überlieferung und zum Verständnis der hellenistischen Technopaignien</title>
+                                        <title level="s" xml:lang="de">Studien zur klassischen Philologie</title>
+                                        <pubPlace>Munich</pubPlace>
+                                        <date when="2002"/>
+                                        <biblScope unit="volume" from="132" to="132"/>
+                                        <citedRange unit="page" from="139" to="141"/>
+                                    </bibl>
+                                    <bibl>
+                                        <editor>
+                                            <persName>
+                                                <forename>Jean-Frédéric</forename>
+                                                <surname>Dübner</surname>
+                                            </persName>
+                                        </editor>
+                                        <editor>
+                                            <persName>
+                                                <forename>Ulco</forename>
+                                                <forename>Cats</forename>
+                                                <surname>Bussemaker</surname>
+                                            </persName>
+                                        </editor>
+                                        <title level="m" xml:lang="la">Scholia in Theocritum</title>
+                                        <pubPlace>Paris</pubPlace>
+                                        <date when="1849"/>
+                                        <citedRange unit="page" from="111" to="112"/>
+                                    </bibl>
+                                </listBibl>
+                            </msItem>
+                            <msItem class="schol">
+                                <locus from="27v:12" to="27v:36" scheme="folios"/>
+                                <msItem class="schol">
+                                    <locus from="27v:12" to="27v:31" scheme="folios"/>
+                                    <author key="VIAF_76395022 " xml:lang="la">
+                                        <persName>
+                                            <forename>Manuel</forename>
+                                            <addName>Holobolus</addName>
+                                        </persName>
+                                    </author>
+                                    <title ref="http://pinakes.irht.cnrs.fr/rech_oeuvre/resultOeuvre/filter_auteur/4147/filter_oeuvre/5451" type="uniform" xml:lang="la">Commentarius in securim</title>
+                                    <rubric xml:lang="grc">Τοῦ Ὁλοβόλου εἰς τὸν Πέλεκυν ἐξήγησις συνοπτική</rubric>
+                                    <incipit xml:lang="grc" defective="false">Ὁ πέλεκυς οὐχ <supplied reason="omitted" xml:lang="grc">ὡς</supplied> ὁ Σύριγξ καὶ οἱ Βωμοὶ</incipit>
+                                    <explicit xml:lang="grc" defective="false">ὄλβιος καὶ εὐτυχὴς ἀεὶ πνεῖ καὶ ζῇ</explicit>
+                                </msItem>
+                                <msItem class="schol">
+                                    <locus from="27v:32" to="27v:36" scheme="folios"/>
+                                    <title type="desc">A shorter version or paraphrase of the aforementioned <supplied xml:lang="la">Commentarius in securim</supplied>
+                                    </title>
+                                    <incipit xml:lang="grc" defective="false">Ὁ Ἐπειὸς ὁ Φωκεὺς ὤπασε καὶ παρέσχε δῶρον τὸν πέλεκυν</incipit>
+                                    <explicit xml:lang="grc" defective="false">ὃν σὺ ἀμφιδερχθῇς ἵλεως ἐν τῷ θυμῷ καὶ ἐν τῇ ψυχῇ, τὸν καὶ τοῦτον, πνέει ἀεὶ ὄλβιος</explicit>
+                                </msItem>
+                                <filiation type="protograph">
+                                    <idno type="ms_ref">Codex Ambrosianus 121 (B 99 sup.)</idno>, (14th–15th cent.), cf. <ref target="#Strodel2002">Strodel (2002) 22; 113</ref>. Strodel characterizes these manuscripts as possibly directly related (<q xml:lang="de">Handschrift S 43, die möglicherweise ebenfalls direkt auf F zurückgeht</q>).
+                                    </filiation>
+                                <filiation type="siglum">S 43 (<ref target="#Strodel2002">Strodel (2002) 40; 124</ref>.</filiation>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Silvia</forename>
+                                            <surname>Strodel</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m" xml:lang="de">Zur Überlieferung und zum Verständnis der hellenistischen Technopaignien</title>
+                                    <title level="s" xml:lang="de">Studien zur klassischen Philologie</title>
+                                    <pubPlace>Munich</pubPlace>
+                                    <date when="2002"/>
+                                    <biblScope unit="volume" from="132" to="132"/>
+                                    <citedRange unit="page" from="144" to="147"/>
+                                </bibl>
+                            </msItem>
+                            <msItem class="bucol">
+                                <locus from="28r" to="28r" scheme="folios">mid-page</locus>
+                                <author key="VIAF_95161348" xml:lang="la">
+                                    <supplied reason="omitted">
+                                        <persName>
+                                            <forename>Theocritus</forename>
+                                        </persName>
+                                    </supplied>
+                                </author>
+                                <title ref="http://pinakes.irht.cnrs.fr/rech_oeuvre/resultOeuvre/filter_auteur/5344/filter_oeuvre/11322" type="uniform" xml:lang="la">Syrinx</title>
+                                <rubric xml:lang="grc">Πρὸς τὸν Σύριγγα ὁ λόγος</rubric>
+                                <note>With interlinear glosses. The poem is written as a carmen figuratum in the approximate shape of a flute, and includes a frame, a bell at the top end, and eighteen tone holes set in the middle of the pipes.</note>
+                                <listBibl>
+                                    <bibl>
+                                        <author xml:lang="la">
+                                            <persName>
+                                                <forename>Theocritus</forename>
+                                            </persName>
+                                        </author>
+                                        <editor>
+                                            <persName>
+                                                <forename>Andrew</forename>
+                                                <forename>Sydenham</forename>
+                                                <forename>Farrar</forename>
+                                                <surname>Gow</surname>
+                                            </persName>
+                                        </editor>
+                                        <title level="m" xml:lang="la">Theocritus</title>
+                                        <pubPlace>Cambridge</pubPlace>
+                                        <date when="1952"/>
+                                        <biblScope unit="volume" from="1" to="1"/>
+                                        <citedRange unit="page" from="256" to="256"/>
+                                    </bibl>
+                                        <!-- Ev. lägga till Kwapisz edition här? -->
+                                </listBibl>
+                            </msItem>
+                            <msItem class="schol">
+                                <locus from="28r" to="28r" scheme="folios"/>
+                                <title type="desc">A paraphrase of Theocritus’ <supplied xml:lang="la">Syrinx</supplied>
+                                </title>
+                                <incipit xml:lang="grc" defective="false">Ὦ Σύριγξ, σὺ μὲν ἔχεις ὄνομα σύριγγος</incipit>
+                                <explicit xml:lang="grc" defective="false">τῇ Καλλιόπᾳ, τῆ νηλεύστῳ, ἀντὶ τοῦ ἕνεκα τῆς κόρης τῆς ἐλλόπιδος, τῆς καλλιφώνου καὶ ἀλιθεύστου</explicit>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Sigfrid</forename>
+                                            <surname>Lindstam</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="a" xml:lang="la">Codex Upsaliensis Graecus 21</title>
+                                    <title level="j">Eranos</title>
+                                    <date when="1931"/>
+                                    <biblScope unit="volume" from="29" to="29"/>
+                                    <citedRange unit="page" from="139" to="140"/>
+                                </bibl>
+                            </msItem>
+                            <msItem class="epigr">
+                                <locus from="28v" to="28v" scheme="folios">mid-page</locus>
+                                <author key="VIAF_61941405" xml:lang="la">
+                                    <supplied reason="omitted">
+                                        <persName>
+                                            <forename>Dosiadas</forename>
+                                            <addName>Cretensis</addName>
+                                        </persName>
+                                    </supplied>
+                                </author>
+                                <title ref="http://pinakes.irht.cnrs.fr/rech_oeuvre/resultOeuvre/filter_auteur/3782/filter_oeuvre/3542" type="uniform" xml:lang="la">Ara</title>
+                                <note>with interlinear glosses in the <persName>
+                                        <addName>Holobolus</addName>
+                                    </persName> tradition. The poem is written as a carmen figuratum in the shape of an altar with a base and dome.</note>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Jan</forename>
+                                            <surname>Kwapisz</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m">The Greek Figure Poems</title>
+                                    <title level="j">Hellenistica Groningana</title>
+                                    <pubPlace>Leuven</pubPlace>
+                                    <date when="2013"/>
+                                    <biblScope unit="volume" from="19" to="19"/>
+                                    <citedRange unit="page" from="" to=""/>
+                                </bibl>
+                            </msItem>
+                            <msItem class="schol">
+                                <locus from="28v" to="28v" scheme="folios"/>
+                                <title type="desc">Two commentaries to the aforementioned Altar of Dosiadas</title>
+                                <msItem class="schol">
+                                    <locus from="28v" to="28v" scheme="folios">right margin</locus>
+                                    <incipit xml:lang="grc" defective="false">Ἐγώ εἰμι ὁ βωμός, ὃν <supplied reason="omitted" xml:lang="grc">ἔτευξε</supplied> τῆς ἀνδρώας τῆς γυναικός</incipit>
+                                    <explicit xml:lang="grc" defective="false">ὑπὸ τοῦ Ἡρακλέους καὶ ὑπὸ τῶν Ἑλλήνων</explicit>
+                                </msItem>
+                                <msItem class="schol">
+                                    <locus from="28v" to="28v" scheme="folios">left margin</locus>
+                                    <incipit xml:lang="grc" defective="false">Ἐγώ εἰμι ὁ βωμός, ὅντινα ἐμὲ τεῦξεν ὁ μέροψ</incipit>
+                                    <explicit xml:lang="grc" defective="false">ἐν ἀμφικλύστῳ καὶ ἐν τῇ περικλύστῳ λίμνῃ</explicit>
+                                    <note>In the lower left margin the scribe has added an alternative altar shape with reference to the teacher’s exemplar (<q xml:lang="grc">οὕτως εἶχε ἐσχηματισμένος ἐν τῷ τοῦ διδασκάλου</q>).</note>
+                                </msItem>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Sigfrid</forename>
+                                            <surname>Lindstam</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="a" xml:lang="la">Codex Upsaliensis Graecus 21</title>
+                                    <title level="j">Eranos</title>
+                                    <date when="1931"/>
+                                    <biblScope unit="volume" from="29" to="29"/>
+                                    <citedRange unit="page" from="143" to="144"/>
+                                </bibl>
+                            </msItem>
+                            <msItem class="phil">
+                                <locus from="29r" to="30v" scheme="folios"/>
+                                <author key="VIAF_162237897" xml:lang="la">
+                                    <persName>
+                                        <forename>Pythagoras</forename>
+                                    </persName>
+                                </author>
+                                <title ref="http://pinakes.irht.cnrs.fr/rech_oeuvre/resultOeuvre/filter_auteur/5137/filter_oeuvre/10386" xml:lang="la">Carmen aureum</title>
+                                <rubric xml:lang="grc">Χρυσᾶ ἔπη τοῦ Πυθαγόρου</rubric>
+                                <note>with interlinear glosses and commentary. The main text and accompanying paraphrase are connected with the help of reading signs. The rubricized title of the paraphrase, which is given in code, would in plain read <supplied reason="omitted" xml:lang="grc">Πυθαγορικῶν χρυσέων ἐπῶν φράσις</supplied>.</note>
+                                <listBibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Johan</forename>
+                                                <forename>Carl</forename>
+                                                <surname>Thom</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m">The Pythagorean golden verses: with introduction and commentary</title>
+                                        <title level="j">Religions in the Graeco-Roman world</title>
+                                        <pubPlace>Leiden</pubPlace>
+                                        <date when="1995"/>
+                                        <biblScope unit="volume" from="123" to="123"/>
+                                        <citedRange unit="page" from="94" to="98"/>
+                                    </bibl>
+                                    <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Sigfrid</forename>
+                                                <surname>Lindstam</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="a" xml:lang="la">Codex Upsaliensis Graecus 21</title>
+                                        <title level="j">Eranos</title>
+                                        <date when="1931"/>
+                                        <biblScope unit="volume" from="29" to="29"/>
+                                        <citedRange unit="page" from="149" to="153"/>
+                                    </bibl>
+                                </listBibl>
+                            </msItem>
+                            <msItem class="gramm">
+                                <locus from="30v:17" to="30v:32" scheme="folios"/>
+                                <title type="desc">A grammatical treatise</title>
+                                <rubric xml:lang="grc">Περὶ συντάξεως</rubric>
+                                <incipit xml:lang="grc" defective="false">Σημαίωσαι ὅτι ὁ βουλόμενος συντάξαι ὀρθῶς</incipit>
+                                <explicit xml:lang="grc" defective="false">Τρίτον δὲ εἰς δοτικήν, οἷον, ἐγὼ δίδωμί σοι</explicit>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="codex">
+                                <supportDesc material="paper">
+                                    <support>
+                                        <p>
+                                            <locusGrp>
+                                                <locus from="1" to="7" scheme="folios"/>
+                                                <locus from="10" to="13" scheme="folios"/>
+                                                <locus from="25" to="28" scheme="folios"/>
+                                            </locusGrp>
+                                            <dimensions type="leaf" unit="mm">
+                                                <height quantity="220"/>
+                                                <width quantity="160"/>
+                                            </dimensions>
+                                            <material>Western paper</material>
+                                            <watermark n="1a">
+                                                <locusGrp>
+                                                    <locus from="2" to="2" scheme="folios"/>
+                                                    <locus from="12" to="12" scheme="folios"/>
+                                                    <locus from="1" to="1" scheme="folios"/>
+                                                </locusGrp>
+                                                <locusGrp>
+                                                    <locus from="5" to="5" scheme="folios"/>
+                                                    <locus from="7" to="7" scheme="folios"/>
+                                                </locusGrp>
+                                                <term type="folding">Quarto</term>
+                                                <term type="wm_motif">Hat (countermark B)</term>
+                                                <term type="proximity">very similar to</term>
+                                                <ref target="bibliography.xml#Harlfinger1974">Harlfinger <term xml:lang="fr" type="wm_term">Chapeau</term> 51</ref>
+                                                <placeName>Venice</placeName>
+                                                <date when="1542"/>
+                                                <persName>
+                                                    <forename>Bartolomeo</forename>
+                                                    <surname>Zanetti</surname>
+                                                </persName>’s scriptorium.                                                    
+                                                    <term type="proximity">similar to</term>
+                                                <ref target="bibliography.xml#Sosower2004">Sosower <term xml:lang="fr" type="wm_term">Chapeau</term> 3</ref>
+                                                <placeName>Venice</placeName>
+                                                <date when="1542"/>
+                                                <persName>
+                                                    <forename>
+                                                        <supplied reason="omitted">Andronicos</supplied>
+                                                    </forename>
+                                                    <surname>
+                                                        <supplied reason="omitted">Nuccios</supplied>
+                                                    </surname>
+                                                </persName>
+                                                <dimensions type="chain-lines">
+                                                    <width quantity="33" unit="mm"/>
+                                                </dimensions>
+                                                <dimensions type="chain-lines">
+                                                    <width quantity="32" unit="mm"/>
+                                                </dimensions>
+                                                <measure type="laid-lines_in_20mm" quantity="18" unit="lines"/>
+                                            </watermark>
+                                            <watermark n="1b">
+                                                <locusGrp>
+                                                    <locus from="3" to="3" scheme="folios"/>
+                                                    <locus from="11" to="11" scheme="folios"/>
+                                                    <locus from="4" to="4" scheme="folios"/>
+                                                </locusGrp>
+                                                <locus from="26" to="27" scheme="folios"/>
+                                                <term type="folding">Quarto</term>
+                                                <term type="wm_motif">Hat (countermark B)</term>
+                                                <dimensions type="chain-lines">
+                                                    <width quantity="33" unit="mm"/>
+                                                </dimensions>
+                                                <dimensions type="chain-lines">
+                                                    <width quantity="31" unit="mm"/>
+                                                </dimensions>
+                                                <measure type="laid-lines_in_20mm" quantity="18" unit="lines"/>
+                                            </watermark>
+                                            <locus from="8" to="9" scheme="folios"/>
+                                            <dimensions type="leaf" unit="mm">
+                                                <height quantity="220"/>
+                                                <width quantity="160"/>
+                                            </dimensions>
+                                            <material>Western paper</material>
+                                            <note>This paper of coarser quality was only used for one substitute bifolium. No watermarks visible.</note>
+                                            <locus from="14" to="24" scheme="folios"/>
+                                            <dimensions type="leaf" unit="mm">
+                                                <height quantity="220"/>
+                                                <width quantity="160"/>
+                                            </dimensions>
+                                            <material>Western paper</material>
+                                            <watermark n="2a">
+                                                <locusGrp>
+                                                    <locus from="15" to="15" scheme="folios"/>
+                                                    <locus from="20" to="20" scheme="folios"/>
+                                                </locusGrp>
+                                                <term type="folding">Quarto</term>
+                                                <term type="wm_motif">Hand; flower</term>
+                                                <term type="proximity">similar to</term>
+                                                <ref target="bibliography.xml#Briquet1968">Briquet <term xml:lang="fr" type="wm_term">Main</term> 10720</ref>
+                                                <placeName>Perpignan</placeName>
+                                                <date when="1528"/>
+                                                <dimensions type="chain-lines">
+                                                    <width quantity="38" unit="mm"/>
+                                                </dimensions>
+                                                <measure type="laid-lines_in_20mm" quantity="22" unit="lines"/>
+                                            </watermark>
+                                            <watermark n="2b">
+                                                <locus from="23" to="24" scheme="folios"/>
+                                                <term type="folding">Quarto</term>
+                                                <term type="wm_motif">Hand; flower</term>
+                                                <dimensions type="chain-lines">
+                                                    <width quantity="38" unit="mm"/>
+                                                </dimensions>
+                                                <measure type="laid-lines_in_20mm" quantity="22" unit="lines"/>
+                                            </watermark>
+                                            <watermark n="3">
+                                                <locus from="17" to="18" scheme="folios"/>
+                                                <term type="folding">Quarto</term>
+                                                <term type="wm_motif">Hand; flower</term>
+                                                <term type="proximity">similar to</term>
+                                                <ref target="bibliography.xml#Piccard1997">Piccard, <term xml:lang="de" type="wm_term">Hand</term> V, 1571</ref>
+                                                <placeName>Madrid</placeName>
+                                                <date when="1541"/>
+                                                <dimensions type="chain-lines">
+                                                    <width quantity="39" unit="mm"/>
+                                                </dimensions>
+                                                <measure type="laid-lines_in_20mm" quantity="22" unit="lines"/>
+                                            </watermark>
+                                        </p>
+                                    </support>
+                                    <extent>
+                                        <num type="left_flyleaves" value="1"/>
+                                        <num type="textblock_leaves" value="30"/>
+                                        <num type="right_flyleaves" value="1"/>
+                                    </extent>
+                                    <foliation>
+                                        <term>foliation</term>
+                                        <term>in pencil</term> by a <term>modern hand</term>: <supplied reason="omitted">i</supplied>, 1–30, <supplied reason="omitted">i’</supplied>.
+                                        </foliation>
+                                    <collation>
+                                        <list type="collation_formula">
+                                            <item>VI<term>-1<term>post</term>
+                                                    <locus from="7" to="7" scheme="folios"/>
+                                                </term>
+                                                <term>+2<locus from="8" to="9" scheme="folios"/>
+                                                </term>
+                                                <locus from="1" to="13" scheme="folios"/>
+                                            </item>
+                                            <item>IV<locus from="14" to="21" scheme="folios"/>
+                                            </item>
+                                            <item>II<term>-1<term>post</term>
+                                                    <locus from="24" to="24" scheme="folios"/>
+                                                </term>
+                                                <locus from="22" to="24" scheme="folios"/>
+                                            </item>
+                                            <item>II<locus from="25" to="28" scheme="folios"/>
+                                            </item>
+                                            <item>I<locus from="29" to="30" scheme="folios"/>
+                                            </item>
+                                        </list>
+                                        <note>No threads are visible in the quires due to the excessive use of glue at the spine. Thus, the collation is tentative and based mainly on the different kinds of paper and the watermark positions.</note>
+                                        <signatures>
+                                            <term>none</term>
+                                        </signatures>
+                                        <catchwords>
+                                            <term>none</term>
+                                        </catchwords>
+                                    </collation>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout columns="1" writtenLines="18">
+                                        <locusGrp>
+                                            <locus scheme="folios" from="1r" to="9r"/>
+                                            <locus scheme="folios" from="10r" to="24v"/>
+                                        </locusGrp>
+                                        <dimensions type="written" unit="mm">
+                                            <height quantity="155"/>
+                                            <width atLeast="65" atMost="75"/>
+                                        </dimensions>
+                                    </layout>
+                                    <layout columns="1" writtenLines="35 43">
+                                        <locus from="26r" to="27v" scheme="folios"/>
+                                        <dimensions type="written" unit="mm">
+                                            <height atLeast="180" atMost="190"/>
+                                            <width atLeast="125" atMost="130"/>
+                                        </dimensions>
+                                    </layout>
+                                    <layout columns="2" writtenLines="24 52">
+                                        <locus from="29r" to="30v" scheme="folios"/>
+                                        <note>Main text always 24 lines per page. In the commentary surrounding the main text there around twice as many lines per page.</note>
+                                        <dimensions type="written" unit="mm">
+                                            <height quantity="165"/>
+                                            <width quantity="115"/>
+                                        </dimensions>
+                                    </layout>
+                                    <layout>
+                                        <locusGrp>
+                                            <locus from="25r" to="26r" scheme="folios"/>
+                                            <locus from="28r" to="28v" scheme="folios"/>
+                                        </locusGrp>
+                                        <note>Layout and number of lines varying.</note>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="A" scope="major">
+                                    <locus from="1r" to="30v" scheme="folios"/>
+                                    <persName role="scribe" cert="low" evidence="conjecture">
+                                        <forename xml:lang="it">Nikolaos</forename>
+                                        <forename xml:lang="it">Gaitanos</forename>
+                                        <surname xml:lang="it">Marulos</surname>
+                                    </persName>
+                                        Responsible for all the main texts, and most of the paratexts including rubricized parts, commentaries and glossae.
+                                    </handNote>
+                                <handNote n="a" scope="minor">
+                                    <locus from="28r" to="28v" scheme="folios"/>
+                                        Probably responsible for the Syrinx paraphrase, the second paraphrase to the Altar (i.e. the one to the left on f. 28v), as well as the note in the lower margin on the same page.
+                                    </handNote>
+                                <handNote n="b" scope="minor">
+                                    <locus from="1r" to="18v" scheme="folios"/>
+                                        Scattered glosses in a cursive hand, mainly in the outermost margin and occasionally in-between lines.
+                                    </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <p>Rubrics and initials in <term>red ink</term> on <locus from="1r" to="25v" scheme="folios"/> and <locus from="29r" to="30v" scheme="folios"/>. On <locus from="1r" to="1r" scheme="folios"/>, <locus from="12r" to="12r" scheme="folios"/>, and <locus from="29r" to="29r" scheme="folios"/> larger decorated initials (6–7 lines high) and a headpiece with a <term>vegetal pattern</term> consisting of convolute hairlines, buds and curlicues. Similar but smaller decoration and initial on <locus from="30v" to="30v" scheme="folios"/>. <term>Red ink</term> is also used profusely for comments and interlinear glosses.</p>
+                                <p>Pen-drawn illustrations and a diagram on <locus from="24v" to="26r" scheme="folios"/>.</p>
+                            </decoDesc>
+                            <bindingDesc>
+                                <p>Pattern-woven silk cover in gold, green, and beige over paper boards. No endbands. Brokatpapier in green and copper is used for pastedowns. For the identical pattern but in different colours, see 
+                                        <bibl>
+                                        <author>
+                                            <persName>
+                                                <forename>Jan</forename>
+                                                <forename>Frederik</forename>
+                                                <surname>Heijbroek</surname>
+                                            </persName>
+                                        </author>
+                                        <author>
+                                            <persName>
+                                                <forename>T.</forename>
+                                                <forename>Carina</forename>
+                                                <surname>Greven</surname>
+                                            </persName>
+                                        </author>
+                                        <title level="m" xml:lang="nl">Sierpapier: marmer-, brocaat- en sitspapier in Nederland</title>
+                                        <pubPlace>Amsterdam</pubPlace>
+                                        <date when="1994"/>
+                                        <biblScope unit="page" from="120" to="120"/>
+                                    </bibl>; pattern N:o 72 (manufacturer <persName>
+                                        <forename>Georg</forename>
+                                        <surname>Reimund</surname>
+                                    </persName>, <placeName>Augsburg</placeName>, who was active <date from="1746" to="1755"/> ).</p>
+                                <p>One blank leaf (except for the signum <q>Cod. Gr. 21</q> on <locus from="L1r" to="L1r" scheme="folios"/>) folded around the spine functions as flyleaves on either side of the bookblock. One watermark mid-spine: 
+                                        <watermark n="4">
+                                        <locusGrp>
+                                            <locus from="L1" to="L1" scheme="folios"/>
+                                            <locus from="R1" to="R1" scheme="folios"/>
+                                        </locusGrp>
+                                        <term type="folding">Quarto</term>
+                                        <term type="wm_motif">Lily in circle; B; G P; M</term>
+                                        <dimensions type="wm">
+                                            <height quantity="127" unit="mm"/>
+                                            <width quantity="60" unit="mm"/>
+                                        </dimensions>
+                                        <dimensions type="chain-lines">
+                                            <width quantity="31" unit="mm"/>
+                                        </dimensions>
+                                        <dimensions type="chain-lines">
+                                            <width quantity="28" unit="mm"/>
+                                        </dimensions>
+                                        <measure type="laid-lines_in_20mm" quantity="14" unit="lines"/>
+                                    </watermark>.</p>
+                                <p>
+                                    <dimensions type="binding" unit="mm">
+                                        <height quantity="225"/>
+                                        <width quantity="165"/>
+                                        <depth quantity="7"/>
+                                    </dimensions>
+                                </p>
+                                <p>Numbers and former shelfmarks: on <locus from="LCI" to="LCI" scheme="folios"/> a paper slip with the number <q>II.</q> on it; cf. the former shelfmark, <q>n:o 11</q>, on <locus from="1r" to="1r" scheme="folios"/>.</p>
+                                <condition>The spine is badly worn and damaged, the boards now being held together provisionally with the help of a slip of brown paper pasted aroung the spine. The bookblock has come loose completely. A lending slip that used to be pasted to <locus from="L1r" to="L1r" scheme="folios"/> is now unstuck.</condition>
+                            </bindingDesc>
+                        </physDesc>
+                        <history>
+                            <origin>Probably written in Venice in the <origDate notBefore="1535" notAfter="1555">1540s</origDate>. Watermarks and the handwriting (in so-called <q xml:lang="de">Camillus-Schrift</q> style) may suggest a link to the workshop of <persName>
+                                    <forename>Bartolomeo</forename>
+                                    <surname>Zanetti</surname>
+                                </persName>. Its present binding stems from the <date notBefore="1746" notAfter="1765">mid-eighteenth century</date>.</origin>
+                            <provenance>
+                                    The manuscript was acquired by <persName>
+                                    <forename>Jacob</forename>
+                                    <forename>Jonas</forename>
+                                    <surname>Björnståhl</surname>
+                                </persName> (1731–79), most probably during his travels through Europe in the years <date from="1767" to="1779"/>. That it would, as is the case with several of his other manuscripts, have its provenance in one of the Thessalian monasteries, is perhaps less likely given its rather costly binding in silk and brocatpapier.
+                                </provenance>
+                            <acquisition>
+                                <p>Came to Uppsala University Library in <date when="1784"/> as part of the Björnståhl donation.</p>
+                            </acquisition>
+                        </history>
+                        <additional>
+                            <listBibl>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Carl</forename>
+                                            <forename>Emanuel</forename>
+                                            <surname>Aurivillius</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m" xml:lang="la">Codices Manuscriptos Graecos Bibliothecae Acad. Upsaliensis (handwritten catalogue)</title>
+                                    <date when="1835"/>
+                                </bibl>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Charles</forename>
+                                            <surname>Graux</surname>
+                                        </persName>
+                                    </author>
+                                    <author>
+                                        <persName>
+                                            <forename>Albert</forename>
+                                            <surname>Martin</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m" xml:lang="fr">Notices sommaires des manuscrits grecs de Suède</title>
+                                    <pubPlace>Paris</pubPlace>
+                                    <date when="1889"/>
+                                    <citedRange unit="page" from="50" to="50"/>
+                                </bibl>
+                                <bibl xml:id="Lindstam1931">
+                                    <author>
+                                        <persName>
+                                            <forename>Sigfrid</forename>
+                                            <surname>Lindstam</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="a" xml:lang="la">Codex Upsaliensis Graecus 21</title>
+                                    <title level="j">Eranos</title>
+                                    <date when="1931"/>
+                                    <biblScope unit="volume" from="29" to="29"/>
+                                    <biblScope unit="page" from="116" to="154"/>
+                                </bibl>
+                                <bibl>
+                                    <author>
+                                        <persName>
+                                            <forename>Silvia</forename>
+                                            <surname>Strodel</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m" xml:lang="de">Zur Überlieferung und zum Verständnis der hellenistischen Technopaignien</title>
+                                    <title level="s" xml:lang="de">Studien zur klassischen Philologie</title>
+                                    <pubPlace>Munich</pubPlace>
+                                    <date when="2002"/>
+                                    <biblScope unit="volume" from="132" to="132"/>
+                                    <citedRange unit="page" from="40" to="40"/>
+                                    <citedRange unit="page" from="124" to="124"/>
+                                    <citedRange unit="page" from="126" to="126"/>
+                                </bibl>
+                            </listBibl>
+                        </additional>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

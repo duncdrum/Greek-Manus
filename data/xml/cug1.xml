@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../stylesheets/tei2html.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Uppsala University Library, Gr. 1</title>
+                <respStmt>
+                    <resp xml:lang="en">Cataloguer</resp>
+                    <persName>
+                        <forename>Eva</forename>
+                        <surname>Nyström</surname>
+                    </persName>
+                </respStmt>
+                <funder xml:lang="sv">Riksbankens Jubileumsfond</funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University Library</publisher>
+                <date when="2014"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="UUB-Gr-01" xml:lang="en">
+                    <msIdentifier>
+                        <country key="sv"/>
+                        <settlement key="Uppsala"/>
+                        <institution key="Uppsala University"/>
+                        <repository key="Uppsala University Library"/>
+                        <collection xml:lang="sv">Grekiska handskrifter</collection>
+                        <idno xml:lang="la">Gr. 1</idno>
+                        <altIdentifier type="former_shelfmark">
+                            <idno>Sparwenfeldt 42</idno>
+                        </altIdentifier>
+                        <altIdentifier type="other">
+                            <idno>Gregory-Aland 441–442</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem class="endleaf">
+                            <locus from="L1r" to="L2v" scheme="folios"/>
+                            <note>Blank endleaves, except for title information and a note of acquisition on <locus from="L2r" to="L2r" scheme="folios"/>.</note>
+                        </msItem>
+                        <msItem class="endleaf">
+                            <locus from="R1r" to="R1v" scheme="folios"/>
+                            <note>Blank endleaf</note>
+                        </msItem>
+                    </msContents>
+                    <msPart>
+                        <altIdentifier type="codicological_unit">
+                            <idno n="1"/>
+                        </altIdentifier>
+                        <msContents>
+                            <summary>Catena to the New Testament (Acts, Epistles of Paul)</summary>
+                            <msItem class="caten" defective="true">
+                                <locusGrp>
+                                    <locus from="2r" to="9v" scheme="folios"/>
+                                    <locus from="1r" to="1v" scheme="folios"/>
+                                    <locus from="10r" to="28v" scheme="folios"/>
+                                </locusGrp>
+                                <author key="VIAF_261848345" xml:lang="la">
+                                    <supplied reason="omitted">
+                                        <persName>
+                                            <forename>Oecumenius</forename>
+                                            <addName>Philosophus</addName>
+                                        </persName>
+                                    </supplied>
+                                </author>
+                                <title ref="http://pinakes.irht.cnrs.fr/rech_oeuvre/resultOeuvre/filter_auteur/4839/filter_oeuvre/9016" type="uniform" xml:lang="la">Catena in Acta Apostolorum</title>
+                                <rubric>None</rubric>
+                                <incipit xml:lang="grc" defective="true">
+                                    <supplied xml:lang="grc" reason="omitted">τοῦ</supplied>το ἀληθὲς καὶ τὸ τῶν σημείων Πνεῦμα  </incipit>
+                                <finalRubric xml:lang="grc">τέλος τοῦ κειμένου καὶ τῆς ἑρμηνείας τῶν πράξεων</finalRubric>
+                                <note>Cf. PG 118, 157C (commentary to Acts VIII: 9–15).</note>
+                                <bibl>
+                                    <editor>
+                                        <persName>
+                                            <forename>Jacques-Paul</forename>
+                                            <surname>Migne</surname>
+                                        </persName>
+                                    </editor>
+                                    <title>Patrologiae cursus completus. Series graeca</title>
+                                    <pubPlace>Paris</pubPlace>
+                                    <date from="1857" to="1866"/>
+                                    <biblScope unit="volume" from="118" to="118"/>
+                                    <biblScope unit="column" from="44" to="308"/>
+                                    <citedRange unit="column" from="157C" to="308"/>
+                                    <citedRange unit="column" from="312B" to="313A"/>
+                                </bibl>
+                                <!-- obs, några rader till före nästa text: Ἐν τῇδε τῇ βίβλῳ τῶν Πράξεων τῶν ἀποστόλων εἰσὶν ἀναγνώσεις ιϟʹ, κεφάλαια μʹ, μαρτυρίαι λʹ καὶ μία. στίχοι ͵βφιϛʹ. Därefter fråga-svar varför en räknar med 14 Paulibrev.  -->
+                            </msItem>
+                            <msItem class="caten" defective="true">
+                                <locus from="28v" to="91v" scheme="folios"/>
+                                <author key="VIAF_261848345" xml:lang="la">
+                                    <supplied reason="omitted">
+                                        <persName>
+                                            <forename>Oecumenius</forename>
+                                            <addName>Philosophus</addName>
+                                        </persName>
+                                    </supplied>
+                                </author>
+                                <title ref="http://pinakes.irht.cnrs.fr/rech_oeuvre/resultOeuvre/filter_auteur/4839/filter_oeuvre/9015" type="uniform" xml:lang="la">Catena in Pauli Epistulas</title>
+                                <msItem class="caten" defective="false">
+                                    <locusGrp>
+                                        <locus scheme="folios" from="28v" to="29v"/>
+                                        <locus scheme="folios" from="32" to="32"/>
+                                        <locus scheme="folios" from="31" to="31"/>
+                                        <locus scheme="folios" from="30" to="30"/>
+                                        <locus scheme="folios" from="37" to="37"/>
+                                        <locus scheme="folios" from="33" to="33"/>
+                                        <locus scheme="folios" from="35" to="36"/>
+                                        <locus scheme="folios" from="34" to="34"/>
+                                        <locus scheme="folios" from="38" to="39"/>
+                                        <locus scheme="folios" from="64" to="71"/>
+                                        <locus scheme="folios" from="40" to="57v"/>
+                                    </locusGrp>
+                                    <title type="uniform" xml:lang="la">Commentarius in Pauli Epistolam ad Romanos</title>
+                                    <rubric xml:lang="grc">Ὑπόθεσις τῆς πρὸς Ῥωμαίους ἐπιστολῆς</rubric>
+                                    <note>A list of the Epistles of Paul and the Catholic Epistles follows upon the Argumentum.</note>
+                                    <bibl>
+                                        <editor>
+                                            <persName>
+                                                <forename>Jacques-Paul</forename>
+                                                <surname>Migne</surname>
+                                            </persName>
+                                        </editor>
+                                        <title>Patrologiae cursus completus. Series graeca</title>
+                                        <pubPlace>Paris</pubPlace>
+                                        <date when="1864"/>
+                                        <biblScope unit="volume" from="118" to="118"/>
+                                        <citedRange unit="column" from="317" to="636"/>
+                                    </bibl>
+                                    <!-- sista raden: ἡ πρὸς Ῥωμαίους ἐπιστολὴ. ἐγράφη ἀπὸ Κορίνθου διὰ Φοίβης τῆς διακόνου τῆς ἐν Κεγχρεαῖς. στίχοι ϡκʹ.  -->
+                                </msItem>
+                                <msItem class="caten" defective="true">
+                                    <locusGrp>
+                                        <locus scheme="folios" from="57v" to="63"/>
+                                        <locus scheme="folios" from="72" to="79"/>
+                                        <locus scheme="folios" from="84" to="91"/>
+                                        <locus scheme="folios" from="80" to="83"/>
+                                    </locusGrp>
+                                    <title type="uniform" xml:lang="la">Commentarius in Pauli Epistolam primam ad Corinthios</title>
+                                    <rubric xml:lang="grc">Ὑπόθεσις τῆς πρὸς Κορινθίους πρώτης ἐπιστολῆς</rubric>
+                                    <explicit xml:lang="grc" defective="true">ἀλλ’ ἀξιόπιστον ποιῶν</explicit>
+                                    <note>Note that this explicit is situated at the bottom of <locus from="83v" to="83v" scheme="folios"/>f. 83, not on f. 91 as one could have expected. Cf. PG 118, sp. 873A.</note>
+                                    <bibl>
+                                        <editor>
+                                            <persName>
+                                                <forename>Jacques-Paul</forename>
+                                                <surname>Migne</surname>
+                                            </persName>
+                                        </editor>
+                                        <title>Patrologiae cursus completus. Series graeca</title>
+                                        <pubPlace>Paris</pubPlace>
+                                        <date when="1864"/>
+                                        <biblScope unit="volume" from="118" to="118"/>
+                                        <citedRange unit="column" from="636" to="873A"/>
+                                    </bibl>
+                                </msItem>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="codex">
+                                <supportDesc material="parchment">
+                                    <support>
+                                        <p>
+                                            <locus from="1" to="91" scheme="folios"/>
+                                            <dimensions type="leaf" unit="mm">
+                                                <height quantity="225"/>
+                                                <width quantity="170"/>
+                                            </dimensions>
+                                        </p>
+                                    </support>
+                                    <extent>
+                                        <num type="textblock_leaves" value="91"/>
+                                    </extent>
+                                    <foliation>
+                                        <term>foliation</term>
+                                        <term>in pencil</term> by a <term>modern hand</term> in the <term>lower right margin</term>: <supplied reason="omitted">i–ii</supplied>, 1–91, <supplied reason="omitted">i’</supplied>.
+                                    </foliation>
+                                    <foliation>
+                                        <term>pagination</term>
+                                        <term>in ink</term> in the <term>upper right margin</term>of recto pages: 1–181.
+                                    </foliation>
+                                    <foliation>
+                                        Traces of an older <term>foliation</term>
+                                        <term>in ink</term> in the <term>upper right margin</term>: see e.g. f. 4r (<num xml:lang="grc">Γʹ</num>), f. 10r (<num xml:lang="grc">θʹ</num>). Most of these numbers are lost due to trimming.
+                                    </foliation>
+                                    <collation>
+                                        <list type="collation_formula">
+                                            <item>Q1 I(f.2) + Q2 II(f.6) + Q3 V(f.16) + Q4 III(f.22) + Q5 3 f.(f.25): no thread visible, f. 24 and f. 25 are pasted together at the inner margin + Q6 II(f.29) + Q7 1/2(f.32) + Q8 II(f.36) + Q9 2/1(f.39) + Q10–Q14 5 IV(f.79) + Q15 II(f.83) + Q16 IV(f.91).</item>
+                                        </list>
+                                        <note>By way of restoration and rebinding, the order of the leaves and quires have ended up in great disarray. Extensive repair with new guards has resulted in anomalous bifolia, which fail to mirror the original state of the manuscript. Thus, the collation formula above only indicates the present state of the positioning of the leaves and sewing threads. The original order, however, was based on quaternions, except for the last quire which was a binion. The original quaternions would have had the leaves in the following sequence:  ff. 2–8 (first leaf of this quaternion is lost); 1, 9–15; 16–23; 24–29, 32, 31; 30, 37, 33, 35, 36, 34, 38, 39; 64–71; 40–47; 48–55; 56–63; 72–79; 84–91; 80–83 (binion). It is also probable that another three quires were lost at the beginning of the volume, if one is to assume that the text originally covered a complete Commentary to the Acts, i.e. also to Acts I–VIII, 8.</note>
+                                    </collation>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout columns="1" ruledLines="20" writtenLines="38 39">
+                                        <locus from="1r" to="91v" scheme="folios"/>
+                                        <term type="layout">ruling pattern</term>
+                                        <term type="proximity">identical with</term>
+                                        <ref target="bibliography.xml#sautel2005">Sautel 20D1"&gt;</ref>
+                                        <dimensions type="written" unit="mm">
+                                            <height min="185" max="190"/>
+                                            <width min="125" max="130"/>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="A" scope="sole">
+                                    <locus from="1r" to="91v" scheme="folios"/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc/>
+                        </physDesc>
+                    </msPart>
+                    <msPart>
+                        <altIdentifier type="codicological_unit">
+                            <idno n="2"/>
+                        </altIdentifier>
+                        <msContents>
+                            <summary>Catena to the New Testament (Epistles of Paul, Catholic Epistles)</summary>
+                            <msItem class="caten" defective="true">
+                                <locus from="92r" to="198v" scheme="folios"/>
+                                <author key="VIAF_261848345" xml:lang="la">
+                                    <supplied reason="omitted">
+                                        <persName>
+                                            <forename>Oecumenius</forename>
+                                            <addName>Philosophus</addName>
+                                        </persName>
+                                    </supplied>
+                                </author>
+                                <title ref="http://pinakes.irht.cnrs.fr/rech_oeuvre/resultOeuvre/filter_auteur/4839/filter_oeuvre/9015" type="uniform" xml:lang="la">Catena in Pauli Epistulas</title>
+                                <msItem class="caten" defective="true">
+                                    <locus from="92r" to="100v" scheme="folios"/>
+                                    <title type="uniform" xml:lang="la">Commentarius in Pauli Epistolam primam ad Corinthios</title>
+                                    <rubric>None</rubric>
+                                    <incipit xml:lang="grc" defective="true">καὶ ἀσχημοσύνην τοῦτο ἡγεῖται</incipit>
+                                    <note>Cf. PG 118, sp. 836A. More or less the same passage of the catena is covered in ff. 80–83 and in ff. 92–96r.</note>
+                                    <bibl>
+                                        <editor>
+                                            <persName>
+                                                <forename>Jacques-Paul</forename>
+                                                <surname>Migne</surname>
+                                            </persName>
+                                        </editor>
+                                        <title>Patrologiae cursus completus. Series graeca</title>
+                                        <pubPlace>Paris</pubPlace>
+                                        <date when="1864"/>
+                                        <biblScope unit="volume" from="118" to="118"/>
+                                        <citedRange unit="column" from="640" to="905B"/>
+                                    </bibl>
+                                    <!-- πρὸς Κορινθίους πρώτη. ἐγράφη ἀπὸ Ἐφέσου τῆς Ἀσίας διὰ Στεφανᾶ καὶ Φουρτουνάτου καὶ Ἀχαϊκοῦ καὶ Θιμοτέου. ἀναγνώσεις εʹ, κεφάλαια θʹ, μαρτυρίαι ιζʹ. στίχοι ωνʹ. -->
+                                </msItem>
+                                <msItem class="caten" defective="false">
+                                    <locus from="100v" to="123r" scheme="folios"/>
+                                    <title type="uniform" xml:lang="la">Commentarius in Pauli Epistolam secundam ad Corinthios</title>
+                                    <rubric xml:lang="grc">Ὑπόθεσις τῆς πρὸς Κορινθίους βʹ ἐπιστολῆς</rubric>
+                                    <bibl>
+                                        <editor>
+                                            <persName>
+                                                <forename>Jacques-Paul</forename>
+                                                <surname>Migne</surname>
+                                            </persName>
+                                        </editor>
+                                        <title>Patrologiae cursus completus. Series graeca</title>
+                                        <pubPlace>Paris</pubPlace>
+                                        <date when="1864"/>
+                                        <biblScope unit="volume" from="118" to="118"/>
+                                        <citedRange unit="column" from="905C" to="1088C"/>
+                                    </bibl>
+                                    <!-- πρὸς Κορινθίους βʹ. ἐγράφη ἀπὸ Φιλίππων διὰ Τίτου καὶ Λουκᾶ. στίχοι φϟʹ. -->
+                                </msItem>
+                                <msItem class="caten" defective="false">
+                                    <locus from="123r" to="130v" scheme="folios"/>
+                                    <title type="uniform" xml:lang="la">Commentarius in Pauli Epistolam ad Galatas</title>
+                                    <rubric xml:lang="grc">Ὑπόθεσις τῆς πρὸς Γαλάτας ἐπιστολῆς</rubric>
+                                    <bibl>
+                                        <editor>
+                                            <persName>
+                                                <forename>Jacques-Paul</forename>
+                                                <surname>Migne</surname>
+                                            </persName>
+                                        </editor>
+                                        <title>Patrologiae cursus completus. Series graeca</title>
+                                        <pubPlace>Paris</pubPlace>
+                                        <date when="1864"/>
+                                        <biblScope unit="volume" from="118" to="118"/>
+                                        <citedRange unit="column" from="1089A" to="1165B"/>
+                                    </bibl>
+                                    <!-- πρὸς Γαλάτας. ἐγράφη ἀπὸ Ῥώμης. στίχοι σγʹ. -->
+                                </msItem>
+                                <msItem class="caten" defective="false">
+                                    <locus from="130v" to="138r" scheme="folios"/>
+                                    <title type="uniform" xml:lang="la">Commentarius in Pauli Epistolam ad Ephesienses</title>
+                                    <rubric xml:lang="grc">Ὑπόθεσις τῆς πρὸς Ἐφεσίους ἐπιστολῆς</rubric>
+                                    <bibl>
+                                        <editor>
+                                            <persName>
+                                                <forename>Jacques-Paul</forename>
+                                                <surname>Migne</surname>
+                                            </persName>
+                                        </editor>
+                                        <title>Patrologiae cursus completus. Series graeca</title>
+                                        <pubPlace>Paris</pubPlace>
+                                        <date when="1864"/>
+                                        <biblScope unit="volume" from="118" to="118"/>
+                                        <citedRange unit="column" from="1165D" to="1256B"/>
+                                    </bibl>
+                                    <!-- Eftertexten i rött och versaler, ser ut som en finalRubric. Så även stichometrin: πρὸς Ἐφεσίους. ἐγράφη ἀπὸ Ῥώμης διὰ Τυχικοῦ. στίχοι τιβʹ -->
+                                </msItem>
+                                <msItem class="caten" defective="false">
+                                    <locus from="138r" to="143r" scheme="folios"/>
+                                    <title type="uniform" xml:lang="la">Commentarius in Pauli Epistolam ad Philippenses</title>
+                                    <rubric xml:lang="grc">Ὑπόθεσις τῆς πρὸς Φιλιππησίους ἐπιστολῆς</rubric>
+                                    <!-- några rader extra i början, som inte finns med i argumentum, PG 118.  -->
+                                    <bibl>
+                                        <editor>
+                                            <persName>
+                                                <forename>Jacques-Paul</forename>
+                                                <surname>Migne</surname>
+                                            </persName>
+                                        </editor>
+                                        <title>Patrologiae cursus completus. Series graeca</title>
+                                        <pubPlace>Paris</pubPlace>
+                                        <date when="1864"/>
+                                        <biblScope unit="volume" from="118" to="118"/>
+                                        <citedRange unit="column" from="1256C" to="1325D"/>
+                                    </bibl>
+                                    <!-- πρὸς Φιλιππησίους. ἐγράφη ἀπὸ Ῥώμης δι’ Ἐπαφραδίτου. στίχοι σηʹ. -->
+                                </msItem>
+                                <msItem class="caten" defective="false">
+                                    <locus from="143r" to="148r" scheme="folios"/>
+                                    <title type="uniform" xml:lang="la">Commentarius in Pauli Epistolam ad Colossenses</title>
+                                    <rubric xml:lang="grc">Ὑπόθεσις τῆς πρὸς Κολοσσαεῖς ἐπιστολῆς</rubric>
+                                    <bibl>
+                                        <editor>
+                                            <persName>
+                                                <forename>Jacques-Paul</forename>
+                                                <surname>Migne</surname>
+                                            </persName>
+                                        </editor>
+                                        <title>Patrologiae cursus completus. Series graeca</title>
+                                        <pubPlace>Paris</pubPlace>
+                                        <date when="1881"/>
+                                        <biblScope unit="volume" from="119" to="119"/>
+                                        <citedRange unit="column" from="9" to="56"/>
+                                    </bibl>
+                                    <!-- πρὸς Κολοσσαεῖς. ἐγράφη ὑπὸ Παύλου καὶΤιμοθέου. ἀπεστάλη διὰ Τυχικοῦ καὶ Ὀνησίμου. Ingen stichometri? -->
+                                </msItem>
+                                <msItem class="caten" defective="false">
+                                    <locus from="148r" to="153v" scheme="folios"/>
+                                    <title type="uniform" xml:lang="la">Commentarius in Pauli Epistolam primam ad Thessalonicenses</title>
+                                    <rubric xml:lang="grc">Ὑπόθεσις τῆς πρὸς Θεσσαλονικεῖς πρώτης ἐπιστολῆς</rubric>
+                                    <bibl>
+                                        <editor>
+                                            <persName>
+                                                <forename>Jacques-Paul</forename>
+                                                <surname>Migne</surname>
+                                            </persName>
+                                        </editor>
+                                        <title>Patrologiae cursus completus. Series graeca</title>
+                                        <pubPlace>Paris</pubPlace>
+                                        <date when="1881"/>
+                                        <biblScope unit="volume" from="119" to="119"/>
+                                        <citedRange unit="column" from="57" to="105Β"/>
+                                    </bibl>
+                                    <!-- πρὸς Θεσσαλονικεῖς πρώτη. ἐγράφη ἀπὸ Ἀθηνῶν. στίχοι ρϟγʹ -->
+                                </msItem>
+                                <msItem class="caten" defective="false">
+                                    <locus from="153v" to="156v" scheme="folios"/>
+                                    <title type="uniform" xml:lang="la">Commentarius in Pauli Epistolam secundam ad Thessalonicenses</title>
+                                    <rubric xml:lang="grc">Ὑπόθεσις τῆς πρὸς Θεσσαλονικεῖς βʹ ἐπιστολῆς</rubric>
+                                    <bibl>
+                                        <editor>
+                                            <persName>
+                                                <forename>Jacques-Paul</forename>
+                                                <surname>Migne</surname>
+                                            </persName>
+                                        </editor>
+                                        <title>Patrologiae cursus completus. Series graeca</title>
+                                        <pubPlace>Paris</pubPlace>
+                                        <date when="1881"/>
+                                        <biblScope unit="volume" from="119" to="119"/>
+                                        <citedRange unit="column" from="105C" to="133Α"/>
+                                    </bibl>
+                                    <!-- πρὸς Θεσσαλονικεῖς βʹ. ἐγράφη ἀπὸ Ἀθηνῶν. στίχοι ρϛʹ -->
+                                </msItem>
+                                <msItem class="caten" defective="false">
+                                    <locus from="156v" to="178v" scheme="folios"/>
+                                    <title type="uniform" xml:lang="la">Commentarius in Epistolam ad Hebraeos</title>
+                                    <rubric xml:lang="grc">Ὑπόθεσις τῆς πρὸς Ἑβραίους ἐπιστολῆς</rubric>
+                                    <!-- Incipit och första versionen av argumentum (dvs första 6 textraderna) skiljer sig från PG119-utgåvan.  Därefter följer de tre versionerna som finns med i PG. Den första varianten verkar inte finnas med i TLG öht... -->
+                                    <incipit xml:lang="grc" defective="false">Τοῖς ἐν Ιερουσαλὴμ πεπιστευκόσιν Ἰουδαίοις γράφει σφόδρα κακουμένοις</incipit>
+                                    <bibl>
+                                        <editor>
+                                            <persName>
+                                                <forename>Jacques-Paul</forename>
+                                                <surname>Migne</surname>
+                                            </persName>
+                                        </editor>
+                                        <title>Patrologiae cursus completus. Series graeca</title>
+                                        <pubPlace>Paris</pubPlace>
+                                        <date when="1881"/>
+                                        <biblScope unit="volume" from="119" to="119"/>
+                                        <citedRange unit="column" from="272D" to="452B"/>
+                                    </bibl>
+                                    <!-- πρὸς Ἑβραίους. ἐγράφη ἀπὸ Ἰταλίας διὰ Τιμοθέου. στίχοι ψγʹ -->
+                                </msItem>
+                                <msItem class="caten" defective="false">
+                                    <locus from="178v" to="187v" scheme="folios"/>
+                                    <title type="uniform" xml:lang="la">Commentarius in Epistolam primam ad Timotheum</title>
+                                    <rubric xml:lang="grc">Ὑπόθεσις τῆς πρὸς Τιμόθεον αʹ ἐπιστολῆς</rubric>
+                                    <bibl>
+                                        <editor>
+                                            <persName>
+                                                <forename>Jacques-Paul</forename>
+                                                <surname>Migne</surname>
+                                            </persName>
+                                        </editor>
+                                        <title>Patrologiae cursus completus. Series graeca</title>
+                                        <pubPlace>Paris</pubPlace>
+                                        <date when="1881"/>
+                                        <biblScope unit="volume" from="119" to="119"/>
+                                        <citedRange unit="column" from="133Β" to="196C"/>
+                                    </bibl>
+                                    <!-- πρὸς Τιμόθεον. ἐγράφη ἀπὸ Λαοδικείας, ἥτις ἐστὶ μητρόπολις Φρυγίας τῆς Παρακατιανῆς (sic). στίχοι σλʹ -->
+                                </msItem>
+                                <msItem class="caten" defective="false">
+                                    <locus from="187v" to="193v" scheme="folios"/>
+                                    <title type="uniform" xml:lang="la">Commentarius in Epistolam secundam ad Timotheum</title>
+                                    <rubric xml:lang="grc">Ὑπόθεσις τῆς πρὸς Τιμόθεον βʹ ἐπιστολῆς</rubric>
+                                    <bibl>
+                                        <editor>
+                                            <persName>
+                                                <forename>Jacques-Paul</forename>
+                                                <surname>Migne</surname>
+                                            </persName>
+                                        </editor>
+                                        <title>Patrologiae cursus completus. Series graeca</title>
+                                        <pubPlace>Paris</pubPlace>
+                                        <date when="1881"/>
+                                        <biblScope unit="volume" from="119" to="119"/>
+                                        <citedRange unit="column" from="196D" to="240C"/>
+                                    </bibl>
+                                    <!-- πρὸς Τιμόθεον βʹ τῆς Ἐφεσίων ἐκκλησίας πρώτον ἐπίσκοπον χειροτονηθέντα. ἐγράφη ἀπὸ Ρώμης ὅτε ἐκ δευτέρου παρέστη Παῦλος Νέρωνι τῷ καίσαρι Ῥωμαίων. στίχοι ροʹ -->
+                                </msItem>
+                                <msItem class="caten" defective="false">
+                                    <locus from="193v" to="196v" scheme="folios"/>
+                                    <title type="uniform" xml:lang="la">Commentarius in Epistolam ad Titum</title>
+                                    <rubric xml:lang="grc">Ὑπόθεσις τῆς πρὸς Τίτον ἐπιστολῆς</rubric>
+                                    <bibl>
+                                        <editor>
+                                            <persName>
+                                                <forename>Jacques-Paul</forename>
+                                                <surname>Migne</surname>
+                                            </persName>
+                                        </editor>
+                                        <title>Patrologiae cursus completus. Series graeca</title>
+                                        <pubPlace>Paris</pubPlace>
+                                        <date when="1881"/>
+                                        <biblScope unit="volume" from="119" to="119"/>
+                                        <citedRange unit="column" from="241" to="261B"/>
+                                    </bibl>
+                                    <!-- πρὸς Τίτον τῆς Κρητῶν ἐκκλησίας πρώτον ἐπίσκοπον χειροτονηθέντα. ἐγράφη ἀπὸ Νικοπόλεως τῆς Μακεδονίας. στίχοι ϟζʹ -->
+                                </msItem>
+                                <msItem class="caten" defective="false">
+                                    <locus from="197r" to="198v" scheme="folios"/>
+                                    <title type="uniform" xml:lang="la">Commentarius in Epistolam ad Philemonem</title>
+                                    <rubric xml:lang="grc">Ὑπόθεσις τῆς πρὸς Φιλήμονα ἐπιστολῆς</rubric>
+                                    <bibl>
+                                        <editor>
+                                            <persName>
+                                                <forename>Jacques-Paul</forename>
+                                                <surname>Migne</surname>
+                                            </persName>
+                                        </editor>
+                                        <title>Patrologiae cursus completus. Series graeca</title>
+                                        <pubPlace>Paris</pubPlace>
+                                        <date when="1881"/>
+                                        <biblScope unit="volume" from="119" to="119"/>
+                                        <citedRange unit="column" from="261C" to="272C"/>
+                                    </bibl>
+                                    <!-- πρὸς Φιλήμονα καὶ Ἀπφίαν, δεσπότας Ὀνησίμου, καὶ πρὸς Ἄρχιππον τῆς ἐν Κολασσαῖς ἐκκλησίας. ἐγράφη ἀπὸ Ῥώμης διὰ Ὀνησίμου οἰκέτου. στίχοι λζʹ -->
+                                    <!-- Observera blankutrymmet efter Filemonbrevet. Indikerar kanske att de katolska breven sågs som en ny text. -->
+                                </msItem>
+                            </msItem>
+                            <msItem class="caten" defective="false">
+                                <locus from="199r" to="220v" scheme="folios"/>
+                                <author key="VIAF_261848345" xml:lang="la">
+                                    <supplied reason="omitted">
+                                        <persName>
+                                            <forename>Oecumenius</forename>
+                                            <addName>Philosophus</addName>
+                                        </persName>
+                                    </supplied>
+                                </author>
+                                <!-- traderad under Oecumenius namn i PG 119, men däremot inte i Pinakes. Hur göra? -->
+                                <title ref="" type="uniform" xml:lang="la">Catena in Epistulas Catholicas</title>
+                                <msItem class="caten" defective="false">
+                                    <locus from="199r" to="204v" scheme="folios"/>
+                                    <title type="uniform" xml:lang="la">Commentarius in Epistolam catholicam Jacobi</title>
+                                    <rubric xml:lang="grc">Ὑπόθεσις τῆς Ἰακώβου καθολικῆς ἐπιστολῆς</rubric>
+                                    <bibl>
+                                        <editor>
+                                            <persName>
+                                                <forename>Jacques-Paul</forename>
+                                                <surname>Migne</surname>
+                                            </persName>
+                                        </editor>
+                                        <title>Patrologiae cursus completus. Series graeca</title>
+                                        <pubPlace>Paris</pubPlace>
+                                        <date when="1881"/>
+                                        <biblScope unit="volume" from="119" to="119"/>
+                                        <citedRange unit="column" from="452C" to="509A"/>
+                                    </bibl>
+                                    <!-- in marg. sup. f. 204v: τέλος τῆς ἐπιστολῆς τοῦ ἁγίου ἀποστόλου Ἰακώβου -->
+                                </msItem>
+                                <msItem class="caten" defective="false">
+                                    <locus from="204v" to="209v" scheme="folios"/>
+                                    <title ref="" type="uniform" xml:lang="la">Commentarius in Epistolam primam Petri</title>
+                                    <rubric xml:lang="grc">Ὑπόθεσις τῆς Πέτρου καθολικῆς ἐπιστολῆς</rubric>
+                                    <bibl>
+                                        <editor>
+                                            <persName>
+                                                <forename>Jacques-Paul</forename>
+                                                <surname>Migne</surname>
+                                            </persName>
+                                        </editor>
+                                        <title>Patrologiae cursus completus. Series graeca</title>
+                                        <pubPlace>Paris</pubPlace>
+                                        <date when="1881"/>
+                                        <biblScope unit="volume" from="119" to="119"/>
+                                        <biblScope unit="column" from="509B" to="577A"/>
+                                        <citedRange unit="column" from="509Β" to="576C"/>
+                                    </bibl>
+                                    <!-- στίχοι σλϛʹ -->
+                                </msItem>
+                                <msItem class="caten" defective="false">
+                                    <locus from="209v" to="212v" scheme="folios"/>
+                                    <title ref="" type="uniform" xml:lang="la">Commentarius in Epistolam secundam Petri</title>
+                                    <rubric xml:lang="grc">Ὑπόθεσις τῆς βʹ ἐπιστολῆς Πέτρου</rubric>
+                                    <bibl>
+                                        <editor>
+                                            <persName>
+                                                <forename>Jacques-Paul</forename>
+                                                <surname>Migne</surname>
+                                            </persName>
+                                        </editor>
+                                        <title>Patrologiae cursus completus. Series graeca</title>
+                                        <pubPlace>Paris</pubPlace>
+                                        <date when="1881"/>
+                                        <biblScope unit="volume" from="119" to="119"/>
+                                        <biblScope unit="column" from="577Β" to="617A"/>
+                                        <citedRange unit="column" from="577B" to="616C"/>
+                                    </bibl>
+                                </msItem>
+                                <msItem class="caten" defective="false">
+                                    <locus from="212v" to="217v" scheme="folios"/>
+                                    <title ref="" type="uniform" xml:lang="la">Commentarius in Epistolam primam Joannis</title>
+                                    <rubric xml:lang="grc">Ὑπόθεσις τῆς Ἰωάννου πρώτης ἐπιστολῆς</rubric>
+                                    <bibl>
+                                        <editor>
+                                            <persName>
+                                                <forename>Jacques-Paul</forename>
+                                                <surname>Migne</surname>
+                                            </persName>
+                                        </editor>
+                                        <title>Patrologiae cursus completus. Series graeca</title>
+                                        <pubPlace>Paris</pubPlace>
+                                        <date when="1881"/>
+                                        <biblScope unit="volume" from="119" to="119"/>
+                                        <biblScope unit="column" from="617Α" to="684C"/>
+                                    </bibl>
+                                </msItem>
+                                <msItem class="caten" defective="false">
+                                    <locus from="217v" to="218r" scheme="folios"/>
+                                    <title ref="" type="uniform" xml:lang="grc">Commentarius in Epistolam secundam Joannis</title>
+                                    <rubric xml:lang="grc">Ὑπόθεσις τῆς Ἰωάννου βʹ καθολικῆς ἐπιστολῆς</rubric>
+                                    <listBibl>
+                                        <bibl>
+                                            <editor>
+                                                <persName>
+                                                    <forename>Jacques-Paul</forename>
+                                                    <surname>Migne</surname>
+                                                </persName>
+                                            </editor>
+                                            <title>Patrologiae cursus completus. Series graeca</title>
+                                            <pubPlace>Paris</pubPlace>
+                                            <date when="1881"/>
+                                            <biblScope unit="volume" from="119" to="119"/>
+                                            <biblScope unit="column" from="684D" to="696D"/>
+                                        </bibl>
+                                        <bibl>
+                                            <editor>
+                                                <persName>
+                                                    <forename>John</forename>
+                                                    <forename>Anthony</forename>
+                                                    <surname>Cramer</surname>
+                                                </persName>
+                                            </editor>
+                                            <title level="m" xml:lang="la">Catenae Graecorum patrum in Novum Testamentum</title>
+                                            <pubPlace>Oxford</pubPlace>
+                                            <date when="1840"/>
+                                            <biblScope unit="volume" from="8" to="8"/>
+                                            <citedRange unit="page" from="146" to="148"/>
+                                        </bibl>
+                                    </listBibl>
+                                    <!-- PG-utgåvan är kanske inte adekvat här. Cramers Catena Andreae ligger mkt närmare texten. -->
+                                </msItem>
+                                <msItem class="caten" defective="false">
+                                    <locus from="218r" to="218v" scheme="folios"/>
+                                    <title ref="" type="uniform" xml:lang="grc">Commentarius in Epistolam tertiam Joannis</title>
+                                    <rubric xml:lang="grc">Ὑπόθεσις τῆς Ἰωάννου γʹ ἐπιστολῆς</rubric>
+                                    <bibl>
+                                        <editor>
+                                            <persName>
+                                                <forename>Jacques-Paul</forename>
+                                                <surname>Migne</surname>
+                                            </persName>
+                                        </editor>
+                                        <title>Patrologiae cursus completus. Series graeca</title>
+                                        <pubPlace>Paris</pubPlace>
+                                        <date when="1881"/>
+                                        <biblScope unit="volume" from="119" to="119"/>
+                                        <biblScope unit="column" from="697A" to="704A"/>
+                                    </bibl>
+                                </msItem>
+                                <msItem class="caten" defective="false">
+                                    <locus from="218v" to="220v" scheme="folios"/>
+                                    <title ref="" type="uniform" xml:lang="grc">Commentarius in Epistolam Judae</title>
+                                    <rubric xml:lang="grc">Ὑπόθεσις τῆς καθολικῆς ἐπιστολῆς Ἰούδα</rubric>
+                                    <explicit xml:lang="grc" defective="false">οἱ ἀπὸ Σίμωνος καὶ τῶν ὁμοίων ἐπιτήδευον κατὰ τοὺς προειρημένους λόγους</explicit>
+                                    <bibl>
+                                        <editor>
+                                            <persName>
+                                                <forename>Jacques-Paul</forename>
+                                                <surname>Migne</surname>
+                                            </persName>
+                                        </editor>
+                                        <title>Patrologiae cursus completus. Series graeca</title>
+                                        <pubPlace>Paris</pubPlace>
+                                        <date when="1881"/>
+                                        <biblScope unit="volume" from="119" to="119"/>
+                                        <biblScope unit="column" from="704A" to="721C"/>
+                                    </bibl>
+                                </msItem>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="codex">
+                                <supportDesc material="parchment">
+                                    <support>
+                                        <p>
+                                            <locus from="92" to="220" scheme="folios"/>
+                                            <dimensions type="leaf" unit="mm">
+                                                <height quantity="225"/>
+                                                <width quantity="170"/>
+                                            </dimensions>
+                                        </p>
+                                    </support>
+                                    <extent>
+                                        <num type="textblock_leaves" value="129"/>
+                                    </extent>
+                                    <foliation>
+                                        <term>foliation</term>
+                                        <term>in pencil</term> by a <term>modern hand</term> in the <term>lower right margin</term>: 92–220.
+                                    </foliation>
+                                    <foliation>
+                                        <term>pagination</term>
+                                        <term>in ink</term> in the <term>upper right margin</term>of recto pages: 183–439.
+                                    </foliation>
+                                    <collation>
+                                        <list type="collation_formula">
+                                            <item>Q17–Q29 13 IV(f.195) + Q30 (IV + 3(f.196–198))f.206: 3 single leaves pasted together and onto the following quaternion + Q31 IV(f.214) + Q32 III(f.220)</item>
+                                        </list>
+                                    </collation>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout columns="1" ruledLines="21" writtenLines="39 41">
+                                        <locus from="92r" to="220v" scheme="folios"/>
+                                        <term type="layout">ruling pattern</term>
+                                        <term type="proximity">identical with</term>
+                                        <ref target="bibliography.xml#sautel2005">Sautel 20D1"&gt;</ref>
+                                        <note>On some pages the <term type="layout">ruling pattern</term> is closer to <ref target="bibliography.xml#sautel2005">Sautel 20A1"&gt;</ref>, although this may be due to the scribe being less accurate in the execution.</note>
+                                        <dimensions type="written" unit="mm">
+                                            <height min="195" max="200"/>
+                                            <width min="130" max="135"/>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="A" scope="sole">
+                                    <locus from="92r" to="220v" scheme="folios"/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc/>
+                        </physDesc>
+                    </msPart>
+                    <bindingDesc>
+                        <p>Lace-attached case binding sewn on three supports. Half covered with parchment and marbled paper over paper boards.</p>
+                        <p>
+                            <dimensions type="binding" unit="mm">
+                                <height quantity="240"/>
+                                <width quantity="185"/>
+                                <depth quantity="65"/>
+                            </dimensions>
+                        </p>
+                    </bindingDesc>
+                    <history>
+                        <origin>
+                            <origDate>13th century</origDate>
+                        </origin>
+                        <provenance/>
+                        <acquisition/>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl/>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="">
+                <name type="person"/> created this file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>
