@@ -96,7 +96,7 @@ declare function app:list_scribes($node as node(), $model as map(*)) {
             order by $scribe ascending
             return
                 <tr>
-                    <td>{$scribe}</td>
+                    <td>{$scribe//text()}</td>
                     <td><a href="data/xml/{replace(base-uri($mss), '.+/(.+)$', '$1')}">{$idno}</a></td>
                 </tr>
         }
@@ -119,7 +119,7 @@ declare function app:list_scribes($node as node(), $model as map(*)) {
 };:)
 
 
-declare function app:search($node as node(), $model as map(*), $au as xs:string?, $ti as xs:string?) {
+declare function app:search($node as node(), $model as map(*)) {
     <table class="table table-striped">
         <tr>
             <th>Author</th>
@@ -129,12 +129,15 @@ declare function app:search($node as node(), $model as map(*), $au as xs:string?
         </tr>{
         for $mss in collection("/db/apps/manuscripta.se/data/xml")
         for $msitem in $mss//tei:msContents/tei:msItem
+        for $author in $msitem/tei:author
         for $title in $msitem/tei:title
         for $locus in $msitem/tei:locus
         for $idno in $mss//tei:msIdentifier/tei:idno
+        let $au := request:get-parameter('au', '')
+        let $ti := request:get-parameter('ti', '')
         return
             if (exists($au) and $au !='') then
-                for $author in $msitem/tei:author[ft:query(., $au)] 
+                for $aut in $msitem/tei:author[ft:query(., $au)] 
                 order by $author ascending 
                 return
                     <tr>
@@ -144,12 +147,31 @@ declare function app:search($node as node(), $model as map(*), $au as xs:string?
                         <td><a href="data/xml/{replace(base-uri($mss), '.+/(.+)$', '$1')}">f. {data($locus/@from)}–{data($locus/@to)}</a></td>
                     </tr>               
             else if (exists($ti) and $ti !='') then          
-                for $title in $msitem//tei:title[ft:query(., $ti)] 
+                for $title in $msitem/tei:title[ft:query(., $ti)] 
                 order by $title ascending 
                 return
-                    <li>{$title} (<a href="data/xml/{replace(base-uri($mss), '.+/(.+)$', '$1')}">{$idno/text()}: f. {data($locus/@from)}</a>)</li>
+                    <tr>
+                        <td>{$author}</td>
+                        <td><em>{$title//text()}</em></td>
+                        <td>{$idno/text()}</td>
+                        <td><a href="data/xml/{replace(base-uri($mss), '.+/(.+)$', '$1')}">f. {data($locus/@from)}–{data($locus/@to)}</a></td>
+                    </tr>
             else
                 ()
         }
     </table>
+};
+
+declare function app:search_simple($node as node(), $model as map(*)) {
+<table class="table table-striped">
+        {
+               let $search-expression := request:get-parameter('query', '')
+               for $mss in collection("/db/apps/manuscripta.se/data/xml")
+               for $idno in $mss//tei:msIdentifier/tei:idno
+        	 for $hit in $mss//*[ft:query(., $search-expression)]        	 
+        	 let $expanded := kwic:expand($hit)
+        	 order by ft:score($hit) descending
+        	 return kwic:get-summary($expanded, ($expanded//exist:match)[1], <config width="40" />)
+         }
+         </table>
 };

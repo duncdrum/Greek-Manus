@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div xmlns="http://www.w3.org/1999/xhtml" data-template="templates:surround" data-template-at="content" data-template-with="templates/page.html">
-    <form name="f-query" action="search.html" method="get" role="search">
+    <form name="f-query" action="results.html" method="post" role="search">
         <div class="form-group">
             <label for="inputSearch" class="control-label col-sm-2">Author:</label>
             <div class="col-sm-10">
@@ -10,7 +10,7 @@
         <div class="form-group">
             <label for="inputSearch" class="control-label col-sm-2">Title:</label>
             <div class="col-sm-10">
-                <input id="inputSearch" name="title" type="text" class="form-control templates:form-control"/>
+                <input id="inputSearch" name="ti" type="text" class="form-control templates:form-control"/>
             </div>
         </div>
         <div class="form-group">
@@ -19,7 +19,4 @@
             </div>
         </div>
     </form>
-    <div class="container">
-        <div class="app:search"/>
-    </div>
 </div>
